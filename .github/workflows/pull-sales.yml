@@ -8,7 +8,7 @@ on:
   schedule:
     # Times are UTC. During EDT (summer) ET = UTC-4.
     - cron: "*/30 20-23,0-4 * * *"   # every 30 min, ~4:00 PM ET through ~12:59 AM ET
-    - cron: "50 4 * * *"             # 12:50 AM ET - the fresh pull right before the 1 AM wrap
+    - cron: "50 4 * * *"             # 12:50 AM ET — the fresh pull right before the 1 AM wrap
 
 # Allow the job to commit the updated JSON back to the repo.
 permissions:
@@ -36,6 +36,7 @@ jobs:
 
       - name: Pull sales
         env:
+          SQUARE_TIQUES_TOKEN: ${{ secrets.SQUARE_TIQUES_TOKEN }}
           SQUARE_PADDLE_TOKEN: ${{ secrets.SQUARE_PADDLE_TOKEN }}
           SQUARE_VOLSTEAD_TOKEN: ${{ secrets.SQUARE_VOLSTEAD_TOKEN }}
         run: python pull_sales.py
