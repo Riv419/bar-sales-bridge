@@ -77,7 +77,7 @@ def search_orders(token, location_id, state, date_field, start_iso, end_iso):
                     "state_filter": {"states": [state]},
                     "date_time_filter": {date_field: {"start_at": start_iso, "end_at": end_iso}},
                 },
-                "sort": {"sort_field": date_field, "sort_order": "DESC"},
+                "sort": {"sort_field": date_field.upper(), "sort_order": "DESC"},
             },
         }
         if cursor:
