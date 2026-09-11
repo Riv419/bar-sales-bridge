@@ -28,6 +28,7 @@ ET = ZoneInfo("America/New_York")
 
 # One entry per bar. Token comes from the matching env var / GitHub secret.
 BARS = [
+    {"key": "tiques",   "name": "Tique's",    "location_id": "L91FN4CPCADRA", "token_env": "SQUARE_TIQUES_TOKEN"},
     {"key": "paddle",   "name": "Paddle Bar", "location_id": "RMSRRF4GTR3J5", "token_env": "SQUARE_PADDLE_TOKEN"},
     {"key": "volstead", "name": "Volstead",   "location_id": "G9XHMF97SD95W", "token_env": "SQUARE_VOLSTEAD_TOKEN"},
 ]
