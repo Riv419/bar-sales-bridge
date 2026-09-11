@@ -1,0 +1,61 @@
+{
+  "generated_at_utc": "2026-09-11T17:00:12Z",
+  "generated_at_et": "2026-09-11 13:00:12 EDT",
+  "business_day_start_et": "2026-09-11 04:00 EDT",
+  "window_start_utc": "2026-09-11T08:00:00Z",
+  "window_end_utc": "2026-09-11T17:00:12Z",
+  "bars": {
+    "tiques": {
+      "name": "Tique's",
+      "location_id": "L91FN4CPCADRA",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "paddle": {
+      "name": "Paddle Bar",
+      "location_id": "RMSRRF4GTR3J5",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "volstead": {
+      "name": "Volstead",
+      "location_id": "G9XHMF97SD95W",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    }
+  },
+  "errors": []
+}
