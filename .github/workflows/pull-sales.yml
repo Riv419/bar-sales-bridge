@@ -1,0 +1,53 @@
+name: Pull Paddle + Volstead sales
+
+# Runs on GitHub's servers, which CAN reach the Square API, and commits the
+# numbers into paddle_volstead.json. Ryan's nightly Cowork task reads that file.
+
+on:
+  workflow_dispatch: {}          # lets you run it by hand from the Actions tab
+  schedule:
+    # Times are UTC. During EDT (summer) ET = UTC-4.
+    - cron: "*/30 20-23,0-4 * * *"   # every 30 min, ~4:00 PM ET through ~12:59 AM ET
+    - cron: "50 4 * * *"             # 12:50 AM ET - the fresh pull right before the 1 AM wrap
+
+# Allow the job to commit the updated JSON back to the repo.
+permissions:
+  contents: write
+
+# If two scheduled runs overlap, let the newer one finish rather than pile up.
+concurrency:
+  group: pull-sales
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Pull sales
+        env:
+          SQUARE_PADDLE_TOKEN: ${{ secrets.SQUARE_PADDLE_TOKEN }}
+          SQUARE_VOLSTEAD_TOKEN: ${{ secrets.SQUARE_VOLSTEAD_TOKEN }}
+        run: python pull_sales.py
+
+      - name: Commit the updated numbers
+        run: |
+          git config user.name  "sales-bridge-bot"
+          git config user.email "sales-bridge-bot@users.noreply.github.com"
+          git add paddle_volstead.json
+          if git diff --staged --quiet; then
+            echo "No change in sales numbers; nothing to commit."
+          else
+            git commit -m "Update Paddle + Volstead sales ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
