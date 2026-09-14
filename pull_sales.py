@@ -1,17 +1,25 @@
 #!/usr/bin/env python3
 """
-Pull the current business-day sales for Paddle Bar and Volstead from Square,
-and write them to paddle_volstead.json.
+Pull Square sales for all three bars (Tique's, Paddle Bar, Volstead) and write
+them to JSON files that Ryan's nightly Cowork task reads.
 
 Runs on GitHub Actions (which CAN reach connect.squareup.com). Ryan's nightly
 Cowork task then reads the committed JSON instead of calling Square directly.
 
+Files written on every run:
+    wrap.json                 the most recent NIGHT — what the 1 AM wrap reads.
+                              Before 4 AM ET = the day in progress; after 4 AM ET
+                              = yesterday's full day, marked "is_final": true.
+    days/YYYY-MM-DD.json      one file per business day (today in progress +
+                              yesterday finalized). A late run can no longer wipe
+                              last night's numbers.
+    paddle_volstead.json      the day in progress (old name, kept for compatibility).
+
 Tokens are read from environment variables (GitHub Actions secrets):
-    SQUARE_PADDLE_TOKEN
-    SQUARE_VOLSTEAD_TOKEN
+    SQUARE_TIQUES_TOKEN, SQUARE_PADDLE_TOKEN, SQUARE_VOLSTEAD_TOKEN
 They are never printed.
 
-Business day = 4:00 AM America/New_York to "now" (same window Ryan's wrap uses).
+Business day = 4:00 AM America/New_York to 4:00 AM the next day.
 """
 
 import json
@@ -34,20 +42,30 @@ BARS = [
 ]
 
 
-def business_day_window(now_utc):
-    """Return (start_utc, end_utc) for the business day that 'now' falls in.
+def business_day_date(now_et):
+    """The business day that a moment in Eastern time belongs to.
 
-    The day rolls over at 4:00 AM Eastern. Before 4 AM, we're still in
+    The day rolls over at 4:00 AM Eastern. Before 4 AM we are still in
     yesterday's business day (this is what makes the ~1 AM wrap look back at
     the night that just happened).
     """
-    now_et = now_utc.astimezone(ET)
     if now_et.time() < dt.time(4, 0):
-        biz_date = (now_et - dt.timedelta(days=1)).date()
-    else:
-        biz_date = now_et.date()
+        return (now_et - dt.timedelta(days=1)).date()
+    return now_et.date()
+
+
+def business_day_bounds(biz_date):
+    """(start_utc, end_utc) for a full business day: 4 AM ET that date -> 4 AM ET next day."""
     start_et = dt.datetime.combine(biz_date, dt.time(4, 0), tzinfo=ET)
-    return start_et.astimezone(dt.timezone.utc), now_utc
+    end_et = start_et + dt.timedelta(days=1)
+    return start_et.astimezone(dt.timezone.utc), end_et.astimezone(dt.timezone.utc)
+
+
+def business_day_window(now_utc):
+    """(start_utc, end_utc) for the business day that 'now' falls in, ending at 'now'."""
+    biz_date = business_day_date(now_utc.astimezone(ET))
+    start_utc, _ = business_day_bounds(biz_date)
+    return start_utc, now_utc
 
 
 def rfc3339(t):
@@ -260,15 +278,22 @@ def summarize_bar(token, bar, start_iso, end_iso):
     }
 
 
-def main():
-    now_utc = dt.datetime.now(dt.timezone.utc)
-    start_utc, end_utc = business_day_window(now_utc)
+def pull_day(biz_date, now_utc, is_final):
+    """Pull all three bars for one business day.
+
+    is_final=False -> the day in progress: window is 4 AM ET .. now.
+    is_final=True  -> a finished day: window is the full 4 AM .. 4 AM span.
+    """
+    start_utc, full_end_utc = business_day_bounds(biz_date)
+    end_utc = full_end_utc if is_final else now_utc
     start_iso, end_iso = rfc3339(start_utc), rfc3339(end_utc)
 
     out = {
         "generated_at_utc": rfc3339(now_utc),
         "generated_at_et": now_utc.astimezone(ET).strftime("%Y-%m-%d %H:%M:%S %Z"),
+        "business_day": biz_date.isoformat(),
         "business_day_start_et": start_utc.astimezone(ET).strftime("%Y-%m-%d %H:%M %Z"),
+        "is_final": is_final,
         "window_start_utc": start_iso,
         "window_end_utc": end_iso,
         "bars": {},
@@ -288,13 +313,51 @@ def main():
         except Exception as e:
             out["errors"].append(f'{bar["name"]}: {type(e).__name__}: {e}')
 
-    with open("paddle_volstead.json", "w") as f:
-        json.dump(out, f, indent=2)
+    # Combined line so readers don't have to add it up.
+    bars = out["bars"].values()
+    out["combined"] = {
+        "net_sales": round(sum(b["net_sales"] for b in bars), 2),
+        "transaction_count": sum(b["transaction_count"] for b in bars),
+        "tips": round(sum(b["tips"] for b in bars), 2),
+        "open_tab_total": round(sum(b["open_tab_total"] for b in bars), 2),
+    }
+    return out
 
-    # Console output is safe: no tokens, just a status line.
-    print(f'Wrote paddle_volstead.json — bars: {list(out["bars"].keys())}, errors: {out["errors"]}')
-    # Exit non-zero only if BOTH bars failed, so one bad token still commits the other.
-    if not out["bars"]:
+
+def write_json(path, data):
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w") as f:
+        json.dump(data, f, indent=2)
+
+
+def main():
+    now_utc = dt.datetime.now(dt.timezone.utc)
+    now_et = now_utc.astimezone(ET)
+    today_biz = business_day_date(now_et)
+    prev_biz = today_biz - dt.timedelta(days=1)
+
+    # 1) The business day in progress (4 AM ET .. now).
+    today = pull_day(today_biz, now_utc, is_final=False)
+    write_json("paddle_volstead.json", today)          # kept for anything still reading the old name
+    write_json(f"days/{today_biz.isoformat()}.json", today)
+
+    # 2) The previous business day, pulled over its FULL 4 AM..4 AM window and marked final.
+    #    This is what protects last night's numbers when GitHub runs us late (after 4 AM).
+    prev = pull_day(prev_biz, now_utc, is_final=True)
+    if prev["bars"]:
+        write_json(f"days/{prev_biz.isoformat()}.json", prev)
+
+    # 3) wrap.json = "the most recent night", which is what the 1 AM wrap wants:
+    #    before 4 AM ET that's the day in progress; after 4 AM it's yesterday, finalized.
+    wrap = today if now_et.time() < dt.time(4, 0) else prev
+    write_json("wrap.json", wrap)
+
+    # Console output is safe: no tokens, just status lines.
+    print(f'today  {today_biz}: bars={list(today["bars"].keys())} errors={today["errors"]}')
+    print(f'prev   {prev_biz}: bars={list(prev["bars"].keys())} errors={prev["errors"]} (final)')
+    print(f'wrap.json -> business day {wrap["business_day"]} (final={wrap["is_final"]})')
+    # Exit non-zero only if every bar failed, so one bad token still commits the others.
+    if not today["bars"] and not prev["bars"]:
         sys.exit(1)
 
 
