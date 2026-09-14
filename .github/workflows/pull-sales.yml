@@ -1,20 +1,30 @@
-name: Pull Paddle + Volstead sales
+name: Pull bar sales (Tique's, Paddle, Volstead)
 
 # Runs on GitHub's servers, which CAN reach the Square API, and commits the
-# numbers into paddle_volstead.json. Ryan's nightly Cowork task reads that file.
+# numbers into wrap.json / days/*.json / paddle_volstead.json.
+#
+# HOW IT GETS STARTED (two ways, belt and suspenders):
+#   1. The always-on Mac mini pokes GitHub at exact times (mac/install.sh sets
+#      that up). That arrives here as "workflow_dispatch" and runs immediately.
+#   2. GitHub's own schedule below is only a BACKUP. GitHub delays or skips
+#      scheduled runs on free repos whenever it's busy — we saw it fire 3-4
+#      times a day instead of every 30 minutes — so never rely on it alone.
 
 on:
-  workflow_dispatch: {}          # lets you run it by hand from the Actions tab
+  workflow_dispatch: {}   # run by hand from the Actions tab, or by the Mac mini
   schedule:
-    # Times are UTC. During EDT (summer) ET = UTC-4.
-    - cron: "*/30 20-23,0-4 * * *"   # every 30 min, ~4:00 PM ET through ~12:59 AM ET
-    - cron: "50 4 * * *"             # 12:50 AM ET — the fresh pull right before the 1 AM wrap
+    # Times are UTC (EDT = UTC-4, EST = UTC-5). Odd minutes are less congested
+    # on GitHub's scheduler than :00 / :30.
+    - cron: "17,47 20-23 * * *"   # ~4 PM – 8 PM ET
+    - cron: "17,47 0-3 * * *"     # ~8 PM – midnight ET
+    - cron: "53 4 * * *"          # 12:53 AM EDT backup for the 1 AM wrap
+    - cron: "23 5 * * *"          # 1:23 AM EDT — a second chance if the above slipped
 
 # Allow the job to commit the updated JSON back to the repo.
 permissions:
   contents: write
 
-# If two scheduled runs overlap, let the newer one finish rather than pile up.
+# If two runs overlap, queue them rather than run at the same time.
 concurrency:
   group: pull-sales
   cancel-in-progress: false
@@ -43,12 +53,13 @@ jobs:
 
       - name: Commit the updated numbers
         run: |
-          git config user.name  "sales-bridge-bot"
+          git config user.name "sales-bridge-bot"
           git config user.email "sales-bridge-bot@users.noreply.github.com"
-          git add paddle_volstead.json
+          git add wrap.json paddle_volstead.json days/
           if git diff --staged --quiet; then
             echo "No change in sales numbers; nothing to commit."
           else
-            git commit -m "Update Paddle + Volstead sales ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git commit -m "Update bar sales ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git pull --rebase origin main || true
             git push
           fi
