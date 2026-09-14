@@ -1,38 +1,38 @@
 {
-  "generated_at_utc": "2026-09-13T23:50:48Z",
-  "generated_at_et": "2026-09-13 19:50:48 EDT",
+  "generated_at_utc": "2026-09-14T02:26:45Z",
+  "generated_at_et": "2026-09-13 22:26:45 EDT",
   "business_day_start_et": "2026-09-13 04:00 EDT",
   "window_start_utc": "2026-09-13T08:00:00Z",
-  "window_end_utc": "2026-09-13T23:50:48Z",
+  "window_end_utc": "2026-09-14T02:26:45Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
       "location_id": "L91FN4CPCADRA",
-      "net_sales": 963.3,
-      "tax_backout_base": 902.39,
+      "net_sales": 969.3,
+      "tax_backout_base": 908.01,
       "transaction_count": 43,
-      "completed_count": 42,
-      "open_count": 1,
-      "open_tab_total": 30.0,
-      "tips": 89.3,
+      "completed_count": 43,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 95.3,
       "tax_collected": 0.0,
       "cash_total": 379.0,
-      "card_total": 554.3,
+      "card_total": 590.3,
       "discounts": [],
       "line_items": [
-        {
-          "name": "Barton Naturals Vodka",
-          "variation": "Pour",
-          "category": "Spirits",
-          "qty": 10.0,
-          "gross": 60.0
-        },
         {
           "name": "Coors Light 16oz",
           "variation": "Can",
           "category": "Beer",
           "qty": 10.0,
           "gross": 50.0
+        },
+        {
+          "name": "Barton Naturals Vodka",
+          "variation": "Pour",
+          "category": "Spirits",
+          "qty": 10.0,
+          "gross": 60.0
         },
         {
           "name": "Samuel Adams Octoberfest Draft",
@@ -250,16 +250,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 1610.4,
-      "tax_backout_base": 1508.57,
-      "transaction_count": 66,
+      "net_sales": 1620.4,
+      "tax_backout_base": 1517.94,
+      "transaction_count": 67,
       "completed_count": 33,
-      "open_count": 33,
-      "open_tab_total": 648.0,
+      "open_count": 34,
+      "open_tab_total": 658.0,
       "tips": 130.4,
       "tax_collected": 0.0,
       "cash_total": 222.0,
-      "card_total": 1512.25,
+      "card_total": 1524.25,
       "discounts": [
         {
           "name": "Mug Club",
@@ -547,6 +547,13 @@
           "gross": 20.0
         },
         {
+          "name": "Shot And Snack",
+          "variation": "Regular",
+          "category": "Specials",
+          "qty": 2.0,
+          "gross": 20.0
+        },
+        {
           "name": "High Noon - Black Cherry",
           "variation": "Regular",
           "category": "Seltzers",
@@ -706,13 +713,6 @@
           "category": "Seltzers",
           "qty": 1.0,
           "gross": 6.0
-        },
-        {
-          "name": "Shot And Snack",
-          "variation": "Regular",
-          "category": "Specials",
-          "qty": 1.0,
-          "gross": 10.0
         }
       ],
       "custom_amount_items": [
@@ -726,31 +726,31 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 938.2,
-      "tax_backout_base": 878.88,
-      "transaction_count": 25,
-      "completed_count": 21,
-      "open_count": 4,
-      "open_tab_total": 103.0,
+      "net_sales": 986.2,
+      "tax_backout_base": 923.84,
+      "transaction_count": 27,
+      "completed_count": 22,
+      "open_count": 5,
+      "open_tab_total": 143.0,
       "tips": 140.2,
       "tax_collected": 0.0,
-      "cash_total": 51.0,
-      "card_total": 923.45,
+      "cash_total": 59.0,
+      "card_total": 1013.45,
       "discounts": [],
       "line_items": [
+        {
+          "name": "Paulaner",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 8.0,
+          "gross": 40.0
+        },
         {
           "name": "Whiskey Sour",
           "variation": "Regular",
           "category": "Bourbon - Whiskey",
           "qty": 7.0,
           "gross": 98.0
-        },
-        {
-          "name": "Paulaner",
-          "variation": "Regular",
-          "category": "Beer",
-          "qty": 6.0,
-          "gross": 30.0
         },
         {
           "name": "Old Fashioned",
@@ -802,6 +802,13 @@
           "gross": 36.0
         },
         {
+          "name": "Woodford Reserve",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 3.0,
+          "gross": 30.0
+        },
+        {
           "name": "Roast N' Toast",
           "variation": "Regular",
           "category": "Mules",
@@ -835,6 +842,13 @@
           "category": "Modern Cocktails",
           "qty": 2.0,
           "gross": 26.0
+        },
+        {
+          "name": "Bumbu Original",
+          "variation": "Regular",
+          "category": null,
+          "qty": 1.0,
+          "gross": 8.0
         },
         {
           "name": "Crown Royal",
