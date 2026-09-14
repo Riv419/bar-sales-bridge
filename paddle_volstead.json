@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-09-14T08:01:26Z",
-  "generated_at_et": "2026-09-14 04:01:26 EDT",
+  "generated_at_utc": "2026-09-14T10:08:57Z",
+  "generated_at_et": "2026-09-14 06:08:57 EDT",
   "business_day_start_et": "2026-09-14 04:00 EDT",
   "window_start_utc": "2026-09-14T08:00:00Z",
-  "window_end_utc": "2026-09-14T08:01:26Z",
+  "window_end_utc": "2026-09-14T10:08:57Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -25,35 +25,212 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 0.0,
-      "tax_backout_base": 0.0,
-      "transaction_count": 0,
-      "completed_count": 0,
+      "net_sales": 203.95,
+      "tax_backout_base": 191.05,
+      "transaction_count": 6,
+      "completed_count": 6,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 0.0,
+      "tips": 39.95,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 0.0,
+      "card_total": 203.95,
       "discounts": [],
-      "line_items": [],
+      "line_items": [
+        {
+          "name": "Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 8.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Paddle Margarita",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 4.0,
+          "gross": 40.0
+        },
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 4.0,
+          "gross": 16.0
+        },
+        {
+          "name": "Fireball",
+          "variation": "Regular",
+          "category": "Whiskey",
+          "qty": 2.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Landshark",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Superlyte Lemon Lime",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Surfside Strawberry",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Bud Light Bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Jackie O's Firefly",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Surfside Blueberry + Lemonade",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
+          "name": "The Federalist Honest Red Blend",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Market Garden Shandy",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 6.0
+        }
+      ],
       "custom_amount_items": []
     },
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 0.0,
-      "tax_backout_base": 0.0,
-      "transaction_count": 0,
-      "completed_count": 0,
+      "net_sales": 179.55,
+      "tax_backout_base": 168.2,
+      "transaction_count": 4,
+      "completed_count": 4,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 0.0,
+      "tips": 30.55,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 0.0,
+      "card_total": 179.55,
       "discounts": [],
-      "line_items": [],
+      "line_items": [
+        {
+          "name": "Waldorf",
+          "variation": "Regular",
+          "category": "Scotch",
+          "qty": 2.0,
+          "gross": 28.0
+        },
+        {
+          "name": "Sazerac",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Lady Liberty",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 1.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Weekly Special",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Whiskey Sour",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Guinness",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
+          "name": "Gin Fizz",
+          "variation": "Regular",
+          "category": "Classic Cocktails",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Pimm's Cup",
+          "variation": "Regular",
+          "category": "Spirits - Specialty",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Corpse Reviver #2",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Rum Old Fashioned",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Soda (All)",
+          "variation": "Regular",
+          "category": "Soda",
+          "qty": 1.0,
+          "gross": 2.0
+        }
+      ],
       "custom_amount_items": []
     }
   },
