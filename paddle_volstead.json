@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-09-15T01:30:10Z",
-  "generated_at_et": "2026-09-14 21:30:10 EDT",
+  "generated_at_utc": "2026-09-15T05:00:55Z",
+  "generated_at_et": "2026-09-15 01:00:55 EDT",
   "business_day": "2026-09-14",
   "business_day_start_et": "2026-09-14 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-09-14T08:00:00Z",
-  "window_end_utc": "2026-09-15T01:30:10Z",
+  "window_end_utc": "2026-09-15T05:00:55Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,24 +27,50 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 924.65,
-      "tax_backout_base": 866.18,
-      "transaction_count": 46,
-      "completed_count": 19,
-      "open_count": 27,
-      "open_tab_total": 496.0,
+      "net_sales": 1077.85,
+      "tax_backout_base": 1009.7,
+      "transaction_count": 51,
+      "completed_count": 20,
+      "open_count": 31,
+      "open_tab_total": 646.0,
       "tips": 62.65,
       "tax_collected": 0.0,
-      "cash_total": 105.0,
-      "card_total": 992.0,
+      "cash_total": 108.2,
+      "card_total": 1128.45,
       "discounts": [
         {
           "name": "Mug Club",
-          "amount": 2.0,
+          "amount": 9.0,
+          "count": 2
+        },
+        {
+          "name": "Employee Discount",
+          "amount": 0.0,
           "count": 1
         }
       ],
       "line_items": [
+        {
+          "name": "Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 16.0,
+          "gross": 48.0
+        },
+        {
+          "name": "Paddle Margarita",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 10.0,
+          "gross": 100.0
+        },
+        {
+          "name": "Big Nut",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 10.0,
+          "gross": 60.0
+        },
         {
           "name": "Captain Morgan",
           "variation": "Regular",
@@ -60,32 +86,18 @@
           "gross": 36.0
         },
         {
-          "name": "Paddle Margarita",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 9.0,
-          "gross": 90.0
-        },
-        {
-          "name": "Hot Nut",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 8.0,
-          "gross": 24.0
-        },
-        {
           "name": "Maine Beer Company Lunch IPA",
           "variation": "Regular",
           "category": "Beer",
-          "qty": 8.0,
-          "gross": 72.0
+          "qty": 9.0,
+          "gross": 81.0
         },
         {
           "name": "Cucumber Smash",
           "variation": "Regular",
           "category": "Specialty Drinks",
-          "qty": 7.0,
-          "gross": 70.0
+          "qty": 8.0,
+          "gross": 80.0
         },
         {
           "name": "Busch Light",
@@ -102,6 +114,13 @@
           "gross": 30.0
         },
         {
+          "name": "Lemon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 4.0,
+          "gross": 36.0
+        },
+        {
           "name": "Rolling Rock",
           "variation": "Regular",
           "category": "Bottled Beer",
@@ -114,13 +133,6 @@
           "category": "Bottled Beer",
           "qty": 4.0,
           "gross": 16.0
-        },
-        {
-          "name": "Big Nut",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 4.0,
-          "gross": 24.0
         },
         {
           "name": "Old Style",
@@ -144,6 +156,13 @@
           "gross": 21.0
         },
         {
+          "name": "Soda",
+          "variation": "Regular",
+          "category": "Beverages",
+          "qty": 3.0,
+          "gross": 9.0
+        },
+        {
           "name": "Surfside Lemonade & Vodka",
           "variation": "Regular",
           "category": "Canned Drinks",
@@ -159,10 +178,17 @@
         },
         {
           "name": "Lemon Shake Up",
-          "variation": "Regular",
+          "variation": "Raspberry",
           "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 18.0
+          "qty": 3.0,
+          "gross": 30.0
+        },
+        {
+          "name": "High Noon - Grapefruit",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 3.0,
+          "gross": 21.0
         },
         {
           "name": "Wente Morning Fog Chardonnay",
@@ -170,13 +196,6 @@
           "category": "Wine",
           "qty": 2.0,
           "gross": 16.0
-        },
-        {
-          "name": "Soda",
-          "variation": "Regular",
-          "category": "Beverages",
-          "qty": 2.0,
-          "gross": 6.0
         },
         {
           "name": "Malibu",
@@ -242,6 +261,13 @@
           "gross": 20.0
         },
         {
+          "name": "Labatt Non-Alcoholic",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
           "name": "Bota Box Pinot Grigio",
           "variation": "Regular",
           "category": "Wine",
@@ -298,6 +324,13 @@
           "gross": 6.0
         },
         {
+          "name": "Mocktail",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
           "name": "Mai Tai",
           "variation": "Regular",
           "category": "Specialty Drinks",
@@ -305,11 +338,11 @@
           "gross": 12.0
         },
         {
-          "name": "High Noon - Grapefruit",
+          "name": "Juiced Mimosa",
           "variation": "Regular",
-          "category": "Seltzers",
+          "category": "Specialty Drinks",
           "qty": 1.0,
-          "gross": 7.0
+          "gross": 8.0
         },
         {
           "name": "Orange Creamsicle",
@@ -317,13 +350,6 @@
           "category": "Specialty Drinks",
           "qty": 1.0,
           "gross": 12.0
-        },
-        {
-          "name": "Lemon Shake Up",
-          "variation": "Raspberry",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
         },
         {
           "name": "Paddle Palmer",
@@ -656,9 +682,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1961.01,
-    "transaction_count": 72,
+    "net_sales": 2114.21,
+    "transaction_count": 77,
     "tips": 218.79,
-    "open_tab_total": 634.0
+    "open_tab_total": 784.0
   }
 }
