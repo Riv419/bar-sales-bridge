@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-16T01:27:36Z",
-  "generated_at_et": "2026-09-15 21:27:36 EDT",
+  "generated_at_utc": "2026-09-16T04:56:16Z",
+  "generated_at_et": "2026-09-16 00:56:16 EDT",
   "business_day": "2026-09-14",
   "business_day_start_et": "2026-09-14 04:00 EDT",
   "is_final": true,
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 1203.0,
-      "tax_backout_base": 1126.93,
-      "transaction_count": 52,
+      "net_sales": 923.0,
+      "tax_backout_base": 864.64,
+      "transaction_count": 38,
       "completed_count": 38,
-      "open_count": 14,
-      "open_tab_total": 280.0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
       "tips": 163.8,
       "tax_collected": 0.0,
       "cash_total": 108.2,
-      "card_total": 1158.45,
+      "card_total": 814.8,
       "discounts": [
         {
           "name": "Mug Club",
@@ -50,27 +50,6 @@
         }
       ],
       "line_items": [
-        {
-          "name": "Hot Nut",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 16.0,
-          "gross": 48.0
-        },
-        {
-          "name": "Paddle Margarita",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 10.0,
-          "gross": 100.0
-        },
-        {
-          "name": "Big Nut",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 10.0,
-          "gross": 60.0
-        },
         {
           "name": "Maine Beer Company Lunch IPA",
           "variation": "Regular",
@@ -86,18 +65,18 @@
           "gross": 54.0
         },
         {
-          "name": "Michelob Ultra Can",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 9.0,
-          "gross": 36.0
-        },
-        {
-          "name": "Cucumber Smash",
+          "name": "Paddle Margarita",
           "variation": "Regular",
           "category": "Specialty Drinks",
           "qty": 8.0,
           "gross": 80.0
+        },
+        {
+          "name": "Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 8.0,
+          "gross": 24.0
         },
         {
           "name": "Busch Light",
@@ -107,6 +86,20 @@
           "gross": 18.0
         },
         {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 6.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Cucumber Smash",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 5.0,
+          "gross": 50.0
+        },
+        {
           "name": "Kona Big Wave",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -114,30 +107,16 @@
           "gross": 30.0
         },
         {
-          "name": "Lemon Shake Up",
+          "name": "Big Nut",
           "variation": "Regular",
           "category": "Specialty Drinks",
-          "qty": 4.0,
-          "gross": 36.0
+          "qty": 5.0,
+          "gross": 30.0
         },
         {
           "name": "Old Style",
           "variation": "Regular",
           "category": "Canned Beer",
-          "qty": 4.0,
-          "gross": 16.0
-        },
-        {
-          "name": "Rolling Rock",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 4.0,
-          "gross": 16.0
-        },
-        {
-          "name": "Bud Light Bottle",
-          "variation": "Regular",
-          "category": "Bottled Beer",
           "qty": 4.0,
           "gross": 16.0
         },
@@ -156,18 +135,11 @@
           "gross": 21.0
         },
         {
-          "name": "Coors Light Aluminum Bottle",
+          "name": "Rolling Rock",
           "variation": "Regular",
-          "category": "Canned Beer",
+          "category": "Bottled Beer",
           "qty": 3.0,
-          "gross": 15.0
-        },
-        {
-          "name": "Soda",
-          "variation": "Regular",
-          "category": "Beverages",
-          "qty": 3.0,
-          "gross": 9.0
+          "gross": 12.0
         },
         {
           "name": "Surfside Lemonade & Vodka",
@@ -178,17 +150,10 @@
         },
         {
           "name": "Lemon Shake Up",
-          "variation": "Raspberry",
-          "category": "Specialty Drinks",
-          "qty": 3.0,
-          "gross": 30.0
-        },
-        {
-          "name": "High Noon - Grapefruit",
           "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 3.0,
-          "gross": 21.0
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 18.0
         },
         {
           "name": "Orange Squeeze",
@@ -196,6 +161,20 @@
           "category": "Specialty Drinks",
           "qty": 2.0,
           "gross": 20.0
+        },
+        {
+          "name": "Coors Light Aluminum Bottle",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Soda",
+          "variation": "Regular",
+          "category": "Beverages",
+          "qty": 2.0,
+          "gross": 6.0
         },
         {
           "name": "Wente Morning Fog Chardonnay",
@@ -254,18 +233,11 @@
           "gross": 12.0
         },
         {
-          "name": "Surfside Blueberry + Lemonade",
+          "name": "Bud Light Bottle",
           "variation": "Regular",
-          "category": "Canned Drinks",
+          "category": "Bottled Beer",
           "qty": 2.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Lemon Shake Up",
-          "variation": "Strawberry",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 20.0
+          "gross": 8.0
         },
         {
           "name": "Surfside Iced Tea + Lemonade",
@@ -373,46 +345,18 @@
           "gross": 7.0
         },
         {
+          "name": "Surfside Blueberry + Lemonade",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
           "name": "Market Garden Shandy",
           "variation": "Regular",
           "category": "Draft Beer",
           "qty": 1.0,
           "gross": 6.0
-        },
-        {
-          "name": "Mai Tai",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Juiced Mimosa",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Orange Creamsicle",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Paddle Palmer",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "High Noon - Black Cherry",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 7.0
         }
       ],
       "custom_amount_items": []
@@ -689,9 +633,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 2239.36,
-    "transaction_count": 78,
+    "net_sales": 1959.36,
+    "transaction_count": 64,
     "tips": 319.94,
-    "open_tab_total": 418.0
+    "open_tab_total": 138.0
   }
 }
