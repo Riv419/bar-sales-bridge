@@ -1,25 +1,25 @@
 {
-  "generated_at_utc": "2026-09-16T22:58:36Z",
-  "generated_at_et": "2026-09-16 18:58:36 EDT",
+  "generated_at_utc": "2026-09-17T01:27:32Z",
+  "generated_at_et": "2026-09-16 21:27:32 EDT",
   "business_day": "2026-09-16",
   "business_day_start_et": "2026-09-16 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-09-16T08:00:00Z",
-  "window_end_utc": "2026-09-16T22:58:36Z",
+  "window_end_utc": "2026-09-17T01:27:32Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
       "location_id": "L91FN4CPCADRA",
-      "net_sales": 191.0,
-      "tax_backout_base": 178.92,
+      "net_sales": 230.75,
+      "tax_backout_base": 216.16,
       "transaction_count": 14,
-      "completed_count": 12,
-      "open_count": 2,
-      "open_tab_total": 28.5,
-      "tips": 11.5,
+      "completed_count": 14,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 21.75,
       "tax_collected": 0.0,
-      "cash_total": 111.0,
-      "card_total": 51.5,
+      "cash_total": 128.0,
+      "card_total": 102.75,
       "discounts": [
         {
           "name": "Investor Discount",
@@ -32,22 +32,29 @@
           "name": "Miller Lite",
           "variation": "Can",
           "category": "Beer",
-          "qty": 4.0,
-          "gross": 16.0
+          "qty": 5.0,
+          "gross": 20.0
         },
         {
           "name": "Modelo Especial",
           "variation": "Bottle",
           "category": "Beer",
-          "qty": 4.0,
-          "gross": 20.0
+          "qty": 5.0,
+          "gross": 25.0
         },
         {
           "name": "Surfside - Iced Tea",
           "variation": "Can",
           "category": "Seltzers & RTDs",
+          "qty": 4.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Michelob Ultra",
+          "variation": "Can",
+          "category": "Beer",
           "qty": 3.0,
-          "gross": 18.0
+          "gross": 12.0
         },
         {
           "name": "Busch Light",
@@ -62,6 +69,13 @@
           "category": "Beer",
           "qty": 3.0,
           "gross": 9.0
+        },
+        {
+          "name": "Garage Beer Lime Draft",
+          "variation": "Pour",
+          "category": "Beer",
+          "qty": 2.0,
+          "gross": 10.0
         },
         {
           "name": "Ketel One",
@@ -83,6 +97,13 @@
           "category": "Beer",
           "qty": 2.0,
           "gross": 8.0
+        },
+        {
+          "name": "Michelob Ultra Zero",
+          "variation": "Can",
+          "category": "Beer",
+          "qty": 1.0,
+          "gross": 4.0
         },
         {
           "name": "Echo Bay Sauvignon Blanc",
@@ -132,20 +153,6 @@
           "category": "Beer",
           "qty": 1.0,
           "gross": 5.0
-        },
-        {
-          "name": "Michelob Ultra",
-          "variation": "Can",
-          "category": "Beer",
-          "qty": 1.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Garage Beer Lime Draft",
-          "variation": "Pour",
-          "category": "Beer",
-          "qty": 1.0,
-          "gross": 5.0
         }
       ],
       "custom_amount_items": []
@@ -153,24 +160,38 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 321.0,
-      "tax_backout_base": 300.7,
-      "transaction_count": 22,
-      "completed_count": 12,
-      "open_count": 10,
-      "open_tab_total": 176.0,
+      "net_sales": 522.0,
+      "tax_backout_base": 488.99,
+      "transaction_count": 35,
+      "completed_count": 16,
+      "open_count": 19,
+      "open_tab_total": 337.0,
       "tips": 0.0,
       "tax_collected": 0.0,
-      "cash_total": 145.0,
-      "card_total": 208.35,
+      "cash_total": 185.0,
+      "card_total": 385.6,
       "discounts": [
         {
           "name": "Mug Club",
-          "amount": 6.0,
-          "count": 3
+          "amount": 8.0,
+          "count": 4
         }
       ],
       "line_items": [
+        {
+          "name": "Maine Beer Company Lunch IPA",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 7.0,
+          "gross": 63.0
+        },
+        {
+          "name": "Surfside Ice Tea & Vodka",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 7.0,
+          "gross": 42.0
+        },
         {
           "name": "Michelob Ultra Draft",
           "variation": "Regular",
@@ -186,13 +207,6 @@
           "gross": 24.0
         },
         {
-          "name": "Maine Beer Company Lunch IPA",
-          "variation": "Regular",
-          "category": "Beer",
-          "qty": 4.0,
-          "gross": 36.0
-        },
-        {
           "name": "Hendricks",
           "variation": "Regular",
           "category": "Liquor",
@@ -205,6 +219,48 @@
           "category": "Liquor",
           "qty": 3.0,
           "gross": 9.0
+        },
+        {
+          "name": "Carib Beer",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 3.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Pacifico",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 3.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Northern Row Schwester Fest",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 3.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Long Drink Pineapple",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Presidente",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 2.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Espolon Reposado",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 20.0
         },
         {
           "name": "High Noon - Black Cherry",
@@ -235,11 +291,32 @@
           "gross": 8.0
         },
         {
-          "name": "Northern Row Schwester Fest",
+          "name": "Michelob Ultra Can",
           "variation": "Regular",
-          "category": "Draft Beer",
+          "category": "Canned Beer",
           "qty": 2.0,
-          "gross": 12.0
+          "gross": 8.0
+        },
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Bota Box Pinot Grigio",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 2.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Titos",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 14.0
         },
         {
           "name": "Jackie O's Firefly",
@@ -261,6 +338,13 @@
           "category": "Specialty Drinks",
           "qty": 2.0,
           "gross": 18.0
+        },
+        {
+          "name": "Echo Bay  Sauvignon Blanc",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 8.0
         },
         {
           "name": "High Noon - Grapefruit",
@@ -305,6 +389,20 @@
           "gross": 4.0
         },
         {
+          "name": "Surfside Strawberry",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Red Stripe",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
           "name": "Golden Road Mango Cart",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -333,13 +431,6 @@
           "gross": 10.0
         },
         {
-          "name": "Michelob Ultra Can",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 4.0
-        },
-        {
           "name": "Bartons natural Vodka (Well)",
           "variation": "Regular",
           "category": "Vodka",
@@ -359,16 +450,15 @@
           "category": "Seltzers",
           "qty": 1.0,
           "gross": 6.0
-        },
+        }
+      ],
+      "custom_amount_items": [
         {
-          "name": "Long Drink Pineapple",
-          "variation": "Regular",
-          "category": "Seltzers",
+          "name": "(custom amount)",
           "qty": 1.0,
           "gross": 6.0
         }
-      ],
-      "custom_amount_items": []
+      ]
     },
     "volstead": {
       "name": "Volstead",
@@ -440,9 +530,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 700.5,
-    "transaction_count": 42,
-    "tips": 48.0,
-    "open_tab_total": 204.5
+    "net_sales": 941.25,
+    "transaction_count": 55,
+    "tips": 58.25,
+    "open_tab_total": 337.0
   }
 }
