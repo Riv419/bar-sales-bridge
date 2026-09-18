@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-09-18T01:17:38Z",
-  "generated_at_et": "2026-09-17 21:17:38 EDT",
+  "generated_at_utc": "2026-09-18T04:51:39Z",
+  "generated_at_et": "2026-09-18 00:51:39 EDT",
   "business_day": "2026-09-17",
   "business_day_start_et": "2026-09-17 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-09-17T08:00:00Z",
-  "window_end_utc": "2026-09-18T01:17:38Z",
+  "window_end_utc": "2026-09-18T04:51:39Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -210,30 +210,44 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 597.0,
-      "tax_backout_base": 559.25,
-      "transaction_count": 24,
-      "completed_count": 9,
-      "open_count": 15,
-      "open_tab_total": 476.0,
+      "net_sales": 788.6,
+      "tax_backout_base": 738.74,
+      "transaction_count": 32,
+      "completed_count": 12,
+      "open_count": 20,
+      "open_tab_total": 588.6,
       "tips": 0.0,
       "tax_collected": 0.0,
-      "cash_total": 121.0,
-      "card_total": 595.9,
+      "cash_total": 200.0,
+      "card_total": 737.1,
       "discounts": [
         {
           "name": "Employee Discount",
           "amount": 0.0,
-          "count": 1
+          "count": 2
         }
       ],
       "line_items": [
+        {
+          "name": "Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 8.0,
+          "gross": 24.0
+        },
         {
           "name": "Captain Morgan",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 8.0,
           "gross": 48.0
+        },
+        {
+          "name": "Old Style",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 6.0,
+          "gross": 24.0
         },
         {
           "name": "Lemon Shake Up",
@@ -271,20 +285,6 @@
           "gross": 40.0
         },
         {
-          "name": "Old Style",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 4.0,
-          "gross": 16.0
-        },
-        {
-          "name": "Hot Nut",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 4.0,
-          "gross": 12.0
-        },
-        {
           "name": "Budweiser Bottle",
           "variation": "Regular",
           "category": "Bottled Beer",
@@ -297,6 +297,27 @@
           "category": "Canned Beer",
           "qty": 4.0,
           "gross": 16.0
+        },
+        {
+          "name": "Ketel One",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 3.0,
+          "gross": 24.0
+        },
+        {
+          "name": "High Noon - Pineapple",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 3.0,
+          "gross": 21.0
+        },
+        {
+          "name": "Rhinegeist Truth",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 3.0,
+          "gross": 21.0
         },
         {
           "name": "Titos",
@@ -339,6 +360,27 @@
           "category": "Bottled Beer",
           "qty": 2.0,
           "gross": 12.0
+        },
+        {
+          "name": "Yes Way Ros\u00e9",
+          "variation": "Bottle",
+          "category": "Wine",
+          "qty": 2.0,
+          "gross": 64.0
+        },
+        {
+          "name": "Echo Bay  Sauvignon Blanc",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 2.0,
+          "gross": 16.0
+        },
+        {
+          "name": "Mai Tai",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 24.0
         },
         {
           "name": "New Amsterdam Gin (Well)",
@@ -404,13 +446,6 @@
           "gross": 20.0
         },
         {
-          "name": "Rhinegeist Truth",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 2.0,
-          "gross": 14.0
-        },
-        {
           "name": "High Noon - Peach",
           "variation": "Regular",
           "category": "Seltzers",
@@ -422,6 +457,13 @@
           "variation": "Regular",
           "category": "Canned Beer",
           "qty": 2.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Cucumber Smash",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
           "gross": 10.0
         },
         {
@@ -437,6 +479,13 @@
           "category": "Canned Drinks",
           "qty": 1.0,
           "gross": 6.0
+        },
+        {
+          "name": "Wente Morning Fog Chardonnay",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 8.0
         },
         {
           "name": "Orange Creamsicle",
@@ -474,29 +523,35 @@
           "gross": 6.0
         }
       ],
-      "custom_amount_items": []
+      "custom_amount_items": [
+        {
+          "name": "(custom amount)",
+          "qty": 1.0,
+          "gross": 4.0
+        }
+      ]
     },
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 322.0,
-      "tax_backout_base": 301.64,
-      "transaction_count": 9,
-      "completed_count": 3,
-      "open_count": 6,
-      "open_tab_total": 243.0,
+      "net_sales": 478.0,
+      "tax_backout_base": 447.78,
+      "transaction_count": 16,
+      "completed_count": 4,
+      "open_count": 12,
+      "open_tab_total": 371.0,
       "tips": 0.0,
       "tax_collected": 0.0,
-      "cash_total": 79.0,
-      "card_total": 310.45,
+      "cash_total": 107.0,
+      "card_total": 466.55,
       "discounts": [],
       "line_items": [
         {
           "name": "Old Fashioned",
           "variation": "Regular",
           "category": "Bourbon - Whiskey",
-          "qty": 8.0,
-          "gross": 96.0
+          "qty": 10.0,
+          "gross": 120.0
         },
         {
           "name": "Betty White Lady",
@@ -506,6 +561,13 @@
           "gross": 98.0
         },
         {
+          "name": "Aviation",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 5.0,
+          "gross": 70.0
+        },
+        {
           "name": "Paulaner",
           "variation": "Regular",
           "category": "Beer",
@@ -513,11 +575,18 @@
           "gross": 25.0
         },
         {
-          "name": "Aviation",
+          "name": "French 75",
           "variation": "Regular",
           "category": "Gin",
           "qty": 3.0,
-          "gross": 42.0
+          "gross": 36.0
+        },
+        {
+          "name": "Caipirinha",
+          "variation": "Regular",
+          "category": "Rum",
+          "qty": 2.0,
+          "gross": 24.0
         },
         {
           "name": "Greyhound",
@@ -532,6 +601,34 @@
           "category": "Mules",
           "qty": 1.0,
           "gross": 10.0
+        },
+        {
+          "name": "Pimm's Cup",
+          "variation": "Regular",
+          "category": "Spirits - Specialty",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Interstellar Lemonade",
+          "variation": "Regular",
+          "category": "Mocktail / No ABV",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Absinthe",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Whiskey Sour",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 14.0
         },
         {
           "name": "New Orleans Fizz",
@@ -553,9 +650,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1422.6,
-    "transaction_count": 47,
+    "net_sales": 1770.2,
+    "transaction_count": 62,
     "tips": 77.6,
-    "open_tab_total": 719.0
+    "open_tab_total": 959.6
   }
 }
