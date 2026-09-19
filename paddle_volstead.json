@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-09-19T09:00:54Z",
-  "generated_at_et": "2026-09-19 05:00:54 EDT",
+  "generated_at_utc": "2026-09-19T09:35:21Z",
+  "generated_at_et": "2026-09-19 05:35:21 EDT",
   "business_day": "2026-09-19",
   "business_day_start_et": "2026-09-19 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-09-19T08:00:00Z",
-  "window_end_utc": "2026-09-19T09:00:54Z",
+  "window_end_utc": "2026-09-19T09:35:21Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -44,26 +44,34 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 0.0,
-      "tax_backout_base": 0.0,
-      "transaction_count": 0,
-      "completed_count": 0,
+      "net_sales": 28.8,
+      "tax_backout_base": 26.98,
+      "transaction_count": 1,
+      "completed_count": 1,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 0.0,
+      "tips": 4.8,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 0.0,
+      "card_total": 28.8,
       "discounts": [],
-      "line_items": [],
+      "line_items": [
+        {
+          "name": "Greyhound",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 2.0,
+          "gross": 24.0
+        }
+      ],
       "custom_amount_items": []
     }
   },
   "errors": [],
   "combined": {
-    "net_sales": 0.0,
-    "transaction_count": 0,
-    "tips": 0.0,
+    "net_sales": 28.8,
+    "transaction_count": 1,
+    "tips": 4.8,
     "open_tab_total": 0.0
   }
 }
