@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-09-21T00:31:14Z",
-  "generated_at_et": "2026-09-20 20:31:14 EDT",
+  "generated_at_utc": "2026-09-21T05:05:32Z",
+  "generated_at_et": "2026-09-21 01:05:32 EDT",
   "business_day": "2026-09-20",
   "business_day_start_et": "2026-09-20 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-09-20T08:00:00Z",
-  "window_end_utc": "2026-09-21T00:31:14Z",
+  "window_end_utc": "2026-09-21T05:05:32Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -413,15 +413,15 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 655.75,
-      "tax_backout_base": 614.29,
-      "transaction_count": 20,
-      "completed_count": 13,
+      "net_sales": 675.75,
+      "tax_backout_base": 633.02,
+      "transaction_count": 21,
+      "completed_count": 14,
       "open_count": 7,
       "open_tab_total": 200.0,
       "tips": 83.75,
       "tax_collected": 0.0,
-      "cash_total": 0.0,
+      "cash_total": 20.0,
       "card_total": 712.2,
       "discounts": [],
       "line_items": [
@@ -431,6 +431,13 @@
           "category": "Bourbon - Whiskey",
           "qty": 6.0,
           "gross": 72.0
+        },
+        {
+          "name": "Paulaner",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 5.0,
+          "gross": 25.0
         },
         {
           "name": "Old Fashioned",
@@ -622,13 +629,6 @@
           "gross": 13.0
         },
         {
-          "name": "Paulaner",
-          "variation": "Regular",
-          "category": "Beer",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
           "name": "Absinthe",
           "variation": "Regular",
           "category": "Specialty",
@@ -662,8 +662,8 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1894.65,
-    "transaction_count": 62,
+    "net_sales": 1914.65,
+    "transaction_count": 63,
     "tips": 234.65,
     "open_tab_total": 464.0
   }
