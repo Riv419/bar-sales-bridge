@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-09-22T05:07:09Z",
-  "generated_at_et": "2026-09-22 01:07:09 EDT",
+  "generated_at_utc": "2026-09-22T09:31:20Z",
+  "generated_at_et": "2026-09-22 05:31:20 EDT",
   "business_day": "2026-09-21",
   "business_day_start_et": "2026-09-21 04:00 EDT",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-09-21T08:00:00Z",
-  "window_end_utc": "2026-09-22T05:07:09Z",
+  "window_end_utc": "2026-09-22T08:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -245,16 +245,16 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 1195.55,
-      "tax_backout_base": 1119.95,
-      "transaction_count": 30,
-      "completed_count": 23,
+      "net_sales": 1290.15,
+      "tax_backout_base": 1208.57,
+      "transaction_count": 34,
+      "completed_count": 27,
       "open_count": 7,
       "open_tab_total": 153.0,
-      "tips": 143.75,
+      "tips": 169.35,
       "tax_collected": 0.0,
       "cash_total": 109.0,
-      "card_total": 1149.15,
+      "card_total": 1243.75,
       "discounts": [
         {
           "name": "Employee Discount",
@@ -306,6 +306,13 @@
           "gross": 48.0
         },
         {
+          "name": "Tito's Vodka",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 3.0,
+          "gross": 21.0
+        },
+        {
           "name": "Moscow Mule",
           "variation": "Regular",
           "category": "Mules",
@@ -332,6 +339,20 @@
           "category": "Specialty",
           "qty": 3.0,
           "gross": 36.0
+        },
+        {
+          "name": "Pain Killer",
+          "variation": "Regular",
+          "category": null,
+          "qty": 2.0,
+          "gross": 28.0
+        },
+        {
+          "name": "Manhattan",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 2.0,
+          "gross": 26.0
         },
         {
           "name": "Busch Light",
@@ -411,6 +432,20 @@
           "gross": 12.0
         },
         {
+          "name": "Interstellar Lemonade",
+          "variation": "Regular",
+          "category": "Mocktail / No ABV",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Guinness",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
           "name": "Side Car",
           "variation": "Regular",
           "category": "Specialty",
@@ -423,13 +458,6 @@
           "category": "Soda",
           "qty": 1.0,
           "gross": 2.0
-        },
-        {
-          "name": "Pain Killer",
-          "variation": "Regular",
-          "category": null,
-          "qty": 1.0,
-          "gross": 14.0
         },
         {
           "name": "New Orleans Fizz",
@@ -488,13 +516,6 @@
           "gross": 14.0
         },
         {
-          "name": "Tito's Vodka",
-          "variation": "Regular",
-          "category": "Vodka",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
           "name": "GL Midwest IPA",
           "variation": "Regular",
           "category": "Beer - Craft Bottle",
@@ -528,9 +549,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1641.95,
-    "transaction_count": 46,
-    "tips": 225.75,
+    "net_sales": 1736.55,
+    "transaction_count": 50,
+    "tips": 251.35,
     "open_tab_total": 153.0
   }
 }
