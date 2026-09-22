@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-09-22T09:31:20Z",
-  "generated_at_et": "2026-09-22 05:31:20 EDT",
+  "generated_at_utc": "2026-09-22T10:04:24Z",
+  "generated_at_et": "2026-09-22 06:04:24 EDT",
   "business_day": "2026-09-22",
   "business_day_start_et": "2026-09-22 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-09-22T08:00:00Z",
-  "window_end_utc": "2026-09-22T09:31:20Z",
+  "window_end_utc": "2026-09-22T10:04:24Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -44,26 +44,34 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 0.0,
-      "tax_backout_base": 0.0,
-      "transaction_count": 0,
-      "completed_count": 0,
+      "net_sales": 75.0,
+      "tax_backout_base": 70.26,
+      "transaction_count": 1,
+      "completed_count": 1,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 0.0,
+      "tips": 15.0,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 0.0,
+      "card_total": 75.0,
       "discounts": [],
-      "line_items": [],
+      "line_items": [
+        {
+          "name": "Sazerac",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 5.0,
+          "gross": 60.0
+        }
+      ],
       "custom_amount_items": []
     }
   },
   "errors": [],
   "combined": {
-    "net_sales": 0.0,
-    "transaction_count": 0,
-    "tips": 0.0,
+    "net_sales": 75.0,
+    "transaction_count": 1,
+    "tips": 15.0,
     "open_tab_total": 0.0
   }
 }
