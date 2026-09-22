@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-09-22T01:54:35Z",
-  "generated_at_et": "2026-09-21 21:54:35 EDT",
+  "generated_at_utc": "2026-09-22T05:07:09Z",
+  "generated_at_et": "2026-09-22 01:07:09 EDT",
   "business_day": "2026-09-21",
   "business_day_start_et": "2026-09-21 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-09-21T08:00:00Z",
-  "window_end_utc": "2026-09-22T01:54:35Z",
+  "window_end_utc": "2026-09-22T05:07:09Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 289.0,
-      "tax_backout_base": 270.73,
-      "transaction_count": 13,
-      "completed_count": 3,
-      "open_count": 10,
-      "open_tab_total": 249.0,
-      "tips": 0.0,
+      "net_sales": 446.4,
+      "tax_backout_base": 418.17,
+      "transaction_count": 16,
+      "completed_count": 16,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 82.0,
       "tax_collected": 0.0,
       "cash_total": 40.0,
-      "card_total": 253.0,
+      "card_total": 406.4,
       "discounts": [
         {
           "name": "Mug Club",
@@ -46,7 +46,7 @@
         {
           "name": "Employee Discount",
           "amount": 0.0,
-          "count": 1
+          "count": 2
         }
       ],
       "line_items": [
@@ -54,8 +54,8 @@
           "name": "Titos",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 12.0,
-          "gross": 84.0
+          "qty": 13.0,
+          "gross": 91.0
         },
         {
           "name": "Hot Nut",
@@ -63,13 +63,6 @@
           "category": "Liquor",
           "qty": 5.0,
           "gross": 15.0
-        },
-        {
-          "name": "Busch Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 4.0,
-          "gross": 12.0
         },
         {
           "name": "Market Garden Shandy",
@@ -86,6 +79,13 @@
           "gross": 28.0
         },
         {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 4.0,
+          "gross": 12.0
+        },
+        {
           "name": "Big Pumpkin Nut",
           "variation": "Regular",
           "category": "Specialty Drinks",
@@ -93,11 +93,18 @@
           "gross": 24.0
         },
         {
-          "name": "Captain Morgan",
+          "name": "Kona Big Wave",
           "variation": "Regular",
-          "category": "Liquor",
+          "category": "Draft Beer",
           "qty": 2.0,
           "gross": 12.0
+        },
+        {
+          "name": "Nor'easter (Hurricane)",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 24.0
         },
         {
           "name": "Rhinegeist Truth",
@@ -107,79 +114,44 @@
           "gross": 14.0
         },
         {
-          "name": "Bota Box Pinot Grigio",
+          "name": "Captain Morgan",
           "variation": "Regular",
-          "category": "Wine",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Paddle Margarita",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Cucumber Smash",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Mocktail",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Kona Big Wave",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Soda",
-          "variation": "Regular",
-          "category": "Beverages",
-          "qty": 1.0,
-          "gross": 3.0
-        },
-        {
-          "name": "Maine Beer Company Lunch IPA",
-          "variation": "Regular",
-          "category": "Beer",
-          "qty": 1.0,
-          "gross": 9.0
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 12.0
         },
         {
           "name": "Chips",
           "variation": "Regular",
           "category": "Snacks",
-          "qty": 1.0,
-          "gross": 2.0
-        },
-        {
-          "name": "Bud Light Bottle",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
+          "qty": 2.0,
           "gross": 4.0
         },
         {
-          "name": "Long Drink Sugar Free",
-          "variation": "Regular",
-          "category": "Seltzers",
+          "name": "Lemon Shake Up",
+          "variation": "Strawberry",
+          "category": "Specialty Drinks",
           "qty": 1.0,
-          "gross": 6.0
+          "gross": 10.0
         },
         {
-          "name": "Pumpkin Spice Hot Nut",
+          "name": "Jackie O's Firefly",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Monkey 47",
           "variation": "Regular",
           "category": "Liquor",
+          "qty": 1.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Miller Lite Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
           "qty": 1.0,
           "gross": 4.0
         },
@@ -198,11 +170,74 @@
           "gross": 8.0
         },
         {
-          "name": "Miller Lite Can",
+          "name": "Long Drink Sugar Free",
           "variation": "Regular",
-          "category": "Canned Beer",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Pumpkin Spice Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
           "qty": 1.0,
           "gross": 4.0
+        },
+        {
+          "name": "Cucumber Smash",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Mocktail",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Soda",
+          "variation": "Regular",
+          "category": "Beverages",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
+          "name": "Maine Beer Company Lunch IPA",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 1.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Bud Light Bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Voodoo Ranger Atomic Pumpkin",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Bota Box Pinot Grigio",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Paddle Margarita",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
         }
       ],
       "custom_amount_items": []
@@ -493,9 +528,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1484.55,
-    "transaction_count": 43,
-    "tips": 143.75,
-    "open_tab_total": 402.0
+    "net_sales": 1641.95,
+    "transaction_count": 46,
+    "tips": 225.75,
+    "open_tab_total": 153.0
   }
 }
