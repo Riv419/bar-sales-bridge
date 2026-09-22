@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-09-21T23:18:54Z",
-  "generated_at_et": "2026-09-21 19:18:54 EDT",
+  "generated_at_utc": "2026-09-22T01:54:35Z",
+  "generated_at_et": "2026-09-21 21:54:35 EDT",
   "business_day": "2026-09-21",
   "business_day_start_et": "2026-09-21 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-09-21T08:00:00Z",
-  "window_end_utc": "2026-09-21T23:18:54Z",
+  "window_end_utc": "2026-09-22T01:54:35Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,17 +27,22 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 106.0,
-      "tax_backout_base": 99.3,
-      "transaction_count": 6,
-      "completed_count": 2,
-      "open_count": 4,
-      "open_tab_total": 72.0,
+      "net_sales": 289.0,
+      "tax_backout_base": 270.73,
+      "transaction_count": 13,
+      "completed_count": 3,
+      "open_count": 10,
+      "open_tab_total": 249.0,
       "tips": 0.0,
       "tax_collected": 0.0,
-      "cash_total": 34.0,
-      "card_total": 74.5,
+      "cash_total": 40.0,
+      "card_total": 253.0,
       "discounts": [
+        {
+          "name": "Mug Club",
+          "amount": 4.0,
+          "count": 2
+        },
         {
           "name": "Employee Discount",
           "amount": 0.0,
@@ -45,6 +50,13 @@
         }
       ],
       "line_items": [
+        {
+          "name": "Titos",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 12.0,
+          "gross": 84.0
+        },
         {
           "name": "Hot Nut",
           "variation": "Regular",
@@ -56,8 +68,29 @@
           "name": "Busch Light",
           "variation": "Regular",
           "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 6.0
+          "qty": 4.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Market Garden Shandy",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 4.0,
+          "gross": 24.0
+        },
+        {
+          "name": "High Noon - Grapefruit",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 4.0,
+          "gross": 28.0
+        },
+        {
+          "name": "Big Pumpkin Nut",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 3.0,
+          "gross": 24.0
         },
         {
           "name": "Captain Morgan",
@@ -88,6 +121,34 @@
           "gross": 10.0
         },
         {
+          "name": "Cucumber Smash",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Mocktail",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Kona Big Wave",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Soda",
+          "variation": "Regular",
+          "category": "Beverages",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
           "name": "Maine Beer Company Lunch IPA",
           "variation": "Regular",
           "category": "Beer",
@@ -95,18 +156,18 @@
           "gross": 9.0
         },
         {
-          "name": "High Noon - Grapefruit",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
           "name": "Chips",
           "variation": "Regular",
           "category": "Snacks",
           "qty": 1.0,
           "gross": 2.0
+        },
+        {
+          "name": "Bud Light Bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 4.0
         },
         {
           "name": "Long Drink Sugar Free",
@@ -149,16 +210,16 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 1164.55,
-      "tax_backout_base": 1090.91,
-      "transaction_count": 28,
-      "completed_count": 22,
-      "open_count": 6,
-      "open_tab_total": 132.0,
+      "net_sales": 1195.55,
+      "tax_backout_base": 1119.95,
+      "transaction_count": 30,
+      "completed_count": 23,
+      "open_count": 7,
+      "open_tab_total": 153.0,
       "tips": 143.75,
       "tax_collected": 0.0,
-      "cash_total": 99.0,
-      "card_total": 1119.15,
+      "cash_total": 109.0,
+      "card_total": 1149.15,
       "discounts": [
         {
           "name": "Employee Discount",
@@ -171,8 +232,8 @@
           "name": "Martini Monday",
           "variation": "Regular",
           "category": "other",
-          "qty": 19.0,
-          "gross": 133.0
+          "qty": 22.0,
+          "gross": 154.0
         },
         {
           "name": "Old Fashioned",
@@ -180,6 +241,13 @@
           "category": "Bourbon - Whiskey",
           "qty": 12.0,
           "gross": 144.0
+        },
+        {
+          "name": "Paulaner",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 5.0,
+          "gross": 25.0
         },
         {
           "name": "French 75",
@@ -208,13 +276,6 @@
           "category": "Mules",
           "qty": 3.0,
           "gross": 30.0
-        },
-        {
-          "name": "Paulaner",
-          "variation": "Regular",
-          "category": "Beer",
-          "qty": 3.0,
-          "gross": 15.0
         },
         {
           "name": "Vesper",
@@ -432,9 +493,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1270.55,
-    "transaction_count": 34,
+    "net_sales": 1484.55,
+    "transaction_count": 43,
     "tips": 143.75,
-    "open_tab_total": 204.0
+    "open_tab_total": 402.0
   }
 }
