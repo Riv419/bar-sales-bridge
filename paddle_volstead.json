@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-09-23T22:57:52Z",
-  "generated_at_et": "2026-09-23 18:57:52 EDT",
+  "generated_at_utc": "2026-09-24T01:26:32Z",
+  "generated_at_et": "2026-09-23 21:26:32 EDT",
   "business_day": "2026-09-23",
   "business_day_start_et": "2026-09-23 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-09-23T08:00:00Z",
-  "window_end_utc": "2026-09-23T22:57:52Z",
+  "window_end_utc": "2026-09-24T01:26:32Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 140.8,
-      "tax_backout_base": 131.9,
-      "transaction_count": 9,
-      "completed_count": 1,
-      "open_count": 8,
-      "open_tab_total": 138.8,
+      "net_sales": 365.8,
+      "tax_backout_base": 342.67,
+      "transaction_count": 18,
+      "completed_count": 4,
+      "open_count": 14,
+      "open_tab_total": 330.8,
       "tips": 0.0,
       "tax_collected": 0.0,
-      "cash_total": 2.0,
-      "card_total": 157.8,
+      "cash_total": 35.0,
+      "card_total": 440.8,
       "discounts": [
         {
           "name": "Mug Club",
@@ -54,8 +54,43 @@
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 8.0,
+          "qty": 10.0,
+          "gross": 30.0
+        },
+        {
+          "name": "Bourbonade",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 5.0,
+          "gross": 70.0
+        },
+        {
+          "name": "Hofbrau",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 4.0,
           "gross": 24.0
+        },
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 4.0,
+          "gross": 16.0
+        },
+        {
+          "name": "Wente Morning Fog Chardonnay",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 3.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Pumpkin Spice Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 3.0,
+          "gross": 12.0
         },
         {
           "name": "Maine Beer Company Lunch IPA",
@@ -65,6 +100,13 @@
           "gross": 27.0
         },
         {
+          "name": "Budweiser Bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
           "name": "Hamm\u2019s",
           "variation": "Regular",
           "category": "Canned Beer",
@@ -72,18 +114,25 @@
           "gross": 6.0
         },
         {
+          "name": "Echo Bay  Sauvignon Blanc",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 2.0,
+          "gross": 16.0
+        },
+        {
+          "name": "Surfside Ice Tea & Vodka",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
           "name": "Voodoo Ranger Atomic Pumpkin",
           "variation": "Regular",
           "category": "Draft Beer",
           "qty": 2.0,
           "gross": 14.0
-        },
-        {
-          "name": "Hofbrau",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 2.0,
-          "gross": 12.0
         },
         {
           "name": "Big Nut",
@@ -100,11 +149,60 @@
           "gross": 20.0
         },
         {
+          "name": "Stroh\u2019s",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
+          "name": "Superlyte Orange",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Shot And Snack",
+          "variation": "Regular",
+          "category": "Specials",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
           "name": "Sandtown Mini Sticker",
           "variation": "Regular",
           "category": "Sandtown Stuff",
           "qty": 1.0,
           "gross": 2.0
+        },
+        {
+          "name": "Bota Box Pinot Grigio",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Long Drink Cranberry",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Woodford Reserve",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 3.0
         },
         {
           "name": "Absolut",
@@ -119,6 +217,13 @@
           "category": "Seltzers",
           "qty": 1.0,
           "gross": 7.0
+        },
+        {
+          "name": "Schnitz Festbier",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 6.0
         },
         {
           "name": "White Claw - Mango",
@@ -140,16 +245,16 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 523.6,
-      "tax_backout_base": 490.49,
-      "transaction_count": 8,
+      "net_sales": 547.6,
+      "tax_backout_base": 512.97,
+      "transaction_count": 9,
       "completed_count": 7,
-      "open_count": 1,
-      "open_tab_total": 308.0,
+      "open_count": 2,
+      "open_tab_total": 332.0,
       "tips": 62.6,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 215.6,
+      "card_total": 239.6,
       "discounts": [],
       "line_items": [
         {
@@ -160,16 +265,16 @@
           "gross": 91.0
         },
         {
-          "name": "Weekly Special",
-          "variation": "Regular",
-          "category": "Specialty",
-          "qty": 3.0,
-          "gross": 36.0
-        },
-        {
           "name": "Old Fashioned",
           "variation": "Regular",
           "category": "Bourbon - Whiskey",
+          "qty": 4.0,
+          "gross": 48.0
+        },
+        {
+          "name": "Weekly Special",
+          "variation": "Regular",
+          "category": "Specialty",
           "qty": 3.0,
           "gross": 36.0
         },
@@ -228,6 +333,13 @@
           "category": "Scotch",
           "qty": 1.0,
           "gross": 13.0
+        },
+        {
+          "name": "White Night",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 1.0,
+          "gross": 12.0
         },
         {
           "name": "The Old San Juan",
@@ -319,9 +431,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 664.4,
-    "transaction_count": 17,
+    "net_sales": 913.4,
+    "transaction_count": 27,
     "tips": 62.6,
-    "open_tab_total": 446.8
+    "open_tab_total": 662.8
   }
 }
