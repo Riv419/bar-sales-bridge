@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-09-24T05:00:23Z",
-  "generated_at_et": "2026-09-24 01:00:23 EDT",
+  "generated_at_utc": "2026-09-24T09:35:02Z",
+  "generated_at_et": "2026-09-24 05:35:02 EDT",
   "business_day": "2026-09-23",
   "business_day_start_et": "2026-09-23 04:00 EDT",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-09-23T08:00:00Z",
-  "window_end_utc": "2026-09-24T05:00:23Z",
+  "window_end_utc": "2026-09-24T08:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,13 +27,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 494.8,
-      "tax_backout_base": 463.51,
+      "net_sales": 627.15,
+      "tax_backout_base": 587.49,
       "transaction_count": 23,
-      "completed_count": 5,
-      "open_count": 18,
-      "open_tab_total": 432.8,
-      "tips": 0.0,
+      "completed_count": 22,
+      "open_count": 1,
+      "open_tab_total": 30.0,
+      "tips": 132.35,
       "tax_collected": 0.0,
       "cash_total": 62.0,
       "card_total": 571.15,
@@ -58,18 +58,18 @@
           "gross": 42.0
         },
         {
-          "name": "Pumpkin Spice Hot Nut",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 5.0,
-          "gross": 20.0
-        },
-        {
           "name": "Bourbonade",
           "variation": "Regular",
           "category": "Bourbon",
           "qty": 5.0,
           "gross": 70.0
+        },
+        {
+          "name": "Pumpkin Spice Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 5.0,
+          "gross": 20.0
         },
         {
           "name": "Voodoo Ranger Atomic Pumpkin",
@@ -79,18 +79,18 @@
           "gross": 28.0
         },
         {
-          "name": "Wente Morning Fog Chardonnay",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 4.0,
-          "gross": 32.0
-        },
-        {
           "name": "Hofbrau",
           "variation": "Regular",
           "category": "Bottled Beer",
           "qty": 4.0,
           "gross": 24.0
+        },
+        {
+          "name": "Wente Morning Fog Chardonnay",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 4.0,
+          "gross": 32.0
         },
         {
           "name": "Michelob Ultra Can",
@@ -121,6 +121,27 @@
           "gross": 27.0
         },
         {
+          "name": "Orange Squeeze",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 20.0
+        },
+        {
+          "name": "Bota Box Pinot Grigio",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 2.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Surfside Ice Tea & Vodka",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
           "name": "High Noon - Grapefruit",
           "variation": "Regular",
           "category": "Seltzers",
@@ -142,20 +163,6 @@
           "gross": 6.0
         },
         {
-          "name": "Bota Box Pinot Grigio",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 2.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Surfside Ice Tea & Vodka",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 2.0,
-          "gross": 12.0
-        },
-        {
           "name": "Big Nut",
           "variation": "Regular",
           "category": "Specialty Drinks",
@@ -163,11 +170,67 @@
           "gross": 12.0
         },
         {
-          "name": "Orange Squeeze",
+          "name": "Kona Big Wave",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "White Claw - Mango",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Paddle Paloma",
           "variation": "Regular",
           "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 20.0
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Absolut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "High Noon - Black Cherry",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Big Pumpkin Nut",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Labatt Non-Alcoholic",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Woodford Reserve",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 3.0
         },
         {
           "name": "Red Stripe",
@@ -205,74 +268,11 @@
           "gross": 2.0
         },
         {
-          "name": "Kona Big Wave",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Big Pumpkin Nut",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Labatt Non-Alcoholic",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Woodford Reserve",
-          "variation": "Regular",
-          "category": "Bourbon",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Busch Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 3.0
-        },
-        {
-          "name": "Absolut",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "High Noon - Black Cherry",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
           "name": "Schnitz Festbier",
           "variation": "Regular",
           "category": "Draft Beer",
           "qty": 1.0,
           "gross": 6.0
-        },
-        {
-          "name": "White Claw - Mango",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Paddle Paloma",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 12.0
         }
       ],
       "custom_amount_items": [
@@ -499,9 +499,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1140.4,
+    "net_sales": 1272.75,
     "transaction_count": 38,
-    "tips": 62.6,
-    "open_tab_total": 824.8
+    "tips": 194.95,
+    "open_tab_total": 422.0
   }
 }
