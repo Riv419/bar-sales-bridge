@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-09-27T23:04:47Z",
-  "generated_at_et": "2026-09-27 19:04:47 EDT",
+  "generated_at_utc": "2026-09-28T01:41:32Z",
+  "generated_at_et": "2026-09-27 21:41:32 EDT",
   "business_day": "2026-09-27",
   "business_day_start_et": "2026-09-27 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-09-27T08:00:00Z",
-  "window_end_utc": "2026-09-27T23:04:47Z",
+  "window_end_utc": "2026-09-28T01:41:32Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -224,18 +224,25 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 773.0,
-      "tax_backout_base": 724.12,
-      "transaction_count": 57,
-      "completed_count": 21,
+      "net_sales": 958.0,
+      "tax_backout_base": 897.42,
+      "transaction_count": 63,
+      "completed_count": 27,
       "open_count": 36,
-      "open_tab_total": 570.0,
+      "open_tab_total": 626.0,
       "tips": 0.0,
       "tax_collected": 0.0,
-      "cash_total": 203.0,
-      "card_total": 629.25,
+      "cash_total": 332.0,
+      "card_total": 745.75,
       "discounts": [],
       "line_items": [
+        {
+          "name": "Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 20.0,
+          "gross": 60.0
+        },
         {
           "name": "Bartons natural Vodka (Well)",
           "variation": "Regular",
@@ -251,18 +258,25 @@
           "gross": 30.0
         },
         {
-          "name": "Hot Nut",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 10.0,
-          "gross": 30.0
-        },
-        {
           "name": "Pumpkin Spice Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 8.0,
           "gross": 32.0
+        },
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 7.0,
+          "gross": 21.0
+        },
+        {
+          "name": "Surfside Ice Tea & Vodka",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 7.0,
+          "gross": 42.0
         },
         {
           "name": "Bud Light Bottle",
@@ -286,11 +300,25 @@
           "gross": 60.0
         },
         {
-          "name": "Surfside Ice Tea & Vodka",
+          "name": "Surfside Iced Tea + Lemonade",
           "variation": "Regular",
           "category": "Canned Drinks",
           "qty": 5.0,
           "gross": 30.0
+        },
+        {
+          "name": "Surfside Strawberry",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 5.0,
+          "gross": 30.0
+        },
+        {
+          "name": "Allagash Haunted House",
+          "variation": "Regular",
+          "category": null,
+          "qty": 4.0,
+          "gross": 28.0
         },
         {
           "name": "Surfside Blueberry + Lemonade",
@@ -300,11 +328,18 @@
           "gross": 24.0
         },
         {
-          "name": "Busch Light",
+          "name": "Bulleit Bourbon",
           "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 4.0,
-          "gross": 12.0
+          "category": "Bourbon",
+          "qty": 3.0,
+          "gross": 27.0
+        },
+        {
+          "name": "Mai Tai",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 3.0,
+          "gross": 36.0
         },
         {
           "name": "Coors Banquet",
@@ -314,13 +349,6 @@
           "gross": 12.0
         },
         {
-          "name": "Allagash Haunted House",
-          "variation": "Regular",
-          "category": null,
-          "qty": 3.0,
-          "gross": 21.0
-        },
-        {
           "name": "Fresh Fruit",
           "variation": "Regular",
           "category": "Snacks",
@@ -328,25 +356,11 @@
           "gross": 3.0
         },
         {
-          "name": "Surfside Iced Tea + Lemonade",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 3.0,
-          "gross": 18.0
-        },
-        {
           "name": "Maine Prince Percy",
           "variation": "Regular",
           "category": "Draft Beer",
           "qty": 3.0,
           "gross": 27.0
-        },
-        {
-          "name": "Surfside Strawberry",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 3.0,
-          "gross": 18.0
         },
         {
           "name": "Michelob Ultra Can",
@@ -361,6 +375,20 @@
           "category": "Specialty Drinks",
           "qty": 3.0,
           "gross": 27.0
+        },
+        {
+          "name": "Echo Bay  Sauvignon Blanc",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 2.0,
+          "gross": 16.0
+        },
+        {
+          "name": "Bota Box Pinot Grigio",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 2.0,
+          "gross": 10.0
         },
         {
           "name": "Maine Beer Company Lunch IPA",
@@ -408,13 +436,6 @@
           "name": "Coors Light Aluminum Bottle",
           "variation": "Regular",
           "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Bota Box Pinot Grigio",
-          "variation": "Regular",
-          "category": "Wine",
           "qty": 2.0,
           "gross": 10.0
         },
@@ -489,11 +510,11 @@
           "gross": 6.0
         },
         {
-          "name": "Echo Bay  Sauvignon Blanc",
+          "name": "Echo Bay Whole Bottle",
           "variation": "Regular",
           "category": "Wine",
           "qty": 1.0,
-          "gross": 8.0
+          "gross": 32.0
         },
         {
           "name": "Guinness",
@@ -570,18 +591,25 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 693.7,
-      "tax_backout_base": 649.84,
-      "transaction_count": 19,
-      "completed_count": 15,
+      "net_sales": 811.7,
+      "tax_backout_base": 760.37,
+      "transaction_count": 21,
+      "completed_count": 17,
       "open_count": 4,
       "open_tab_total": 168.0,
       "tips": 89.7,
       "tax_collected": 0.0,
-      "cash_total": 62.0,
+      "cash_total": 180.0,
       "card_total": 655.1,
       "discounts": [],
       "line_items": [
+        {
+          "name": "Betty White Lady",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 8.0,
+          "gross": 112.0
+        },
         {
           "name": "Old Fashioned",
           "variation": "Regular",
@@ -590,11 +618,18 @@
           "gross": 84.0
         },
         {
-          "name": "Betty White Lady",
+          "name": "Paulaner",
           "variation": "Regular",
-          "category": "Gin",
+          "category": "Beer",
           "qty": 6.0,
-          "gross": 84.0
+          "gross": 30.0
+        },
+        {
+          "name": "Whiskey Sour",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 4.0,
+          "gross": 56.0
         },
         {
           "name": "Sazerac",
@@ -609,6 +644,13 @@
           "category": "Vodka",
           "qty": 4.0,
           "gross": 28.0
+        },
+        {
+          "name": "Lake Serpent",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 3.0,
+          "gross": 42.0
         },
         {
           "name": "Volstead Bloody",
@@ -660,25 +702,11 @@
           "gross": 20.0
         },
         {
-          "name": "Paulaner",
-          "variation": "Regular",
-          "category": "Beer",
-          "qty": 2.0,
-          "gross": 10.0
-        },
-        {
           "name": "Magic Moment",
           "variation": "Regular",
           "category": "Modern Cocktails",
           "qty": 1.0,
           "gross": 12.0
-        },
-        {
-          "name": "Whiskey Sour",
-          "variation": "Regular",
-          "category": "Bourbon - Whiskey",
-          "qty": 1.0,
-          "gross": 14.0
         },
         {
           "name": "Soda (All)",
@@ -737,13 +765,6 @@
           "gross": 14.0
         },
         {
-          "name": "Lake Serpent",
-          "variation": "Regular",
-          "category": "Modern Cocktails",
-          "qty": 1.0,
-          "gross": 14.0
-        },
-        {
           "name": "Madame Frankie\u2019s Midnight Special",
           "variation": "Regular",
           "category": "Modern Cocktails",
@@ -763,9 +784,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 2334.8,
-    "transaction_count": 119,
+    "net_sales": 2637.8,
+    "transaction_count": 127,
     "tips": 193.8,
-    "open_tab_total": 738.0
+    "open_tab_total": 794.0
   }
 }
