@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-28T11:46:47Z",
-  "generated_at_et": "2026-09-28 07:46:47 EDT",
+  "generated_at_utc": "2026-09-29T00:23:10Z",
+  "generated_at_et": "2026-09-28 20:23:10 EDT",
   "business_day": "2026-09-27",
   "business_day_start_et": "2026-09-27 04:00 EDT",
   "is_final": true,
@@ -224,16 +224,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 1167.5,
-      "tax_backout_base": 1093.68,
-      "transaction_count": 65,
+      "net_sales": 1057.5,
+      "tax_backout_base": 990.63,
+      "transaction_count": 62,
       "completed_count": 62,
-      "open_count": 3,
-      "open_tab_total": 110.0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
       "tips": 109.5,
       "tax_collected": 0.0,
       "cash_total": 332.0,
-      "card_total": 862.15,
+      "card_total": 725.5,
       "discounts": [],
       "line_items": [
         {
@@ -307,13 +307,6 @@
           "gross": 30.0
         },
         {
-          "name": "Cucumber Smash",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 6.0,
-          "gross": 60.0
-        },
-        {
           "name": "Kona Big Wave",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -335,11 +328,11 @@
           "gross": 30.0
         },
         {
-          "name": "Allagash Haunted House",
+          "name": "Cucumber Smash",
           "variation": "Regular",
-          "category": null,
+          "category": "Specialty Drinks",
           "qty": 4.0,
-          "gross": 28.0
+          "gross": 40.0
         },
         {
           "name": "Maine Prince Percy",
@@ -354,6 +347,13 @@
           "category": "Specialty Drinks",
           "qty": 3.0,
           "gross": 27.0
+        },
+        {
+          "name": "Allagash Haunted House",
+          "variation": "Regular",
+          "category": null,
+          "qty": 3.0,
+          "gross": 21.0
         },
         {
           "name": "Mai Tai",
@@ -461,27 +461,6 @@
           "gross": 10.0
         },
         {
-          "name": "Grapefruit Squeeze",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 20.0
-        },
-        {
-          "name": "Ketel One",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 16.0
-        },
-        {
-          "name": "Monkey 47",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 30.0
-        },
-        {
           "name": "Labatt Blue",
           "variation": "Regular",
           "category": "Canned Beer",
@@ -585,36 +564,9 @@
           "category": "Seltzers",
           "qty": 1.0,
           "gross": 6.0
-        },
-        {
-          "name": "Carib Beer",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Presidente",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Premium Liquor",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 4.0
         }
       ],
-      "custom_amount_items": [
-        {
-          "name": "(custom amount)",
-          "qty": 1.0,
-          "gross": 2.0
-        }
-      ]
+      "custom_amount_items": []
     },
     "volstead": {
       "name": "Volstead",
@@ -826,9 +778,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 2980.45,
-    "transaction_count": 132,
+    "net_sales": 2870.45,
+    "transaction_count": 129,
     "tips": 325.45,
-    "open_tab_total": 278.0
+    "open_tab_total": 168.0
   }
 }
