@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-09-29T00:23:10Z",
-  "generated_at_et": "2026-09-28 20:23:10 EDT",
+  "generated_at_utc": "2026-09-29T05:50:48Z",
+  "generated_at_et": "2026-09-29 01:50:48 EDT",
   "business_day": "2026-09-28",
   "business_day_start_et": "2026-09-28 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-09-28T08:00:00Z",
-  "window_end_utc": "2026-09-29T00:23:10Z",
+  "window_end_utc": "2026-09-29T05:50:48Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,24 +27,35 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 1254.55,
-      "tax_backout_base": 1175.22,
-      "transaction_count": 46,
-      "completed_count": 27,
-      "open_count": 19,
-      "open_tab_total": 284.0,
+      "net_sales": 1314.75,
+      "tax_backout_base": 1231.62,
+      "transaction_count": 51,
+      "completed_count": 28,
+      "open_count": 23,
+      "open_tab_total": 340.2,
       "tips": 164.55,
       "tax_collected": 0.0,
-      "cash_total": 61.0,
-      "card_total": 1235.05,
-      "discounts": [],
+      "cash_total": 65.0,
+      "card_total": 1310.2,
+      "discounts": [
+        {
+          "name": "Mug Club",
+          "amount": 2.0,
+          "count": 1
+        },
+        {
+          "name": "Employee Discount",
+          "amount": 0.0,
+          "count": 2
+        }
+      ],
       "line_items": [
         {
           "name": "Pumpkin Spice Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 15.0,
-          "gross": 60.0
+          "qty": 16.0,
+          "gross": 64.0
         },
         {
           "name": "Busch Light",
@@ -69,6 +80,13 @@
         },
         {
           "name": "Cucumber Smash",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 6.0,
+          "gross": 60.0
+        },
+        {
+          "name": "Paddle Margarita",
           "variation": "Regular",
           "category": "Specialty Drinks",
           "qty": 6.0,
@@ -103,11 +121,25 @@
           "gross": 45.0
         },
         {
-          "name": "Paddle Margarita",
+          "name": "Titos",
           "variation": "Regular",
-          "category": "Specialty Drinks",
+          "category": "Liquor",
           "qty": 5.0,
-          "gross": 50.0
+          "gross": 35.0
+        },
+        {
+          "name": "Voodoo Ranger Atomic Pumpkin",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 5.0,
+          "gross": 35.0
+        },
+        {
+          "name": "Fresh Fruit",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 5.0,
+          "gross": 5.0
         },
         {
           "name": "Bud Light Bottle",
@@ -124,20 +156,6 @@
           "gross": 28.0
         },
         {
-          "name": "Titos",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 4.0,
-          "gross": 28.0
-        },
-        {
-          "name": "Fresh Fruit",
-          "variation": "Regular",
-          "category": "Snacks",
-          "qty": 4.0,
-          "gross": 4.0
-        },
-        {
           "name": "Superlyte Orange",
           "variation": "Regular",
           "category": "Seltzers",
@@ -152,14 +170,14 @@
           "gross": 20.0
         },
         {
-          "name": "Jackie O's Firefly",
+          "name": "Pacifico",
           "variation": "Regular",
-          "category": "Draft Beer",
+          "category": "Bottled Beer",
           "qty": 3.0,
-          "gross": 21.0
+          "gross": 15.0
         },
         {
-          "name": "Voodoo Ranger Atomic Pumpkin",
+          "name": "Jackie O's Firefly",
           "variation": "Regular",
           "category": "Draft Beer",
           "qty": 3.0,
@@ -187,6 +205,13 @@
           "gross": 12.0
         },
         {
+          "name": "Surfside Ice Tea & Vodka",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 3.0,
+          "gross": 18.0
+        },
+        {
           "name": "Bacardi Light",
           "variation": "Regular",
           "category": "Liquor",
@@ -199,13 +224,6 @@
           "category": "Specialty Drinks",
           "qty": 3.0,
           "gross": 36.0
-        },
-        {
-          "name": "Pacifico",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 2.0,
-          "gross": 10.0
         },
         {
           "name": "Monkey 47",
@@ -243,6 +261,13 @@
           "gross": 12.0
         },
         {
+          "name": "Surfside Strawberry",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
           "name": "Miller Lite Can",
           "variation": "Regular",
           "category": "Canned Beer",
@@ -257,18 +282,18 @@
           "gross": 16.0
         },
         {
-          "name": "Surfside Ice Tea & Vodka",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 2.0,
-          "gross": 12.0
-        },
-        {
           "name": "Labatt Non-Alcoholic",
           "variation": "Regular",
           "category": "Canned Beer",
           "qty": 2.0,
           "gross": 8.0
+        },
+        {
+          "name": "Surfside Blueberry + Lemonade",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 2.0,
+          "gross": 12.0
         },
         {
           "name": "Paddle Margarita",
@@ -397,13 +422,6 @@
           "gross": 8.0
         },
         {
-          "name": "Surfside Strawberry",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
           "name": "Surfside Lemonade & Vodka",
           "variation": "Regular",
           "category": "Canned Drinks",
@@ -439,6 +457,13 @@
           "gross": 6.0
         },
         {
+          "name": "Orange Squeeze",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
           "name": "Jack Daniels",
           "variation": "Regular",
           "category": "Liquor",
@@ -472,13 +497,6 @@
           "category": "Specialty Drinks",
           "qty": 1.0,
           "gross": 9.0
-        },
-        {
-          "name": "Surfside Blueberry + Lemonade",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 1.0,
-          "gross": 6.0
         },
         {
           "name": "Shot And Snack",
@@ -734,9 +752,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 2186.95,
-    "transaction_count": 69,
+    "net_sales": 2247.15,
+    "transaction_count": 74,
     "tips": 315.95,
-    "open_tab_total": 345.0
+    "open_tab_total": 401.2
   }
 }
