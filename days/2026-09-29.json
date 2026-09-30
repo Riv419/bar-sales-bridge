@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-09-30T02:26:58Z",
-  "generated_at_et": "2026-09-29 22:26:58 EDT",
+  "generated_at_utc": "2026-09-30T05:40:42Z",
+  "generated_at_et": "2026-09-30 01:40:42 EDT",
   "business_day": "2026-09-29",
   "business_day_start_et": "2026-09-29 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-09-29T08:00:00Z",
-  "window_end_utc": "2026-09-30T02:26:58Z",
+  "window_end_utc": "2026-09-30T05:40:42Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 724.8,
-      "tax_backout_base": 678.97,
-      "transaction_count": 44,
-      "completed_count": 14,
+      "net_sales": 707.8,
+      "tax_backout_base": 663.04,
+      "transaction_count": 45,
+      "completed_count": 15,
       "open_count": 30,
-      "open_tab_total": 578.0,
+      "open_tab_total": 561.0,
       "tips": 0.0,
       "tax_collected": 0.0,
       "cash_total": 146.8,
-      "card_total": 659.3,
+      "card_total": 666.3,
       "discounts": [
         {
           "name": "Mug Club",
@@ -61,8 +61,8 @@
           "name": "Maine Beer Company Lunch IPA",
           "variation": "Regular",
           "category": "Beer",
-          "qty": 6.0,
-          "gross": 54.0
+          "qty": 5.0,
+          "gross": 45.0
         },
         {
           "name": "Titos",
@@ -70,13 +70,6 @@
           "category": "Liquor",
           "qty": 5.0,
           "gross": 35.0
-        },
-        {
-          "name": "Bartons natural Vodka (Well)",
-          "variation": "Regular",
-          "category": "Vodka",
-          "qty": 5.0,
-          "gross": 30.0
         },
         {
           "name": "Lime - Ade",
@@ -128,6 +121,13 @@
           "gross": 12.0
         },
         {
+          "name": "Coors Banquet",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 3.0,
+          "gross": 12.0
+        },
+        {
           "name": "Echo Bay  Sauvignon Blanc",
           "variation": "Regular",
           "category": "Wine",
@@ -161,6 +161,13 @@
           "category": "Liquor",
           "qty": 3.0,
           "gross": 24.0
+        },
+        {
+          "name": "Bartons natural Vodka (Well)",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 3.0,
+          "gross": 18.0
         },
         {
           "name": "Voodoo Ranger Atomic Pumpkin",
@@ -224,13 +231,6 @@
           "category": "Specialty Drinks",
           "qty": 2.0,
           "gross": 20.0
-        },
-        {
-          "name": "Coors Banquet",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 2.0,
-          "gross": 8.0
         },
         {
           "name": "Lemon Shake Up",
@@ -452,9 +452,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 852.2,
-    "transaction_count": 47,
+    "net_sales": 835.2,
+    "transaction_count": 48,
     "tips": 23.4,
-    "open_tab_total": 578.0
+    "open_tab_total": 561.0
   }
 }
