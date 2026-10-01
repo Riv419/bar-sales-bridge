@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-01T06:06:06Z",
-  "generated_at_et": "2026-10-01 02:06:06 EDT",
+  "generated_at_utc": "2026-10-01T11:12:39Z",
+  "generated_at_et": "2026-10-01 07:12:39 EDT",
   "business_day": "2026-09-30",
   "business_day_start_et": "2026-09-30 04:00 EDT",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-09-30T08:00:00Z",
-  "window_end_utc": "2026-10-01T06:06:06Z",
+  "window_end_utc": "2026-10-01T08:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -77,13 +77,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 598.8,
-      "tax_backout_base": 560.94,
+      "net_sales": 658.2,
+      "tax_backout_base": 616.58,
       "transaction_count": 29,
-      "completed_count": 15,
-      "open_count": 14,
-      "open_tab_total": 346.2,
-      "tips": 6.8,
+      "completed_count": 27,
+      "open_count": 2,
+      "open_tab_total": 106.0,
+      "tips": 66.2,
       "tax_collected": 0.0,
       "cash_total": 149.8,
       "card_total": 531.45,
@@ -117,13 +117,6 @@
           "gross": 54.0
         },
         {
-          "name": "Corona Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 4.0,
-          "gross": 20.0
-        },
-        {
           "name": "Paddle Paloma",
           "variation": "Regular",
           "category": "Specialty Drinks",
@@ -131,21 +124,14 @@
           "gross": 48.0
         },
         {
-          "name": "Superlyte Lemon Lime",
+          "name": "Corona Light",
           "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 3.0,
-          "gross": 18.0
+          "category": "Canned Beer",
+          "qty": 4.0,
+          "gross": 20.0
         },
         {
-          "name": "Espolon Reposado",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 3.0,
-          "gross": 30.0
-        },
-        {
-          "name": "Michelob Ultra Can",
+          "name": "Narragansett Can",
           "variation": "Regular",
           "category": "Canned Beer",
           "qty": 3.0,
@@ -159,13 +145,6 @@
           "gross": 21.0
         },
         {
-          "name": "Ketel One",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 3.0,
-          "gross": 24.0
-        },
-        {
           "name": "Voodoo Ranger Atomic Pumpkin",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -173,7 +152,35 @@
           "gross": 21.0
         },
         {
-          "name": "Narragansett Can",
+          "name": "Bourbonade",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 3.0,
+          "gross": 42.0
+        },
+        {
+          "name": "Espolon Reposado",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 3.0,
+          "gross": 30.0
+        },
+        {
+          "name": "Ketel One",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 3.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Superlyte Lemon Lime",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 3.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Michelob Ultra Can",
           "variation": "Regular",
           "category": "Canned Beer",
           "qty": 3.0,
@@ -187,16 +194,16 @@
           "gross": 27.0
         },
         {
-          "name": "Bourbonade",
+          "name": "Titos",
           "variation": "Regular",
-          "category": "Bourbon",
-          "qty": 3.0,
-          "gross": 42.0
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 14.0
         },
         {
-          "name": "Big Nut",
+          "name": "Surfside Strawberry",
           "variation": "Regular",
-          "category": "Specialty Drinks",
+          "category": "Canned Drinks",
           "qty": 2.0,
           "gross": 12.0
         },
@@ -204,6 +211,13 @@
           "name": "Superlyte Blue",
           "variation": "Regular",
           "category": "Seltzers",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Big Nut",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
           "qty": 2.0,
           "gross": 12.0
         },
@@ -236,18 +250,18 @@
           "gross": 20.0
         },
         {
-          "name": "Surfside Strawberry",
+          "name": "Soda",
           "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 2.0,
-          "gross": 12.0
+          "category": "Beverages",
+          "qty": 1.0,
+          "gross": 3.0
         },
         {
-          "name": "Titos",
+          "name": "Cucumber Smash",
           "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 14.0
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
         },
         {
           "name": "Bulleit Bourbon",
@@ -313,13 +327,6 @@
           "gross": 1.0
         },
         {
-          "name": "Soda",
-          "variation": "Regular",
-          "category": "Beverages",
-          "qty": 1.0,
-          "gross": 3.0
-        },
-        {
           "name": "Great Lakes Oktoberfest",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -346,13 +353,6 @@
           "category": "Liquor",
           "qty": 1.0,
           "gross": 6.0
-        },
-        {
-          "name": "Cucumber Smash",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
         }
       ],
       "custom_amount_items": []
@@ -420,9 +420,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 867.9,
+    "net_sales": 927.3,
     "transaction_count": 39,
-    "tips": 43.9,
-    "open_tab_total": 406.2
+    "tips": 103.3,
+    "open_tab_total": 166.0
   }
 }
