@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-02T10:45:17Z",
-  "generated_at_et": "2026-10-02 06:45:17 EDT",
+  "generated_at_utc": "2026-10-02T11:09:52Z",
+  "generated_at_et": "2026-10-02 07:09:52 EDT",
   "business_day": "2026-10-02",
   "business_day_start_et": "2026-10-02 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-02T08:00:00Z",
-  "window_end_utc": "2026-10-02T10:45:17Z",
+  "window_end_utc": "2026-10-02T11:09:52Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -122,18 +122,39 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 28.8,
-      "tax_backout_base": 26.98,
-      "transaction_count": 1,
-      "completed_count": 1,
+      "net_sales": 72.0,
+      "tax_backout_base": 67.45,
+      "transaction_count": 2,
+      "completed_count": 2,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 4.8,
+      "tips": 12.0,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 28.8,
+      "card_total": 72.0,
       "discounts": [],
       "line_items": [
+        {
+          "name": "Magic Moment",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Chic-A-Cherry Cola",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Kentucky Mulekick",
+          "variation": "Regular",
+          "category": "Mules",
+          "qty": 1.0,
+          "gross": 10.0
+        },
         {
           "name": "Old Fashioned",
           "variation": "Regular",
@@ -154,9 +175,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 157.85,
-    "transaction_count": 3,
-    "tips": 27.85,
+    "net_sales": 201.05,
+    "transaction_count": 4,
+    "tips": 35.05,
     "open_tab_total": 0.0
   }
 }
