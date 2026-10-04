@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-04T02:41:38Z",
-  "generated_at_et": "2026-10-03 22:41:38 EDT",
+  "generated_at_utc": "2026-10-04T06:01:46Z",
+  "generated_at_et": "2026-10-04 02:01:46 EDT",
   "business_day": "2026-10-03",
   "business_day_start_et": "2026-10-03 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-03T08:00:00Z",
-  "window_end_utc": "2026-10-04T02:41:38Z",
+  "window_end_utc": "2026-10-04T06:01:46Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -151,16 +151,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 2259.2,
-      "tax_backout_base": 2116.35,
-      "transaction_count": 120,
-      "completed_count": 39,
-      "open_count": 81,
-      "open_tab_total": 1782.8,
+      "net_sales": 2341.2,
+      "tax_backout_base": 2193.16,
+      "transaction_count": 124,
+      "completed_count": 41,
+      "open_count": 83,
+      "open_tab_total": 1860.8,
       "tips": 0.0,
       "tax_collected": 0.0,
-      "cash_total": 476.4,
-      "card_total": 2146.5,
+      "cash_total": 480.4,
+      "card_total": 2249.65,
       "discounts": [
         {
           "name": "Mug Club",
@@ -178,22 +178,22 @@
           "name": "Pumpkin Spice Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 44.0,
-          "gross": 176.0
+          "qty": 47.0,
+          "gross": 188.0
         },
         {
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 35.0,
-          "gross": 105.0
+          "qty": 38.0,
+          "gross": 114.0
         },
         {
           "name": "Lemon Shake Up",
           "variation": "Regular",
           "category": "Specialty Drinks",
-          "qty": 15.0,
-          "gross": 135.0
+          "qty": 16.0,
+          "gross": 144.0
         },
         {
           "name": "Michelob Ultra Can",
@@ -224,6 +224,13 @@
           "gross": 54.0
         },
         {
+          "name": "Miller Lite Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 9.0,
+          "gross": 36.0
+        },
+        {
           "name": "Busch Light",
           "variation": "Regular",
           "category": "Canned Beer",
@@ -245,18 +252,18 @@
           "gross": 32.0
         },
         {
+          "name": "Titos",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 7.0,
+          "gross": 49.0
+        },
+        {
           "name": "Maine Prince Percy",
           "variation": "Regular",
           "category": "Draft Beer",
           "qty": 7.0,
           "gross": 63.0
-        },
-        {
-          "name": "Miller Lite Can",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 7.0,
-          "gross": 28.0
         },
         {
           "name": "Bartons natural Vodka (Well)",
@@ -292,6 +299,13 @@
           "category": "Specialty Drinks",
           "qty": 6.0,
           "gross": 60.0
+        },
+        {
+          "name": "Old Style",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 5.0,
+          "gross": 20.0
         },
         {
           "name": "Surfside Ice Tea & Vodka",
@@ -350,13 +364,6 @@
           "gross": 45.0
         },
         {
-          "name": "Old Style",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 4.0,
-          "gross": 16.0
-        },
-        {
           "name": "Market Garden Shandy",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -413,18 +420,18 @@
           "gross": 18.0
         },
         {
-          "name": "Titos",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 3.0,
-          "gross": 21.0
-        },
-        {
           "name": "Allagash Haunted House",
           "variation": "Regular",
           "category": null,
           "qty": 3.0,
           "gross": 21.0
+        },
+        {
+          "name": "Surfside Strawberry",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 3.0,
+          "gross": 18.0
         },
         {
           "name": "Modelo ESP bottle",
@@ -467,13 +474,6 @@
           "category": "Snacks",
           "qty": 3.0,
           "gross": 6.0
-        },
-        {
-          "name": "Labatt Non-Alcoholic",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 8.0
         },
         {
           "name": "Surfside Lemonade & Vodka",
@@ -532,11 +532,11 @@
           "gross": 20.0
         },
         {
-          "name": "Surfside Strawberry",
+          "name": "Pacifico",
           "variation": "Regular",
-          "category": "Canned Drinks",
+          "category": "Bottled Beer",
           "qty": 2.0,
-          "gross": 12.0
+          "gross": 10.0
         },
         {
           "name": "Little Kings",
@@ -621,6 +621,13 @@
           "category": "Rum",
           "qty": 1.0,
           "gross": 6.0
+        },
+        {
+          "name": "Labatt Non-Alcoholic",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
         },
         {
           "name": "Narragansett Lager",
@@ -803,31 +810,37 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 1300.51,
-      "tax_backout_base": 1218.28,
-      "transaction_count": 36,
-      "completed_count": 6,
-      "open_count": 30,
-      "open_tab_total": 1102.0,
+      "net_sales": 1479.61,
+      "tax_backout_base": 1386.05,
+      "transaction_count": 41,
+      "completed_count": 8,
+      "open_count": 33,
+      "open_tab_total": 1244.0,
       "tips": 35.7,
       "tax_collected": 0.81,
-      "cash_total": 27.0,
-      "card_total": 1481.76,
-      "discounts": [],
+      "cash_total": 64.1,
+      "card_total": 1700.16,
+      "discounts": [
+        {
+          "name": "Employee Discount",
+          "amount": 0.0,
+          "count": 1
+        }
+      ],
       "line_items": [
+        {
+          "name": "Weekly Special",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 20.0,
+          "gross": 240.0
+        },
         {
           "name": "Whiskey Sour",
           "variation": "Regular",
           "category": "Bourbon - Whiskey",
           "qty": 17.0,
           "gross": 238.0
-        },
-        {
-          "name": "Weekly Special",
-          "variation": "Regular",
-          "category": "Specialty",
-          "qty": 16.0,
-          "gross": 192.0
         },
         {
           "name": "Old Fashioned",
@@ -840,15 +853,36 @@
           "name": "Paulaner",
           "variation": "Regular",
           "category": "Beer",
-          "qty": 5.0,
-          "gross": 25.0
+          "qty": 6.0,
+          "gross": 30.0
+        },
+        {
+          "name": "Betty White Lady",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 6.0,
+          "gross": 84.0
         },
         {
           "name": "Pimm's Cup",
           "variation": "Regular",
           "category": "Gin",
+          "qty": 5.0,
+          "gross": 60.0
+        },
+        {
+          "name": "French 75",
+          "variation": "Regular",
+          "category": "Gin",
           "qty": 4.0,
           "gross": 48.0
+        },
+        {
+          "name": "Rand McNally\u2019s Remedy",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 3.0,
+          "gross": 42.0
         },
         {
           "name": "Greyhound",
@@ -865,11 +899,11 @@
           "gross": 45.0
         },
         {
-          "name": "Betty White Lady",
+          "name": "Soda (All)",
           "variation": "Regular",
-          "category": "Gin",
+          "category": "Soda",
           "qty": 3.0,
-          "gross": 42.0
+          "gross": 6.0
         },
         {
           "name": "Barton Vodka",
@@ -907,9 +941,9 @@
           "gross": 24.0
         },
         {
-          "name": "French 75",
+          "name": "White Night",
           "variation": "Regular",
-          "category": "Gin",
+          "category": "Modern Cocktails",
           "qty": 2.0,
           "gross": 24.0
         },
@@ -921,18 +955,18 @@
           "gross": 24.0
         },
         {
-          "name": "Rand McNally\u2019s Remedy",
-          "variation": "Regular",
-          "category": "Specialty",
-          "qty": 2.0,
-          "gross": 28.0
-        },
-        {
           "name": "Monkey 47",
           "variation": "Regular",
           "category": "Gin",
           "qty": 2.0,
           "gross": 32.0
+        },
+        {
+          "name": "Singapore Sling",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 1.0,
+          "gross": 15.0
         },
         {
           "name": "Corpse Reviver #2",
@@ -961,6 +995,20 @@
           "category": "Gin",
           "qty": 1.0,
           "gross": 12.0
+        },
+        {
+          "name": "Corazon Reposado",
+          "variation": "Regular",
+          "category": "Tequila",
+          "qty": 1.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Jameson",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 8.0
         },
         {
           "name": "Negroni",
@@ -1054,13 +1102,6 @@
           "gross": 14.0
         },
         {
-          "name": "White Night",
-          "variation": "Regular",
-          "category": "Modern Cocktails",
-          "qty": 1.0,
-          "gross": 12.0
-        },
-        {
           "name": "The Old San Juan",
           "variation": "Regular",
           "category": "Weekly Special",
@@ -1080,9 +1121,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 3796.11,
-    "transaction_count": 170,
+    "net_sales": 4057.21,
+    "transaction_count": 179,
     "tips": 64.9,
-    "open_tab_total": 2884.8
+    "open_tab_total": 3104.8
   }
 }
