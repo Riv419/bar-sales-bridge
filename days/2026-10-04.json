@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-04T10:46:32Z",
-  "generated_at_et": "2026-10-04 06:46:32 EDT",
+  "generated_at_utc": "2026-10-04T11:09:14Z",
+  "generated_at_et": "2026-10-04 07:09:14 EDT",
   "business_day": "2026-10-04",
   "business_day_start_et": "2026-10-04 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-04T08:00:00Z",
-  "window_end_utc": "2026-10-04T10:46:32Z",
+  "window_end_utc": "2026-10-04T11:09:14Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -44,26 +44,48 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 0.0,
-      "tax_backout_base": 0.0,
-      "transaction_count": 0,
-      "completed_count": 0,
+      "net_sales": 57.5,
+      "tax_backout_base": 53.86,
+      "transaction_count": 2,
+      "completed_count": 2,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 0.0,
+      "tips": 11.5,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 0.0,
+      "card_total": 57.5,
       "discounts": [],
-      "line_items": [],
+      "line_items": [
+        {
+          "name": "Greyhound",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Margarita",
+          "variation": "Regular",
+          "category": "Tequila",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Kentucky Mulekick",
+          "variation": "Regular",
+          "category": "Mules",
+          "qty": 1.0,
+          "gross": 10.0
+        }
+      ],
       "custom_amount_items": []
     }
   },
   "errors": [],
   "combined": {
-    "net_sales": 0.0,
-    "transaction_count": 0,
-    "tips": 0.0,
+    "net_sales": 57.5,
+    "transaction_count": 2,
+    "tips": 11.5,
     "open_tab_total": 0.0
   }
 }
