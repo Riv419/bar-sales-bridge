@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-06T12:05:03Z",
-  "generated_at_et": "2026-10-06 08:05:03 EDT",
+  "generated_at_utc": "2026-10-06T23:50:20Z",
+  "generated_at_et": "2026-10-06 19:50:20 EDT",
   "business_day": "2026-10-06",
   "business_day_start_et": "2026-10-06 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-06T08:00:00Z",
-  "window_end_utc": "2026-10-06T12:05:03Z",
+  "window_end_utc": "2026-10-06T23:50:20Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,24 +27,156 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 39.6,
-      "tax_backout_base": 37.1,
-      "transaction_count": 1,
-      "completed_count": 1,
-      "open_count": 0,
-      "open_tab_total": 0.0,
+      "net_sales": 415.6,
+      "tax_backout_base": 389.32,
+      "transaction_count": 25,
+      "completed_count": 12,
+      "open_count": 13,
+      "open_tab_total": 235.0,
       "tips": 6.6,
       "tax_collected": 0.0,
-      "cash_total": 0.0,
-      "card_total": 39.6,
-      "discounts": [],
+      "cash_total": 141.0,
+      "card_total": 324.85,
+      "discounts": [
+        {
+          "name": "Mug Club",
+          "amount": 1.0,
+          "count": 1
+        }
+      ],
       "line_items": [
+        {
+          "name": "Bartons natural Vodka (Well)",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 9.0,
+          "gross": 54.0
+        },
+        {
+          "name": "Lemon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 6.0,
+          "gross": 54.0
+        },
+        {
+          "name": "Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 5.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Kona Big Wave",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 4.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Captain Morgan",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 4.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Market Garden Shandy",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 3.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Jameson",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 3.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Bota Box Pinot Grigio",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 2.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Fatheads Headhunter",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Kirin Ichiban",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 12.0
+        },
         {
           "name": "Paddle Margarita",
           "variation": "Regular",
           "category": "Specialty Drinks",
           "qty": 2.0,
           "gross": 20.0
+        },
+        {
+          "name": "Premium Liquor",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Paddle Paloma",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Echo Bay  Sauvignon Blanc",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Espolon Blanco",
+          "variation": "Regular",
+          "category": "Tequila",
+          "qty": 1.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Bud Light Bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Jack Daniels",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 7.0
         },
         {
           "name": "Allagash Haunted House",
@@ -57,6 +189,76 @@
           "name": "Hofbrau",
           "variation": "Regular",
           "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Cucumber Smash",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Red Stripe",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Titos",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Chips",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 1.0,
+          "gross": 2.0
+        },
+        {
+          "name": "Hamm\u2019s",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
+          "name": "Old Style",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Blatz",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
+          "name": "Orange Creamsicle",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Jackie O's Close but Far",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Empire Kolsch",
+          "variation": "Regular",
+          "category": null,
           "qty": 1.0,
           "gross": 6.0
         }
@@ -112,9 +314,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 104.6,
-    "transaction_count": 2,
+    "net_sales": 480.6,
+    "transaction_count": 26,
     "tips": 19.6,
-    "open_tab_total": 0.0
+    "open_tab_total": 235.0
   }
 }
