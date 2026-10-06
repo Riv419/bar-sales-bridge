@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-06T01:18:46Z",
-  "generated_at_et": "2026-10-05 21:18:46 EDT",
+  "generated_at_utc": "2026-10-06T06:29:58Z",
+  "generated_at_et": "2026-10-06 02:29:58 EDT",
   "business_day": "2026-10-04",
   "business_day_start_et": "2026-10-04 04:00 EDT",
   "is_final": true,
@@ -294,16 +294,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 1388.5,
-      "tax_backout_base": 1300.7,
-      "transaction_count": 77,
+      "net_sales": 1358.5,
+      "tax_backout_base": 1272.6,
+      "transaction_count": 76,
       "completed_count": 72,
-      "open_count": 5,
-      "open_tab_total": 155.0,
+      "open_count": 4,
+      "open_tab_total": 125.0,
       "tips": 158.5,
       "tax_collected": 0.0,
       "cash_total": 269.0,
-      "card_total": 1141.2,
+      "card_total": 1103.7,
       "discounts": [
         {
           "name": "Mug Club",
@@ -635,13 +635,6 @@
           "gross": 12.0
         },
         {
-          "name": "Monkey 47",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 30.0
-        },
-        {
           "name": "Michelob Ultra Can",
           "variation": "Regular",
           "category": "Canned Beer",
@@ -965,9 +958,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 3000.5,
-    "transaction_count": 144,
+    "net_sales": 2970.5,
+    "transaction_count": 143,
     "tips": 356.5,
-    "open_tab_total": 207.0
+    "open_tab_total": 177.0
   }
 }

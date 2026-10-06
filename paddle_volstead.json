@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-06T01:18:46Z",
-  "generated_at_et": "2026-10-05 21:18:46 EDT",
+  "generated_at_utc": "2026-10-06T06:29:58Z",
+  "generated_at_et": "2026-10-06 02:29:58 EDT",
   "business_day": "2026-10-05",
   "business_day_start_et": "2026-10-05 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-05T08:00:00Z",
-  "window_end_utc": "2026-10-06T01:18:46Z",
+  "window_end_utc": "2026-10-06T06:29:58Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,17 +27,28 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 1112.85,
-      "tax_backout_base": 1042.48,
-      "transaction_count": 50,
-      "completed_count": 26,
-      "open_count": 24,
-      "open_tab_total": 540.0,
-      "tips": 65.85,
+      "net_sales": 1185.95,
+      "tax_backout_base": 1110.96,
+      "transaction_count": 53,
+      "completed_count": 28,
+      "open_count": 25,
+      "open_tab_total": 572.6,
+      "tips": 73.35,
       "tax_collected": 0.0,
-      "cash_total": 191.0,
-      "card_total": 995.55,
-      "discounts": [],
+      "cash_total": 194.0,
+      "card_total": 1110.55,
+      "discounts": [
+        {
+          "name": "Mug Club",
+          "amount": 2.0,
+          "count": 1
+        },
+        {
+          "name": "Employee Discount",
+          "amount": 0.0,
+          "count": 1
+        }
+      ],
       "line_items": [
         {
           "name": "Kona Big Wave",
@@ -68,18 +79,18 @@
           "gross": 54.0
         },
         {
+          "name": "Fatheads Headhunter",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 7.0,
+          "gross": 49.0
+        },
+        {
           "name": "Jim Beam",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 6.0,
           "gross": 36.0
-        },
-        {
-          "name": "Fatheads Headhunter",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 6.0,
-          "gross": 42.0
         },
         {
           "name": "Busch Light",
@@ -94,6 +105,13 @@
           "category": "Canned Beer",
           "qty": 5.0,
           "gross": 30.0
+        },
+        {
+          "name": "Delirium Tremens",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 5.0,
+          "gross": 45.0
         },
         {
           "name": "Bud Light Bottle",
@@ -131,18 +149,18 @@
           "gross": 40.0
         },
         {
-          "name": "Delirium Tremens",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 4.0,
-          "gross": 36.0
-        },
-        {
           "name": "Red Stripe",
           "variation": "Regular",
           "category": "Bottled Beer",
           "qty": 4.0,
           "gross": 20.0
+        },
+        {
+          "name": "Soda",
+          "variation": "Regular",
+          "category": "Beverages",
+          "qty": 3.0,
+          "gross": 9.0
         },
         {
           "name": "Paddle Margarita",
@@ -166,18 +184,18 @@
           "gross": 18.0
         },
         {
-          "name": "Soda",
-          "variation": "Regular",
-          "category": "Beverages",
-          "qty": 3.0,
-          "gross": 9.0
-        },
-        {
           "name": "Surfside Strawberry",
           "variation": "Regular",
           "category": "Canned Drinks",
           "qty": 3.0,
           "gross": 18.0
+        },
+        {
+          "name": "Modelo ESP bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 3.0,
+          "gross": 15.0
         },
         {
           "name": "Michelob Ultra Can",
@@ -206,6 +224,13 @@
           "category": "Bottled Beer",
           "qty": 3.0,
           "gross": 6.0
+        },
+        {
+          "name": "Monkey 47",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 30.0
         },
         {
           "name": "Bota Box Pinot Grigio",
@@ -248,13 +273,6 @@
           "category": "Liquor",
           "qty": 2.0,
           "gross": 8.0
-        },
-        {
-          "name": "Modelo ESP bottle",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 2.0,
-          "gross": 10.0
         },
         {
           "name": "Empire Kolsch",
@@ -411,11 +429,39 @@
           "gross": 4.0
         },
         {
+          "name": "Narragansett Fresh Catch",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Chips",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 1.0,
+          "gross": 2.0
+        },
+        {
+          "name": "Allagash Haunted House",
+          "variation": "Regular",
+          "category": null,
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
           "name": "Mocktail",
           "variation": "Regular",
           "category": "Specialty Drinks",
           "qty": 1.0,
           "gross": 5.0
+        },
+        {
+          "name": "Premium Liquor",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 4.0
         },
         {
           "name": "Coors Banquet",
@@ -472,16 +518,16 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 1514.0,
-      "tax_backout_base": 1418.27,
-      "transaction_count": 36,
+      "net_sales": 1526.0,
+      "tax_backout_base": 1429.51,
+      "transaction_count": 37,
       "completed_count": 32,
-      "open_count": 4,
-      "open_tab_total": 91.0,
+      "open_count": 5,
+      "open_tab_total": 103.0,
       "tips": 250.0,
       "tax_collected": 0.0,
       "cash_total": 68.0,
-      "card_total": 1476.9,
+      "card_total": 1491.9,
       "discounts": [],
       "line_items": [
         {
@@ -509,8 +555,8 @@
           "name": "Old Fashioned",
           "variation": "Regular",
           "category": "Bourbon - Whiskey",
-          "qty": 9.0,
-          "gross": 108.0
+          "qty": 10.0,
+          "gross": 120.0
         },
         {
           "name": "Paulaner",
@@ -756,9 +802,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 2626.85,
-    "transaction_count": 86,
-    "tips": 315.85,
-    "open_tab_total": 631.0
+    "net_sales": 2711.95,
+    "transaction_count": 90,
+    "tips": 323.35,
+    "open_tab_total": 675.6
   }
 }
