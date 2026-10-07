@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-06T23:50:20Z",
-  "generated_at_et": "2026-10-06 19:50:20 EDT",
+  "generated_at_utc": "2026-10-07T06:09:00Z",
+  "generated_at_et": "2026-10-07 02:09:00 EDT",
   "business_day": "2026-10-06",
   "business_day_start_et": "2026-10-06 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-06T08:00:00Z",
-  "window_end_utc": "2026-10-06T23:50:20Z",
+  "window_end_utc": "2026-10-07T06:09:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,30 +27,42 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 415.6,
-      "tax_backout_base": 389.32,
-      "transaction_count": 25,
-      "completed_count": 12,
-      "open_count": 13,
-      "open_tab_total": 235.0,
+      "net_sales": 658.6,
+      "tax_backout_base": 616.96,
+      "transaction_count": 35,
+      "completed_count": 18,
+      "open_count": 17,
+      "open_tab_total": 421.6,
       "tips": 6.6,
       "tax_collected": 0.0,
-      "cash_total": 141.0,
-      "card_total": 324.85,
+      "cash_total": 191.4,
+      "card_total": 551.95,
       "discounts": [
         {
           "name": "Mug Club",
           "amount": 1.0,
           "count": 1
+        },
+        {
+          "name": "Employee Discount",
+          "amount": 0.0,
+          "count": 2
         }
       ],
       "line_items": [
         {
+          "name": "Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 16.0,
+          "gross": 48.0
+        },
+        {
           "name": "Bartons natural Vodka (Well)",
           "variation": "Regular",
           "category": "Vodka",
-          "qty": 9.0,
-          "gross": 54.0
+          "qty": 10.0,
+          "gross": 60.0
         },
         {
           "name": "Lemon Shake Up",
@@ -60,11 +72,11 @@
           "gross": 54.0
         },
         {
-          "name": "Hot Nut",
+          "name": "Ketel One",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 5.0,
-          "gross": 15.0
+          "gross": 40.0
         },
         {
           "name": "Kona Big Wave",
@@ -74,6 +86,27 @@
           "gross": 24.0
         },
         {
+          "name": "Fatheads Headhunter",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 4.0,
+          "gross": 28.0
+        },
+        {
+          "name": "Market Garden Shandy",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 4.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Pumpkin Spice Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 4.0,
+          "gross": 16.0
+        },
+        {
           "name": "Captain Morgan",
           "variation": "Regular",
           "category": "Liquor",
@@ -81,11 +114,18 @@
           "gross": 24.0
         },
         {
-          "name": "Market Garden Shandy",
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 3.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Delirium Tremens",
           "variation": "Regular",
           "category": "Draft Beer",
           "qty": 3.0,
-          "gross": 18.0
+          "gross": 27.0
         },
         {
           "name": "Jameson",
@@ -95,25 +135,25 @@
           "gross": 24.0
         },
         {
+          "name": "Miller Lite Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Fat Tire",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
           "name": "Bota Box Pinot Grigio",
           "variation": "Regular",
           "category": "Wine",
           "qty": 2.0,
           "gross": 10.0
-        },
-        {
-          "name": "Busch Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Fatheads Headhunter",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 2.0,
-          "gross": 14.0
         },
         {
           "name": "Kirin Ichiban",
@@ -130,6 +170,13 @@
           "gross": 20.0
         },
         {
+          "name": "Whistlepig Rye 6 Year",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 28.0
+        },
+        {
           "name": "Premium Liquor",
           "variation": "Regular",
           "category": "Liquor",
@@ -142,6 +189,20 @@
           "category": "Specialty Drinks",
           "qty": 2.0,
           "gross": 24.0
+        },
+        {
+          "name": "Surfside Strawberry",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Hendricks",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 12.0
         },
         {
           "name": "Echo Bay  Sauvignon Blanc",
@@ -191,6 +252,41 @@
           "category": "Bottled Beer",
           "qty": 1.0,
           "gross": 6.0
+        },
+        {
+          "name": "Presidente",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Superlyte Orange",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Superlyte Fruit Punch",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Superlyte Lemon Lime",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Weller Full Proof",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 1.0,
+          "gross": 18.0
         },
         {
           "name": "Cucumber Smash",
@@ -314,9 +410,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 480.6,
-    "transaction_count": 26,
+    "net_sales": 723.6,
+    "transaction_count": 36,
     "tips": 19.6,
-    "open_tab_total": 235.0
+    "open_tab_total": 421.6
   }
 }
