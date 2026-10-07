@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-07T06:09:00Z",
-  "generated_at_et": "2026-10-07 02:09:00 EDT",
+  "generated_at_utc": "2026-10-07T11:22:58Z",
+  "generated_at_et": "2026-10-07 07:22:58 EDT",
   "business_day": "2026-10-06",
   "business_day_start_et": "2026-10-06 04:00 EDT",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-10-06T08:00:00Z",
-  "window_end_utc": "2026-10-07T06:09:00Z",
+  "window_end_utc": "2026-10-07T08:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,13 +27,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 658.6,
-      "tax_backout_base": 616.96,
+      "net_sales": 728.7,
+      "tax_backout_base": 682.62,
       "transaction_count": 35,
-      "completed_count": 18,
-      "open_count": 17,
-      "open_tab_total": 421.6,
-      "tips": 6.6,
+      "completed_count": 32,
+      "open_count": 3,
+      "open_tab_total": 116.0,
+      "tips": 76.7,
       "tax_collected": 0.0,
       "cash_total": 191.4,
       "card_total": 551.95,
@@ -79,6 +79,27 @@
           "gross": 40.0
         },
         {
+          "name": "Pumpkin Spice Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 4.0,
+          "gross": 16.0
+        },
+        {
+          "name": "Market Garden Shandy",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 4.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Captain Morgan",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 4.0,
+          "gross": 24.0
+        },
+        {
           "name": "Kona Big Wave",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -91,27 +112,6 @@
           "category": "Draft Beer",
           "qty": 4.0,
           "gross": 28.0
-        },
-        {
-          "name": "Market Garden Shandy",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 4.0,
-          "gross": 24.0
-        },
-        {
-          "name": "Pumpkin Spice Hot Nut",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 4.0,
-          "gross": 16.0
-        },
-        {
-          "name": "Captain Morgan",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 4.0,
-          "gross": 24.0
         },
         {
           "name": "Busch Light",
@@ -135,6 +135,34 @@
           "gross": 24.0
         },
         {
+          "name": "Paddle Paloma",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Whistlepig Rye 6 Year",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 28.0
+        },
+        {
+          "name": "Premium Liquor",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Kirin Ichiban",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
           "name": "Miller Lite Can",
           "variation": "Regular",
           "category": "Canned Beer",
@@ -156,13 +184,6 @@
           "gross": 10.0
         },
         {
-          "name": "Kirin Ichiban",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 2.0,
-          "gross": 12.0
-        },
-        {
           "name": "Paddle Margarita",
           "variation": "Regular",
           "category": "Specialty Drinks",
@@ -170,25 +191,95 @@
           "gross": 20.0
         },
         {
-          "name": "Whistlepig Rye 6 Year",
+          "name": "Presidente",
           "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 28.0
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
         },
         {
-          "name": "Premium Liquor",
+          "name": "Superlyte Orange",
           "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 8.0
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
         },
         {
-          "name": "Paddle Paloma",
+          "name": "Chips",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 1.0,
+          "gross": 2.0
+        },
+        {
+          "name": "Superlyte Fruit Punch",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Superlyte Lemon Lime",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Weller Full Proof",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 1.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Orange Creamsicle",
           "variation": "Regular",
           "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 24.0
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Hamm\u2019s",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
+          "name": "Old Style",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Blatz",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
+          "name": "Cucumber Smash",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Red Stripe",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Titos",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 7.0
         },
         {
           "name": "Surfside Strawberry",
@@ -252,97 +343,6 @@
           "category": "Bottled Beer",
           "qty": 1.0,
           "gross": 6.0
-        },
-        {
-          "name": "Presidente",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Superlyte Orange",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Superlyte Fruit Punch",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Superlyte Lemon Lime",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Weller Full Proof",
-          "variation": "Regular",
-          "category": "Bourbon",
-          "qty": 1.0,
-          "gross": 18.0
-        },
-        {
-          "name": "Cucumber Smash",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Red Stripe",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Titos",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Chips",
-          "variation": "Regular",
-          "category": "Snacks",
-          "qty": 1.0,
-          "gross": 2.0
-        },
-        {
-          "name": "Hamm\u2019s",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 3.0
-        },
-        {
-          "name": "Old Style",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Blatz",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 3.0
-        },
-        {
-          "name": "Orange Creamsicle",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 12.0
         },
         {
           "name": "Jackie O's Close but Far",
@@ -410,9 +410,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 723.6,
+    "net_sales": 793.7,
     "transaction_count": 36,
-    "tips": 19.6,
-    "open_tab_total": 421.6
+    "tips": 89.7,
+    "open_tab_total": 116.0
   }
 }
