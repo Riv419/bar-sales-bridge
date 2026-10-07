@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-07T11:22:58Z",
-  "generated_at_et": "2026-10-07 07:22:58 EDT",
+  "generated_at_utc": "2026-10-07T11:50:39Z",
+  "generated_at_et": "2026-10-07 07:50:39 EDT",
   "business_day": "2026-10-07",
   "business_day_start_et": "2026-10-07 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-07T08:00:00Z",
-  "window_end_utc": "2026-10-07T11:22:58Z",
+  "window_end_utc": "2026-10-07T11:50:39Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -94,24 +94,24 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 111.9,
-      "tax_backout_base": 104.82,
-      "transaction_count": 3,
-      "completed_count": 3,
+      "net_sales": 121.9,
+      "tax_backout_base": 114.19,
+      "transaction_count": 4,
+      "completed_count": 4,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 27.9,
+      "tips": 30.9,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 111.9,
+      "card_total": 121.9,
       "discounts": [],
       "line_items": [
         {
           "name": "Martini Monday",
           "variation": "Regular",
           "category": "other",
-          "qty": 3.0,
-          "gross": 21.0
+          "qty": 4.0,
+          "gross": 28.0
         },
         {
           "name": "Paulaner",
@@ -154,9 +154,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 214.05,
-    "transaction_count": 6,
-    "tips": 37.05,
+    "net_sales": 224.05,
+    "transaction_count": 7,
+    "tips": 40.05,
     "open_tab_total": 0.0
   }
 }
