@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-08T11:38:28Z",
-  "generated_at_et": "2026-10-08 07:38:28 EDT",
+  "generated_at_utc": "2026-10-08T12:05:43Z",
+  "generated_at_et": "2026-10-08 08:05:43 EDT",
   "business_day": "2026-10-08",
   "business_day_start_et": "2026-10-08 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-08T08:00:00Z",
-  "window_end_utc": "2026-10-08T11:38:28Z",
+  "window_end_utc": "2026-10-08T12:05:43Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
