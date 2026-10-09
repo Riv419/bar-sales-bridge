@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-09T00:24:26Z",
-  "generated_at_et": "2026-10-08 20:24:26 EDT",
+  "generated_at_utc": "2026-10-09T06:17:54Z",
+  "generated_at_et": "2026-10-09 02:17:54 EDT",
   "business_day": "2026-10-07",
   "business_day_start_et": "2026-10-07 04:00 EDT",
   "is_final": true,
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 915.3,
-      "tax_backout_base": 857.42,
-      "transaction_count": 38,
+      "net_sales": 778.3,
+      "tax_backout_base": 729.09,
+      "transaction_count": 34,
       "completed_count": 34,
-      "open_count": 4,
-      "open_tab_total": 137.0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
       "tips": 114.9,
       "tax_collected": 0.0,
       "cash_total": 64.0,
-      "card_total": 882.6,
+      "card_total": 714.3,
       "discounts": [
         {
           "name": "Mug Club",
@@ -51,25 +51,11 @@
       ],
       "line_items": [
         {
-          "name": "Fatheads Headhunter",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 8.0,
-          "gross": 56.0
-        },
-        {
           "name": "Titos",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 8.0,
           "gross": 56.0
-        },
-        {
-          "name": "Premium Liquor",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 8.0,
-          "gross": 32.0
         },
         {
           "name": "Delirium Tremens",
@@ -93,13 +79,6 @@
           "gross": 50.0
         },
         {
-          "name": "Captain Morgan",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 5.0,
-          "gross": 30.0
-        },
-        {
           "name": "Kona Big Wave",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -107,11 +86,18 @@
           "gross": 30.0
         },
         {
-          "name": "Busch Light",
+          "name": "Fatheads Headhunter",
           "variation": "Regular",
-          "category": "Canned Beer",
+          "category": "Draft Beer",
           "qty": 4.0,
-          "gross": 12.0
+          "gross": 28.0
+        },
+        {
+          "name": "Premium Liquor",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 4.0,
+          "gross": 16.0
         },
         {
           "name": "Bota Box Pinot Grigio",
@@ -128,18 +114,11 @@
           "gross": 12.0
         },
         {
-          "name": "Jackie O's Close but Far",
+          "name": "Busch Light",
           "variation": "Regular",
           "category": "Canned Beer",
           "qty": 3.0,
-          "gross": 18.0
-        },
-        {
-          "name": "Market Garden Shandy",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 3.0,
-          "gross": 18.0
+          "gross": 9.0
         },
         {
           "name": "Fresh Fruit",
@@ -219,30 +198,23 @@
           "gross": 8.0
         },
         {
-          "name": "Lemon Shake Up",
-          "variation": "Strawberry",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 20.0
-        },
-        {
-          "name": "Cucumber Smash",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 20.0
-        },
-        {
-          "name": "Jackie O's Mystic Mama",
+          "name": "Jackie O's Close but Far",
           "variation": "Regular",
           "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 12.0
+          "qty": 1.0,
+          "gross": 6.0
         },
         {
           "name": "Empire Kolsch",
           "variation": "Regular",
           "category": null,
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Market Garden Shandy",
+          "variation": "Regular",
+          "category": "Draft Beer",
           "qty": 1.0,
           "gross": 6.0
         },
@@ -303,6 +275,20 @@
           "gross": 5.0
         },
         {
+          "name": "Lemon Shake Up",
+          "variation": "Strawberry",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Cucumber Smash",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
           "name": "The Federalist Honest Red Blend",
           "variation": "Bottle",
           "category": "Wine",
@@ -345,11 +331,11 @@
           "gross": 6.0
         },
         {
-          "name": "Paddle Margarita",
+          "name": "Captain Morgan",
           "variation": "Regular",
-          "category": "Specialty Drinks",
+          "category": "Liquor",
           "qty": 1.0,
-          "gross": 10.0
+          "gross": 6.0
         }
       ],
       "custom_amount_items": []
@@ -508,9 +494,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1315.2,
-    "transaction_count": 50,
+    "net_sales": 1178.2,
+    "transaction_count": 46,
     "tips": 148.8,
-    "open_tab_total": 386.0
+    "open_tab_total": 249.0
   }
 }
