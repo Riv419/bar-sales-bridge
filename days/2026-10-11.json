@@ -1,0 +1,161 @@
+{
+  "generated_at_utc": "2026-10-11T11:02:48Z",
+  "generated_at_et": "2026-10-11 07:02:48 EDT",
+  "business_day": "2026-10-11",
+  "business_day_start_et": "2026-10-11 04:00 EDT",
+  "is_final": false,
+  "window_start_utc": "2026-10-11T08:00:00Z",
+  "window_end_utc": "2026-10-11T11:02:48Z",
+  "bars": {
+    "tiques": {
+      "name": "Tique's",
+      "location_id": "L91FN4CPCADRA",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "paddle": {
+      "name": "Paddle Bar",
+      "location_id": "RMSRRF4GTR3J5",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "volstead": {
+      "name": "Volstead",
+      "location_id": "G9XHMF97SD95W",
+      "net_sales": 294.2,
+      "tax_backout_base": 275.6,
+      "transaction_count": 6,
+      "completed_count": 6,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 54.2,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 294.2,
+      "discounts": [],
+      "line_items": [
+        {
+          "name": "Old Fashioned",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 4.0,
+          "gross": 48.0
+        },
+        {
+          "name": "Greyhound",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Manhattan",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 2.0,
+          "gross": 26.0
+        },
+        {
+          "name": "Betty White Lady",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 2.0,
+          "gross": 28.0
+        },
+        {
+          "name": "Whiskey Sour",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Blood & Sand",
+          "variation": "Regular",
+          "category": "Scotch",
+          "qty": 1.0,
+          "gross": 13.0
+        },
+        {
+          "name": "Moscow Mule",
+          "variation": "Regular",
+          "category": "Mules",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Weekly Special",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Pain Killer",
+          "variation": "Regular",
+          "category": null,
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Aja Spice",
+          "variation": "Regular",
+          "category": "Tequila",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Frangola Bianco",
+          "variation": "Regular",
+          "category": "Mocktail / No ABV",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "The Old San Juan",
+          "variation": "Regular",
+          "category": "Weekly Special",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Gimlet",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 1.0,
+          "gross": 13.0
+        }
+      ],
+      "custom_amount_items": []
+    }
+  },
+  "errors": [],
+  "combined": {
+    "net_sales": 294.2,
+    "transaction_count": 6,
+    "tips": 54.2,
+    "open_tab_total": 0.0
+  }
+}
