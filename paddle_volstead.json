@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-11T02:13:19Z",
-  "generated_at_et": "2026-10-10 22:13:19 EDT",
+  "generated_at_utc": "2026-10-11T05:57:56Z",
+  "generated_at_et": "2026-10-11 01:57:56 EDT",
   "business_day": "2026-10-10",
   "business_day_start_et": "2026-10-10 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-10T08:00:00Z",
-  "window_end_utc": "2026-10-11T02:13:19Z",
+  "window_end_utc": "2026-10-11T05:57:56Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -181,16 +181,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 1507.6,
-      "tax_backout_base": 1412.27,
-      "transaction_count": 85,
-      "completed_count": 25,
-      "open_count": 60,
-      "open_tab_total": 1168.6,
+      "net_sales": 1654.6,
+      "tax_backout_base": 1549.98,
+      "transaction_count": 91,
+      "completed_count": 28,
+      "open_count": 63,
+      "open_tab_total": 1290.6,
       "tips": 0.0,
       "tax_collected": 0.0,
-      "cash_total": 305.0,
-      "card_total": 1364.35,
+      "cash_total": 330.0,
+      "card_total": 1608.6,
       "discounts": [
         {
           "name": "Mug Club",
@@ -208,8 +208,15 @@
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 65.0,
-          "gross": 195.0
+          "qty": 86.0,
+          "gross": 258.0
+        },
+        {
+          "name": "Maine Fall",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 15.0,
+          "gross": 135.0
         },
         {
           "name": "Busch Light",
@@ -217,13 +224,6 @@
           "category": "Canned Beer",
           "qty": 14.0,
           "gross": 42.0
-        },
-        {
-          "name": "Maine Fall",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 12.0,
-          "gross": 108.0
         },
         {
           "name": "Bartons natural Vodka (Well)",
@@ -247,6 +247,13 @@
           "gross": 28.0
         },
         {
+          "name": "Paddle Margarita",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 6.0,
+          "gross": 60.0
+        },
+        {
           "name": "Kirin Ichiban",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -268,6 +275,13 @@
           "gross": 24.0
         },
         {
+          "name": "Maine Little Whaleboat Bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 5.0,
+          "gross": 45.0
+        },
+        {
           "name": "Espolon Reposado",
           "variation": "Regular",
           "category": "Liquor",
@@ -275,11 +289,11 @@
           "gross": 50.0
         },
         {
-          "name": "Paddle Margarita",
+          "name": "Premium Liquor",
           "variation": "Regular",
-          "category": "Specialty Drinks",
+          "category": "Liquor",
           "qty": 5.0,
-          "gross": 50.0
+          "gross": 20.0
         },
         {
           "name": "Fresh Fruit",
@@ -310,18 +324,18 @@
           "gross": 50.0
         },
         {
+          "name": "Paddle Paloma",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 5.0,
+          "gross": 60.0
+        },
+        {
           "name": "Market Garden Shandy",
           "variation": "Regular",
           "category": "Draft Beer",
           "qty": 5.0,
           "gross": 30.0
-        },
-        {
-          "name": "Premium Liquor",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 4.0,
-          "gross": 16.0
         },
         {
           "name": "Delirium Tremens",
@@ -336,13 +350,6 @@
           "category": "Canned Drinks",
           "qty": 4.0,
           "gross": 24.0
-        },
-        {
-          "name": "Paddle Paloma",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 4.0,
-          "gross": 48.0
         },
         {
           "name": "Bourbonade",
@@ -378,13 +385,6 @@
           "category": "Liquor",
           "qty": 3.0,
           "gross": 21.0
-        },
-        {
-          "name": "Maine Little Whaleboat Bottle",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 3.0,
-          "gross": 27.0
         },
         {
           "name": "Lemon Shake Up",
@@ -434,6 +434,13 @@
           "category": "Canned Beer",
           "qty": 2.0,
           "gross": 10.0
+        },
+        {
+          "name": "Bulleit Bourbon",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 2.0,
+          "gross": 18.0
         },
         {
           "name": "Corona Light",
@@ -548,6 +555,13 @@
           "gross": 16.0
         },
         {
+          "name": "Labatt Non-Alcoholic",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
           "name": "Surfside Iced Tea + Lemonade",
           "variation": "Regular",
           "category": "Canned Drinks",
@@ -581,13 +595,6 @@
           "category": "Specialty Drinks",
           "qty": 1.0,
           "gross": 11.0
-        },
-        {
-          "name": "Bulleit Bourbon",
-          "variation": "Regular",
-          "category": "Bourbon",
-          "qty": 1.0,
-          "gross": 9.0
         },
         {
           "name": "Heineken 0.0",
@@ -665,16 +672,16 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 687.2,
-      "tax_backout_base": 643.75,
-      "transaction_count": 17,
-      "completed_count": 7,
-      "open_count": 10,
-      "open_tab_total": 449.0,
+      "net_sales": 802.2,
+      "tax_backout_base": 751.48,
+      "transaction_count": 20,
+      "completed_count": 9,
+      "open_count": 11,
+      "open_tab_total": 475.0,
       "tips": 16.2,
       "tax_collected": 0.0,
-      "cash_total": 75.0,
-      "card_total": 714.25,
+      "cash_total": 164.0,
+      "card_total": 745.45,
       "discounts": [],
       "line_items": [
         {
@@ -688,8 +695,15 @@
           "name": "Betty White Lady",
           "variation": "Regular",
           "category": "Gin",
+          "qty": 7.0,
+          "gross": 98.0
+        },
+        {
+          "name": "Old Fashioned",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
           "qty": 6.0,
-          "gross": 84.0
+          "gross": 72.0
         },
         {
           "name": "Paulaner",
@@ -720,6 +734,13 @@
           "gross": 36.0
         },
         {
+          "name": "Maker's Mark",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 2.0,
+          "gross": 20.0
+        },
+        {
           "name": "Whiskey Sour",
           "variation": "Regular",
           "category": "Bourbon - Whiskey",
@@ -727,11 +748,25 @@
           "gross": 28.0
         },
         {
-          "name": "Old Fashioned",
+          "name": "Soda (All)",
           "variation": "Regular",
-          "category": "Bourbon - Whiskey",
-          "qty": 2.0,
-          "gross": 24.0
+          "category": "Soda",
+          "qty": 1.0,
+          "gross": 2.0
+        },
+        {
+          "name": "Tito's Vodka",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Stowe Away",
+          "variation": "Regular",
+          "category": "After Dinner",
+          "qty": 1.0,
+          "gross": 12.0
         },
         {
           "name": "Guinness",
@@ -774,6 +809,13 @@
           "category": "Bourbon - Whiskey",
           "qty": 1.0,
           "gross": 13.0
+        },
+        {
+          "name": "Corpse Reviver #2",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 1.0,
+          "gross": 12.0
         },
         {
           "name": "Frangola Bianco",
@@ -872,9 +914,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 2757.2,
-    "transaction_count": 126,
+    "net_sales": 3019.2,
+    "transaction_count": 135,
     "tips": 85.6,
-    "open_tab_total": 1617.6
+    "open_tab_total": 1765.6
   }
 }
