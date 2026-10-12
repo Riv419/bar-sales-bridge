@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-12T12:29:23Z",
-  "generated_at_et": "2026-10-12 08:29:23 EDT",
+  "generated_at_utc": "2026-10-12T13:15:47Z",
+  "generated_at_et": "2026-10-12 09:15:47 EDT",
   "business_day": "2026-10-12",
   "business_day_start_et": "2026-10-12 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-12T08:00:00Z",
-  "window_end_utc": "2026-10-12T12:29:23Z",
+  "window_end_utc": "2026-10-12T13:15:47Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 201.35,
-      "tax_backout_base": 188.62,
-      "transaction_count": 7,
-      "completed_count": 7,
+      "net_sales": 298.2,
+      "tax_backout_base": 279.34,
+      "transaction_count": 12,
+      "completed_count": 12,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 29.35,
+      "tips": 46.2,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 201.35,
+      "card_total": 298.2,
       "discounts": [
         {
           "name": "Mug Club",
@@ -54,8 +54,15 @@
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 5.0,
-          "gross": 15.0
+          "qty": 9.0,
+          "gross": 27.0
+        },
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 3.0,
+          "gross": 9.0
         },
         {
           "name": "Maine Fall",
@@ -63,6 +70,27 @@
           "category": "Draft Beer",
           "qty": 3.0,
           "gross": 27.0
+        },
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Market Garden Shandy",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Fresh Fruit",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 2.0,
+          "gross": 2.0
         },
         {
           "name": "Hofbrau",
@@ -105,6 +133,48 @@
           "category": "Gin",
           "qty": 2.0,
           "gross": 12.0
+        },
+        {
+          "name": "Surfside Lemonade & Vodka",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Surfside Blueberry + Lemonade",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Paddle Margarita",
+          "variation": "strawberry Margarita",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 11.0
+        },
+        {
+          "name": "Corona Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Surfside Ice Tea & Vodka",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Bulleit Bourbon",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 1.0,
+          "gross": 9.0
         },
         {
           "name": "Pacifico",
@@ -161,13 +231,6 @@
           "category": "Canned Beer",
           "qty": 1.0,
           "gross": 5.0
-        },
-        {
-          "name": "Market Garden Shandy",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 6.0
         }
       ],
       "custom_amount_items": []
@@ -175,16 +238,16 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 305.3,
-      "tax_backout_base": 286.0,
-      "transaction_count": 6,
-      "completed_count": 6,
+      "net_sales": 370.85,
+      "tax_backout_base": 347.4,
+      "transaction_count": 7,
+      "completed_count": 7,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 61.3,
+      "tips": 69.85,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 305.3,
+      "card_total": 370.85,
       "discounts": [],
       "line_items": [
         {
@@ -207,6 +270,34 @@
           "category": "Bourbon - Whiskey",
           "qty": 2.0,
           "gross": 24.0
+        },
+        {
+          "name": "Lady Liberty",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 1.0,
+          "gross": 15.0
+        },
+        {
+          "name": "The Old San Juan",
+          "variation": "Regular",
+          "category": "Weekly Special",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Elixir of Life",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Rum Old Fashioned",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 1.0,
+          "gross": 14.0
         },
         {
           "name": "Betty White Lady",
@@ -291,9 +382,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 506.65,
-    "transaction_count": 13,
-    "tips": 90.65,
+    "net_sales": 669.05,
+    "transaction_count": 19,
+    "tips": 116.05,
     "open_tab_total": 0.0
   }
 }
