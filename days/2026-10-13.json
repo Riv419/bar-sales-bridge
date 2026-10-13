@@ -1,0 +1,98 @@
+{
+  "generated_at_utc": "2026-10-13T12:14:01Z",
+  "generated_at_et": "2026-10-13 08:14:01 EDT",
+  "business_day": "2026-10-13",
+  "business_day_start_et": "2026-10-13 04:00 EDT",
+  "is_final": false,
+  "window_start_utc": "2026-10-13T08:00:00Z",
+  "window_end_utc": "2026-10-13T12:14:01Z",
+  "bars": {
+    "tiques": {
+      "name": "Tique's",
+      "location_id": "L91FN4CPCADRA",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "paddle": {
+      "name": "Paddle Bar",
+      "location_id": "RMSRRF4GTR3J5",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "volstead": {
+      "name": "Volstead",
+      "location_id": "G9XHMF97SD95W",
+      "net_sales": 193.8,
+      "tax_backout_base": 181.55,
+      "transaction_count": 3,
+      "completed_count": 3,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 13.8,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 193.8,
+      "discounts": [],
+      "line_items": [
+        {
+          "name": "Sazerac",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 10.0,
+          "gross": 120.0
+        },
+        {
+          "name": "Greyhound",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Corpse Reviver #2",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Old Fashioned",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 12.0
+        }
+      ],
+      "custom_amount_items": []
+    }
+  },
+  "errors": [],
+  "combined": {
+    "net_sales": 193.8,
+    "transaction_count": 3,
+    "tips": 13.8,
+    "open_tab_total": 0.0
+  }
+}

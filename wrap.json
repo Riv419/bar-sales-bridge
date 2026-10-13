@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-13T06:52:21Z",
-  "generated_at_et": "2026-10-13 02:52:21 EDT",
+  "generated_at_utc": "2026-10-13T12:14:01Z",
+  "generated_at_et": "2026-10-13 08:14:01 EDT",
   "business_day": "2026-10-12",
   "business_day_start_et": "2026-10-12 04:00 EDT",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-10-12T08:00:00Z",
-  "window_end_utc": "2026-10-13T06:52:21Z",
+  "window_end_utc": "2026-10-13T08:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,13 +27,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 2081.1,
-      "tax_backout_base": 1949.51,
+      "net_sales": 2305.4,
+      "tax_backout_base": 2159.63,
       "transaction_count": 95,
-      "completed_count": 37,
-      "open_count": 58,
-      "open_tab_total": 1399.4,
-      "tips": 50.7,
+      "completed_count": 78,
+      "open_count": 17,
+      "open_tab_total": 486.0,
+      "tips": 275.0,
       "tax_collected": 0.0,
       "cash_total": 361.0,
       "card_total": 2032.3,
@@ -72,18 +72,18 @@
           "gross": 150.0
         },
         {
-          "name": "Busch Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 14.0,
-          "gross": 42.0
-        },
-        {
           "name": "Pumpkin Spice Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 14.0,
           "gross": 56.0
+        },
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 14.0,
+          "gross": 42.0
         },
         {
           "name": "Maine Whaleboat IPA",
@@ -114,14 +114,14 @@
           "gross": 56.0
         },
         {
-          "name": "Fat Tire",
+          "name": "Market Garden Shandy",
           "variation": "Regular",
           "category": "Draft Beer",
           "qty": 7.0,
           "gross": 42.0
         },
         {
-          "name": "Market Garden Shandy",
+          "name": "Fat Tire",
           "variation": "Regular",
           "category": "Draft Beer",
           "qty": 7.0,
@@ -135,25 +135,11 @@
           "gross": 18.0
         },
         {
-          "name": "Soda",
+          "name": "Delirium Tremens",
           "variation": "Regular",
-          "category": "Beverages",
+          "category": "Draft Beer",
           "qty": 5.0,
-          "gross": 15.0
-        },
-        {
-          "name": "Paddle Margarita",
-          "variation": "strawberry Margarita",
-          "category": "Specialty Drinks",
-          "qty": 5.0,
-          "gross": 55.0
-        },
-        {
-          "name": "Surfside Ice Tea & Vodka",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 5.0,
-          "gross": 30.0
+          "gross": 45.0
         },
         {
           "name": "Cucumber Smash",
@@ -184,14 +170,56 @@
           "gross": 70.0
         },
         {
-          "name": "Delirium Tremens",
-          "variation": "Regular",
-          "category": "Draft Beer",
+          "name": "Paddle Margarita",
+          "variation": "strawberry Margarita",
+          "category": "Specialty Drinks",
           "qty": 5.0,
-          "gross": 45.0
+          "gross": 55.0
         },
         {
-          "name": "Corona Extra Bottle",
+          "name": "Soda",
+          "variation": "Regular",
+          "category": "Beverages",
+          "qty": 5.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Surfside Ice Tea & Vodka",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 5.0,
+          "gross": 30.0
+        },
+        {
+          "name": "Bota Box Pinot Grigio",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 4.0,
+          "gross": 20.0
+        },
+        {
+          "name": "White Claw - Mango",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 4.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Crown Royal Peach",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 4.0,
+          "gross": 36.0
+        },
+        {
+          "name": "Surfside Lemonade & Vodka",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 4.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Red Stripe",
           "variation": "Regular",
           "category": "Bottled Beer",
           "qty": 4.0,
@@ -205,46 +233,11 @@
           "gross": 48.0
         },
         {
-          "name": "Bota Box Pinot Grigio",
+          "name": "Espolon Reposado",
           "variation": "Regular",
-          "category": "Wine",
+          "category": "Liquor",
           "qty": 4.0,
-          "gross": 20.0
-        },
-        {
-          "name": "Lemon Shake Up",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 4.0,
-          "gross": 36.0
-        },
-        {
-          "name": "Bartons natural Vodka (Well)",
-          "variation": "Regular",
-          "category": "Vodka",
-          "qty": 4.0,
-          "gross": 24.0
-        },
-        {
-          "name": "Surfside Lemonade & Vodka",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 4.0,
-          "gross": 24.0
-        },
-        {
-          "name": "Pacifico",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 4.0,
-          "gross": 20.0
-        },
-        {
-          "name": "Red Stripe",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 4.0,
-          "gross": 20.0
+          "gross": 40.0
         },
         {
           "name": "New Amsterdam Gin (Well)",
@@ -254,18 +247,32 @@
           "gross": 24.0
         },
         {
-          "name": "Crown Royal Peach",
+          "name": "Lemon Shake Up",
           "variation": "Regular",
-          "category": "Liquor",
+          "category": "Specialty Drinks",
           "qty": 4.0,
           "gross": 36.0
         },
         {
-          "name": "Espolon Reposado",
+          "name": "Corona Extra Bottle",
           "variation": "Regular",
-          "category": "Liquor",
+          "category": "Bottled Beer",
           "qty": 4.0,
-          "gross": 40.0
+          "gross": 20.0
+        },
+        {
+          "name": "Pacifico",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 4.0,
+          "gross": 20.0
+        },
+        {
+          "name": "Bartons natural Vodka (Well)",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 4.0,
+          "gross": 24.0
         },
         {
           "name": "Montucky Cold Snack",
@@ -275,11 +282,25 @@
           "gross": 16.0
         },
         {
-          "name": "White Claw - Mango",
+          "name": "Superlyte Lemon Lime",
           "variation": "Regular",
           "category": "Seltzers",
-          "qty": 4.0,
-          "gross": 24.0
+          "qty": 3.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Fresh Fruit",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 3.0,
+          "gross": 3.0
+        },
+        {
+          "name": "Big Nut",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 3.0,
+          "gross": 18.0
         },
         {
           "name": "Corona Light",
@@ -294,27 +315,6 @@
           "category": "Canned Beer",
           "qty": 3.0,
           "gross": 12.0
-        },
-        {
-          "name": "Fresh Fruit",
-          "variation": "Regular",
-          "category": "Snacks",
-          "qty": 3.0,
-          "gross": 3.0
-        },
-        {
-          "name": "Superlyte Lemon Lime",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 3.0,
-          "gross": 18.0
-        },
-        {
-          "name": "Big Nut",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 3.0,
-          "gross": 18.0
         },
         {
           "name": "Pabst Blue Ribbon",
@@ -345,6 +345,41 @@
           "gross": 21.0
         },
         {
+          "name": "Nor'easter (Hurricane)",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Kirin Ichiban",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Modelo ESP bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 2.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Shot And Snack",
+          "variation": "Regular",
+          "category": "Specials",
+          "qty": 2.0,
+          "gross": 20.0
+        },
+        {
+          "name": "Clase Azul",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 56.0
+        },
+        {
           "name": "Titos",
           "variation": "Regular",
           "category": "Liquor",
@@ -357,13 +392,6 @@
           "category": "Wine",
           "qty": 2.0,
           "gross": 22.0
-        },
-        {
-          "name": "Modelo ESP bottle",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 2.0,
-          "gross": 10.0
         },
         {
           "name": "Surfside Iced Tea + Lemonade",
@@ -387,13 +415,6 @@
           "gross": 12.0
         },
         {
-          "name": "Kirin Ichiban",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 2.0,
-          "gross": 12.0
-        },
-        {
           "name": "Bait House Kolsch",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -408,25 +429,130 @@
           "gross": 24.0
         },
         {
-          "name": "Clase Azul",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 56.0
-        },
-        {
-          "name": "Nor'easter (Hurricane)",
+          "name": "Long Island Ice Tea",
           "variation": "Regular",
           "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 24.0
+          "qty": 1.0,
+          "gross": 10.0
         },
         {
-          "name": "Shot And Snack",
+          "name": "Ketel One",
           "variation": "Regular",
-          "category": "Specials",
-          "qty": 2.0,
-          "gross": 20.0
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Surfside Strawberry",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Jackie O's Who Cooks for you",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Wycliff",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Little Kings",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 2.0
+        },
+        {
+          "name": "Superlyte Fruit Punch",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Espolon Blanco",
+          "variation": "Regular",
+          "category": "Tequila",
+          "qty": 1.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Bacardi Light",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Jack Daniels",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Orange Squeeze",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Long Drink Citrus",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "High Noon - Peach",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Red Bull",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
+          "name": "Agave L\u00edmon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Mocktail",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Carib Beer",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Long Drink Peach",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
         },
         {
           "name": "Grey Goose",
@@ -485,53 +611,11 @@
           "gross": 5.0
         },
         {
-          "name": "Little Kings",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
-          "gross": 2.0
-        },
-        {
-          "name": "High Noon - Peach",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Long Island Ice Tea",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
           "name": "Shoreline Sunset",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 1.0,
           "gross": 12.0
-        },
-        {
-          "name": "Ketel One",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Agave L\u00edmon Shake Up",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Mocktail",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 5.0
         },
         {
           "name": "Tanqueray",
@@ -546,90 +630,6 @@
           "category": "Seltzers",
           "qty": 1.0,
           "gross": 6.0
-        },
-        {
-          "name": "Red Bull",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 1.0,
-          "gross": 3.0
-        },
-        {
-          "name": "Superlyte Fruit Punch",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Carib Beer",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Long Drink Peach",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Surfside Strawberry",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Jack Daniels",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Orange Squeeze",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Long Drink Citrus",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Bacardi Light",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Jackie O's Who Cooks for you",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Wycliff",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Espolon Blanco",
-          "variation": "Regular",
-          "category": "Tequila",
-          "qty": 1.0,
-          "gross": 9.0
         }
       ],
       "custom_amount_items": []
@@ -637,16 +637,16 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 666.85,
-      "tax_backout_base": 624.68,
-      "transaction_count": 18,
-      "completed_count": 14,
+      "net_sales": 696.85,
+      "tax_backout_base": 652.79,
+      "transaction_count": 19,
+      "completed_count": 15,
       "open_count": 4,
       "open_tab_total": 64.0,
-      "tips": 92.85,
+      "tips": 98.85,
       "tax_collected": 0.0,
       "cash_total": 107.0,
-      "card_total": 587.85,
+      "card_total": 617.85,
       "discounts": [],
       "line_items": [
         {
@@ -690,6 +690,13 @@
           "category": "Vodka",
           "qty": 3.0,
           "gross": 36.0
+        },
+        {
+          "name": "French 76",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 2.0,
+          "gross": 24.0
         },
         {
           "name": "Caipirinha",
@@ -837,9 +844,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 2747.95,
-    "transaction_count": 113,
-    "tips": 143.55,
-    "open_tab_total": 1463.4
+    "net_sales": 3002.25,
+    "transaction_count": 114,
+    "tips": 373.85,
+    "open_tab_total": 550.0
   }
 }
