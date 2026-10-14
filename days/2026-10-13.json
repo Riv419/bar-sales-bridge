@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-13T23:44:26Z",
-  "generated_at_et": "2026-10-13 19:44:26 EDT",
+  "generated_at_utc": "2026-10-14T02:11:07Z",
+  "generated_at_et": "2026-10-13 22:11:07 EDT",
   "business_day": "2026-10-13",
   "business_day_start_et": "2026-10-13 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-13T08:00:00Z",
-  "window_end_utc": "2026-10-13T23:44:26Z",
+  "window_end_utc": "2026-10-14T02:11:07Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 828.4,
-      "tax_backout_base": 776.02,
-      "transaction_count": 27,
-      "completed_count": 11,
-      "open_count": 16,
-      "open_tab_total": 645.0,
+      "net_sales": 1108.4,
+      "tax_backout_base": 1038.31,
+      "transaction_count": 41,
+      "completed_count": 15,
+      "open_count": 26,
+      "open_tab_total": 872.0,
       "tips": 0.0,
       "tax_collected": 0.0,
-      "cash_total": 183.4,
-      "card_total": 667.4,
+      "cash_total": 236.4,
+      "card_total": 897.6,
       "discounts": [
         {
           "name": "Employee Discount",
@@ -49,15 +49,36 @@
           "name": "Cucumber Smash",
           "variation": "Regular",
           "category": "Specialty Drinks",
-          "qty": 11.0,
-          "gross": 110.0
+          "qty": 16.0,
+          "gross": 160.0
+        },
+        {
+          "name": "Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 16.0,
+          "gross": 48.0
         },
         {
           "name": "Lemon Shake Up",
           "variation": "Regular",
           "category": "Specialty Drinks",
-          "qty": 11.0,
-          "gross": 99.0
+          "qty": 12.0,
+          "gross": 108.0
+        },
+        {
+          "name": "Premium Liquor",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 9.0,
+          "gross": 36.0
+        },
+        {
+          "name": "Pumpkin Spice Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 8.0,
+          "gross": 32.0
         },
         {
           "name": "Coors Light Aluminum Bottle",
@@ -67,11 +88,18 @@
           "gross": 40.0
         },
         {
-          "name": "Premium Liquor",
+          "name": "Bartons natural Vodka (Well)",
           "variation": "Regular",
-          "category": "Liquor",
+          "category": "Vodka",
           "qty": 6.0,
-          "gross": 24.0
+          "gross": 36.0
+        },
+        {
+          "name": "Maine Dinner",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 6.0,
+          "gross": 60.0
         },
         {
           "name": "Captain Morgan",
@@ -95,13 +123,6 @@
           "gross": 50.0
         },
         {
-          "name": "Maine Dinner",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 5.0,
-          "gross": 50.0
-        },
-        {
           "name": "Lemon Shake Up",
           "variation": "Strawberry",
           "category": "Specialty Drinks",
@@ -116,9 +137,16 @@
           "gross": 40.0
         },
         {
-          "name": "Bartons natural Vodka (Well)",
+          "name": "Michelob Ultra Can",
           "variation": "Regular",
-          "category": "Vodka",
+          "category": "Canned Beer",
+          "qty": 4.0,
+          "gross": 16.0
+        },
+        {
+          "name": "Long Drink Pineapple",
+          "variation": "Regular",
+          "category": "Seltzers",
           "qty": 4.0,
           "gross": 24.0
         },
@@ -130,11 +158,18 @@
           "gross": 24.0
         },
         {
-          "name": "Hot Nut",
+          "name": "Voodoo Ranger Atomic Pumpkin",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 3.0,
+          "gross": 21.0
+        },
+        {
+          "name": "Herradura Reposado",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 3.0,
-          "gross": 9.0
+          "gross": 36.0
         },
         {
           "name": "Orange Squeeze",
@@ -172,13 +207,6 @@
           "gross": 18.0
         },
         {
-          "name": "Long Drink Pineapple",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 2.0,
-          "gross": 12.0
-        },
-        {
           "name": "Paddle Palmer",
           "variation": "Regular",
           "category": "Specialty Drinks",
@@ -193,6 +221,13 @@
           "gross": 8.0
         },
         {
+          "name": "Kona Big Wave",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
           "name": "Jack Daniels",
           "variation": "Regular",
           "category": "Liquor",
@@ -205,13 +240,6 @@
           "category": "Draft Beer",
           "qty": 2.0,
           "gross": 12.0
-        },
-        {
-          "name": "Voodoo Ranger Atomic Pumpkin",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 2.0,
-          "gross": 14.0
         },
         {
           "name": "Moosehead",
@@ -235,6 +263,34 @@
           "gross": 6.0
         },
         {
+          "name": "Monkey 47",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Bourbonade",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Narragansett Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "High Noon - Pineapple",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
           "name": "Suncruiser Iced Tea + Vodka",
           "variation": "Regular",
           "category": "Beer",
@@ -254,13 +310,6 @@
           "category": "Draft Beer",
           "qty": 1.0,
           "gross": 9.0
-        },
-        {
-          "name": "High Noon - Pineapple",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 7.0
         },
         {
           "name": "Hofbrau",
@@ -342,9 +391,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1072.2,
-    "transaction_count": 31,
+    "net_sales": 1352.2,
+    "transaction_count": 45,
     "tips": 38.8,
-    "open_tab_total": 645.0
+    "open_tab_total": 872.0
   }
 }
