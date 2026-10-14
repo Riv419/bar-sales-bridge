@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-14T10:18:29Z",
-  "generated_at_et": "2026-10-14 06:18:29 EDT",
+  "generated_at_utc": "2026-10-14T23:15:51Z",
+  "generated_at_et": "2026-10-14 19:15:51 EDT",
   "business_day": "2026-10-14",
   "business_day_start_et": "2026-10-14 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-14T08:00:00Z",
-  "window_end_utc": "2026-10-14T10:18:29Z",
+  "window_end_utc": "2026-10-14T23:15:51Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,51 +27,254 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 0.0,
-      "tax_backout_base": 0.0,
-      "transaction_count": 0,
-      "completed_count": 0,
-      "open_count": 0,
-      "open_tab_total": 0.0,
+      "net_sales": 214.0,
+      "tax_backout_base": 200.47,
+      "transaction_count": 5,
+      "completed_count": 1,
+      "open_count": 4,
+      "open_tab_total": 169.0,
       "tips": 0.0,
       "tax_collected": 0.0,
-      "cash_total": 0.0,
-      "card_total": 0.0,
+      "cash_total": 45.0,
+      "card_total": 152.5,
       "discounts": [],
-      "line_items": [],
+      "line_items": [
+        {
+          "name": "Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 6.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Captain Morgan",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 6.0,
+          "gross": 36.0
+        },
+        {
+          "name": "Hofbrau",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 5.0,
+          "gross": 30.0
+        },
+        {
+          "name": "Kona Big Wave",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 4.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Modelo ESP bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 2.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Findlay Brilliant Blonde",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Soda",
+          "variation": "Regular",
+          "category": "Beverages",
+          "qty": 2.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Fresh Fruit",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 2.0,
+          "gross": 2.0
+        },
+        {
+          "name": "Cosmo",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Stolichinaya",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Bota Box Pinot Grigio",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Chips",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 1.0,
+          "gross": 2.0
+        },
+        {
+          "name": "Monkey 47",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Corona Extra Bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Glenlivet 12",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Red Stripe",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Voodoo Ranger Atomic Pumpkin",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Natural Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 3.0
+        }
+      ],
       "custom_amount_items": []
     },
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 32.0,
-      "tax_backout_base": 29.98,
-      "transaction_count": 2,
-      "completed_count": 2,
-      "open_count": 0,
-      "open_tab_total": 0.0,
-      "tips": 11.0,
+      "net_sales": 218.0,
+      "tax_backout_base": 204.22,
+      "transaction_count": 9,
+      "completed_count": 5,
+      "open_count": 4,
+      "open_tab_total": 102.0,
+      "tips": 28.0,
       "tax_collected": 0.0,
-      "cash_total": 0.0,
-      "card_total": 32.0,
+      "cash_total": 64.0,
+      "card_total": 165.2,
       "discounts": [],
       "line_items": [
         {
           "name": "Martini Monday",
           "variation": "Regular",
           "category": "other",
-          "qty": 3.0,
-          "gross": 21.0
+          "qty": 7.0,
+          "gross": 49.0
+        },
+        {
+          "name": "Magic Moment",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Wise Woman",
+          "variation": "Regular",
+          "category": "Aperitifs / Low ABV",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Margarita",
+          "variation": "Regular",
+          "category": "Tequila",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
+          "name": "The Old San Juan",
+          "variation": "Regular",
+          "category": "Weekly Special",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Whiskey Sour",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Dark & Stormy",
+          "variation": "Regular",
+          "category": "Rum",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Brown Derby",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Old Fashioned",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 12.0
         }
       ],
-      "custom_amount_items": []
+      "custom_amount_items": [
+        {
+          "name": "Gift Card",
+          "qty": 1.0,
+          "gross": 40.0
+        }
+      ]
     }
   },
   "errors": [],
   "combined": {
-    "net_sales": 32.0,
-    "transaction_count": 2,
-    "tips": 11.0,
-    "open_tab_total": 0.0
+    "net_sales": 432.0,
+    "transaction_count": 14,
+    "tips": 28.0,
+    "open_tab_total": 271.0
   }
 }
