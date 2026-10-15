@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-15T04:50:13Z",
-  "generated_at_et": "2026-10-15 00:50:13 EDT",
+  "generated_at_utc": "2026-10-15T09:28:36Z",
+  "generated_at_et": "2026-10-15 05:28:36 EDT",
   "business_day": "2026-10-14",
   "business_day_start_et": "2026-10-14 04:00 EDT",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-10-14T08:00:00Z",
-  "window_end_utc": "2026-10-15T04:50:13Z",
+  "window_end_utc": "2026-10-15T08:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,13 +27,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 490.0,
-      "tax_backout_base": 459.02,
+      "net_sales": 757.1,
+      "tax_backout_base": 709.23,
       "transaction_count": 17,
-      "completed_count": 2,
-      "open_count": 15,
-      "open_tab_total": 434.0,
-      "tips": 0.0,
+      "completed_count": 16,
+      "open_count": 1,
+      "open_tab_total": 99.0,
+      "tips": 267.1,
       "tax_collected": 0.0,
       "cash_total": 56.0,
       "card_total": 725.85,
@@ -86,13 +86,6 @@
           "gross": 30.0
         },
         {
-          "name": "Maine Dinner",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 4.0,
-          "gross": 40.0
-        },
-        {
           "name": "Pumpkin Spice Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
@@ -100,11 +93,11 @@
           "gross": 16.0
         },
         {
-          "name": "Busch Light",
+          "name": "Maine Dinner",
           "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 3.0,
-          "gross": 9.0
+          "category": "Draft Beer",
+          "qty": 4.0,
+          "gross": 40.0
         },
         {
           "name": "Stolichinaya",
@@ -112,6 +105,13 @@
           "category": "Liquor",
           "qty": 3.0,
           "gross": 18.0
+        },
+        {
+          "name": "Fresh Fruit",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 3.0,
+          "gross": 3.0
         },
         {
           "name": "Bota Box Pinot Grigio",
@@ -128,18 +128,18 @@
           "gross": 15.0
         },
         {
-          "name": "Fresh Fruit",
-          "variation": "Regular",
-          "category": "Snacks",
-          "qty": 3.0,
-          "gross": 3.0
-        },
-        {
           "name": "Corona Extra Bottle",
           "variation": "Regular",
           "category": "Bottled Beer",
           "qty": 3.0,
           "gross": 15.0
+        },
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 3.0,
+          "gross": 9.0
         },
         {
           "name": "Montucky Cold Snack",
@@ -184,6 +184,62 @@
           "gross": 6.0
         },
         {
+          "name": "Delirium Tremens",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Monkey 47",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Chips",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 1.0,
+          "gross": 2.0
+        },
+        {
+          "name": "Maine Fall",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Glenlivet 12",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Grapefruit Squeeze",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Big Nut",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Titos",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
           "name": "High Noon - Pineapple",
           "variation": "Regular",
           "category": "Seltzers",
@@ -203,62 +259,6 @@
           "category": "Liquor",
           "qty": 1.0,
           "gross": 10.0
-        },
-        {
-          "name": "Delirium Tremens",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 9.0
-        },
-        {
-          "name": "Maine Fall",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 9.0
-        },
-        {
-          "name": "Titos",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Grapefruit Squeeze",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Big Nut",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Chips",
-          "variation": "Regular",
-          "category": "Snacks",
-          "qty": 1.0,
-          "gross": 2.0
-        },
-        {
-          "name": "Monkey 47",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 15.0
-        },
-        {
-          "name": "Glenlivet 12",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 12.0
         },
         {
           "name": "Red Stripe",
@@ -401,9 +401,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 758.0,
+    "net_sales": 1025.1,
     "transaction_count": 27,
-    "tips": 28.0,
-    "open_tab_total": 586.0
+    "tips": 295.1,
+    "open_tab_total": 251.0
   }
 }
