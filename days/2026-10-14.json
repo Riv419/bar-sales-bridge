@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-14T23:15:51Z",
-  "generated_at_et": "2026-10-14 19:15:51 EDT",
+  "generated_at_utc": "2026-10-15T01:33:31Z",
+  "generated_at_et": "2026-10-14 21:33:31 EDT",
   "business_day": "2026-10-14",
   "business_day_start_et": "2026-10-14 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-14T08:00:00Z",
-  "window_end_utc": "2026-10-14T23:15:51Z",
+  "window_end_utc": "2026-10-15T01:33:31Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,24 +27,35 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 214.0,
-      "tax_backout_base": 200.47,
-      "transaction_count": 5,
+      "net_sales": 409.6,
+      "tax_backout_base": 383.7,
+      "transaction_count": 15,
       "completed_count": 1,
-      "open_count": 4,
-      "open_tab_total": 169.0,
+      "open_count": 14,
+      "open_tab_total": 364.6,
       "tips": 0.0,
       "tax_collected": 0.0,
       "cash_total": 45.0,
-      "card_total": 152.5,
-      "discounts": [],
+      "card_total": 395.05,
+      "discounts": [
+        {
+          "name": "Mug Club",
+          "amount": 3.0,
+          "count": 1
+        },
+        {
+          "name": "Employee Discount",
+          "amount": 0.0,
+          "count": 1
+        }
+      ],
       "line_items": [
         {
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 6.0,
-          "gross": 18.0
+          "qty": 7.0,
+          "gross": 21.0
         },
         {
           "name": "Captain Morgan",
@@ -61,6 +72,27 @@
           "gross": 30.0
         },
         {
+          "name": "Maine Dinner",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 4.0,
+          "gross": 40.0
+        },
+        {
+          "name": "Pumpkin Spice Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 4.0,
+          "gross": 16.0
+        },
+        {
+          "name": "Surfside Ice Tea & Vodka",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 4.0,
+          "gross": 24.0
+        },
+        {
           "name": "Kona Big Wave",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -71,8 +103,43 @@
           "name": "Busch Light",
           "variation": "Regular",
           "category": "Canned Beer",
+          "qty": 3.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Stolichinaya",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 3.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Bota Box Pinot Grigio",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 3.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Fresh Fruit",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 3.0,
+          "gross": 3.0
+        },
+        {
+          "name": "Corona Extra Bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 3.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Moosehead",
+          "variation": "Regular",
+          "category": "Bottled Beer",
           "qty": 2.0,
-          "gross": 6.0
+          "gross": 10.0
         },
         {
           "name": "Modelo ESP bottle",
@@ -96,13 +163,6 @@
           "gross": 6.0
         },
         {
-          "name": "Fresh Fruit",
-          "variation": "Regular",
-          "category": "Snacks",
-          "qty": 2.0,
-          "gross": 2.0
-        },
-        {
           "name": "Cosmo",
           "variation": "Regular",
           "category": "Liquor",
@@ -110,18 +170,46 @@
           "gross": 10.0
         },
         {
-          "name": "Stolichinaya",
+          "name": "Montucky Cold Snack",
           "variation": "Regular",
-          "category": "Liquor",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Superlyte Fruit Punch",
+          "variation": "Regular",
+          "category": "Seltzers",
           "qty": 1.0,
           "gross": 6.0
         },
         {
-          "name": "Bota Box Pinot Grigio",
+          "name": "Hendricks",
           "variation": "Regular",
-          "category": "Wine",
+          "category": "Liquor",
           "qty": 1.0,
-          "gross": 5.0
+          "gross": 12.0
+        },
+        {
+          "name": "Delirium Tremens",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Grapefruit Squeeze",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Big Nut",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 6.0
         },
         {
           "name": "Chips",
@@ -136,13 +224,6 @@
           "category": "Liquor",
           "qty": 1.0,
           "gross": 15.0
-        },
-        {
-          "name": "Corona Extra Bottle",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
-          "gross": 5.0
         },
         {
           "name": "Glenlivet 12",
@@ -173,21 +254,27 @@
           "gross": 3.0
         }
       ],
-      "custom_amount_items": []
+      "custom_amount_items": [
+        {
+          "name": "(custom amount)",
+          "qty": 1.0,
+          "gross": 28.0
+        }
+      ]
     },
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 218.0,
-      "tax_backout_base": 204.22,
-      "transaction_count": 9,
+      "net_sales": 268.0,
+      "tax_backout_base": 251.05,
+      "transaction_count": 10,
       "completed_count": 5,
-      "open_count": 4,
-      "open_tab_total": 102.0,
+      "open_count": 5,
+      "open_tab_total": 152.0,
       "tips": 28.0,
       "tax_collected": 0.0,
       "cash_total": 64.0,
-      "card_total": 165.2,
+      "card_total": 222.7,
       "discounts": [],
       "line_items": [
         {
@@ -201,8 +288,8 @@
           "name": "Magic Moment",
           "variation": "Regular",
           "category": "Modern Cocktails",
-          "qty": 1.0,
-          "gross": 12.0
+          "qty": 3.0,
+          "gross": 36.0
         },
         {
           "name": "Wise Woman",
@@ -224,6 +311,20 @@
           "category": "Beer",
           "qty": 1.0,
           "gross": 3.0
+        },
+        {
+          "name": "Aviation",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Weekly Special",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 1.0,
+          "gross": 12.0
         },
         {
           "name": "The Old San Juan",
@@ -272,9 +373,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 432.0,
-    "transaction_count": 14,
+    "net_sales": 677.6,
+    "transaction_count": 25,
     "tips": 28.0,
-    "open_tab_total": 271.0
+    "open_tab_total": 516.6
   }
 }
