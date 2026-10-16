@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-16T04:40:37Z",
-  "generated_at_et": "2026-10-16 00:40:37 EDT",
+  "generated_at_utc": "2026-10-16T09:21:04Z",
+  "generated_at_et": "2026-10-16 05:21:04 EDT",
   "business_day": "2026-10-15",
   "business_day_start_et": "2026-10-15 04:00 EDT",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-10-15T08:00:00Z",
-  "window_end_utc": "2026-10-16T04:40:37Z",
+  "window_end_utc": "2026-10-16T08:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 677.4,
-      "tax_backout_base": 634.57,
-      "transaction_count": 32,
-      "completed_count": 5,
-      "open_count": 27,
-      "open_tab_total": 535.4,
-      "tips": 0.0,
+      "net_sales": 918.89,
+      "tax_backout_base": 860.79,
+      "transaction_count": 33,
+      "completed_count": 30,
+      "open_count": 3,
+      "open_tab_total": 78.0,
+      "tips": 142.49,
       "tax_collected": 0.0,
       "cash_total": 142.0,
-      "card_total": 671.14,
+      "card_total": 794.89,
       "discounts": [
         {
           "name": "Mug Club",
@@ -65,11 +65,32 @@
           "gross": 80.0
         },
         {
+          "name": "Kona Big Wave",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 7.0,
+          "gross": 42.0
+        },
+        {
           "name": "Busch Light",
           "variation": "Regular",
           "category": "Canned Beer",
           "qty": 7.0,
           "gross": 21.0
+        },
+        {
+          "name": "Captain Morgan",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 6.0,
+          "gross": 36.0
+        },
+        {
+          "name": "Soda",
+          "variation": "Regular",
+          "category": "Beverages",
+          "qty": 5.0,
+          "gross": 15.0
         },
         {
           "name": "Old Style",
@@ -79,11 +100,11 @@
           "gross": 20.0
         },
         {
-          "name": "Hot Nut",
+          "name": "Findlay Brilliant Blonde",
           "variation": "Regular",
-          "category": "Liquor",
+          "category": "Draft Beer",
           "qty": 4.0,
-          "gross": 12.0
+          "gross": 24.0
         },
         {
           "name": "Surfside Iced Tea + Lemonade",
@@ -93,18 +114,18 @@
           "gross": 24.0
         },
         {
-          "name": "Kona Big Wave",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 4.0,
-          "gross": 24.0
-        },
-        {
           "name": "Maine Fall",
           "variation": "Regular",
           "category": "Draft Beer",
           "qty": 4.0,
           "gross": 36.0
+        },
+        {
+          "name": "Narragansett Fresh Catch",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 4.0,
+          "gross": 20.0
         },
         {
           "name": "Lemon Shake Up",
@@ -121,21 +142,35 @@
           "gross": 40.0
         },
         {
-          "name": "Narragansett Fresh Catch",
+          "name": "Hot Nut",
           "variation": "Regular",
-          "category": "Canned Beer",
+          "category": "Liquor",
           "qty": 4.0,
-          "gross": 20.0
+          "gross": 12.0
         },
         {
-          "name": "Superlyte Fruit Punch",
+          "name": "Voodoo Ranger Atomic Pumpkin",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 3.0,
+          "gross": 21.0
+        },
+        {
+          "name": "Superlyte Orange",
           "variation": "Regular",
           "category": "Seltzers",
           "qty": 3.0,
           "gross": 18.0
         },
         {
-          "name": "Superlyte Orange",
+          "name": "Grapefruit Squeeze",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 3.0,
+          "gross": 30.0
+        },
+        {
+          "name": "Superlyte Fruit Punch",
           "variation": "Regular",
           "category": "Seltzers",
           "qty": 3.0,
@@ -149,23 +184,23 @@
           "gross": 12.0
         },
         {
-          "name": "Soda",
+          "name": "Modelo ESP bottle",
           "variation": "Regular",
-          "category": "Beverages",
-          "qty": 3.0,
-          "gross": 9.0
+          "category": "Bottled Beer",
+          "qty": 2.0,
+          "gross": 10.0
         },
         {
-          "name": "Grapefruit Squeeze",
+          "name": "Fresh Fruit",
           "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 3.0,
-          "gross": 30.0
+          "category": "Snacks",
+          "qty": 2.0,
+          "gross": 2.0
         },
         {
-          "name": "Bota Box Pinot Grigio",
+          "name": "Pacifico",
           "variation": "Regular",
-          "category": "Wine",
+          "category": "Bottled Beer",
           "qty": 2.0,
           "gross": 10.0
         },
@@ -184,20 +219,6 @@
           "gross": 14.0
         },
         {
-          "name": "Pacifico",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 2.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Voodoo Ranger Atomic Pumpkin",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 2.0,
-          "gross": 14.0
-        },
-        {
           "name": "Maine Dinner",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -205,23 +226,30 @@
           "gross": 20.0
         },
         {
-          "name": "Findlay Brilliant Blonde",
+          "name": "Bota Box Pinot Grigio",
           "variation": "Regular",
-          "category": "Draft Beer",
+          "category": "Wine",
           "qty": 2.0,
-          "gross": 12.0
+          "gross": 10.0
         },
         {
-          "name": "Presidente",
+          "name": "Red Stripe",
           "variation": "Regular",
           "category": "Bottled Beer",
           "qty": 1.0,
           "gross": 5.0
         },
         {
-          "name": "Sun Cruiser Classic Iced Tea",
+          "name": "Natural Light",
           "variation": "Regular",
-          "category": "Canned Drinks",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
+          "name": "Long Drink Peach",
+          "variation": "Regular",
+          "category": "Seltzers",
           "qty": 1.0,
           "gross": 6.0
         },
@@ -231,6 +259,48 @@
           "category": "Seltzers",
           "qty": 1.0,
           "gross": 7.0
+        },
+        {
+          "name": "White Claw - Mango",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Lime - Ade",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Surfside Strawberry",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Delirium Tremens",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Echo Bay  Sauvignon Blanc",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 8.0
+        },
+        {
+          "name": "The Federalist Honest Red Blend",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 8.0
         },
         {
           "name": "Buffalo Trace",
@@ -247,32 +317,11 @@
           "gross": 7.0
         },
         {
-          "name": "Long Drink Peach",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Paddle Palmer",
+          "name": "Big Pumpkin Nut",
           "variation": "Regular",
           "category": "Specialty Drinks",
           "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "The Federalist Honest Red Blend",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 1.0,
           "gross": 8.0
-        },
-        {
-          "name": "Delirium Tremens",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 9.0
         },
         {
           "name": "Cucumber Smash",
@@ -282,28 +331,21 @@
           "gross": 10.0
         },
         {
-          "name": "Echo Bay  Sauvignon Blanc",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 1.0,
-          "gross": 8.0
-        },
-        {
-          "name": "White Claw - Mango",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Big Pumpkin Nut",
+          "name": "Paddle Palmer",
           "variation": "Regular",
           "category": "Specialty Drinks",
           "qty": 1.0,
-          "gross": 8.0
+          "gross": 10.0
         },
         {
-          "name": "Surfside Strawberry",
+          "name": "Presidente",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Sun Cruiser Classic Iced Tea",
           "variation": "Regular",
           "category": "Canned Drinks",
           "qty": 1.0,
@@ -315,13 +357,6 @@
           "category": "Specialty Drinks",
           "qty": 1.0,
           "gross": 12.0
-        },
-        {
-          "name": "Lime - Ade",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
         }
       ],
       "custom_amount_items": [
@@ -444,9 +479,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 910.4,
-    "transaction_count": 38,
-    "tips": 0.0,
-    "open_tab_total": 688.4
+    "net_sales": 1151.89,
+    "transaction_count": 39,
+    "tips": 142.49,
+    "open_tab_total": 231.0
   }
 }
