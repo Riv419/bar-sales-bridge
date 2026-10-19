@@ -1,0 +1,147 @@
+{
+  "generated_at_utc": "2026-10-19T10:20:40Z",
+  "generated_at_et": "2026-10-19 06:20:40 EDT",
+  "business_day": "2026-10-19",
+  "business_day_start_et": "2026-10-19 04:00 EDT",
+  "is_final": false,
+  "window_start_utc": "2026-10-19T08:00:00Z",
+  "window_end_utc": "2026-10-19T10:20:40Z",
+  "bars": {
+    "tiques": {
+      "name": "Tique's",
+      "location_id": "L91FN4CPCADRA",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "paddle": {
+      "name": "Paddle Bar",
+      "location_id": "RMSRRF4GTR3J5",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "volstead": {
+      "name": "Volstead",
+      "location_id": "G9XHMF97SD95W",
+      "net_sales": 281.65,
+      "tax_backout_base": 263.84,
+      "transaction_count": 7,
+      "completed_count": 7,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 41.65,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 281.65,
+      "discounts": [],
+      "line_items": [
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 5.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Weekly Special",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 4.0,
+          "gross": 48.0
+        },
+        {
+          "name": "Old Fashioned",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 4.0,
+          "gross": 48.0
+        },
+        {
+          "name": "French 75",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 3.0,
+          "gross": 36.0
+        },
+        {
+          "name": "Grey Goose",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 2.0,
+          "gross": 20.0
+        },
+        {
+          "name": "Greyhound",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Harvey Wallbanger",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 1.0,
+          "gross": 11.0
+        },
+        {
+          "name": "Wise Woman",
+          "variation": "Regular",
+          "category": "Aperitifs / Low ABV",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Betty White Lady",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Lake Serpent",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Dark & Stormy",
+          "variation": "Regular",
+          "category": "Rum",
+          "qty": 1.0,
+          "gross": 10.0
+        }
+      ],
+      "custom_amount_items": []
+    }
+  },
+  "errors": [],
+  "combined": {
+    "net_sales": 281.65,
+    "transaction_count": 7,
+    "tips": 41.65,
+    "open_tab_total": 0.0
+  }
+}
