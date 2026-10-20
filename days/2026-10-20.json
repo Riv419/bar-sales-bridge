@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-20T09:40:29Z",
-  "generated_at_et": "2026-10-20 05:40:29 EDT",
+  "generated_at_utc": "2026-10-20T10:09:17Z",
+  "generated_at_et": "2026-10-20 06:09:17 EDT",
   "business_day": "2026-10-20",
   "business_day_start_et": "2026-10-20 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-20T08:00:00Z",
-  "window_end_utc": "2026-10-20T09:40:29Z",
+  "window_end_utc": "2026-10-20T10:09:17Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,18 +27,25 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 14.4,
-      "tax_backout_base": 13.49,
-      "transaction_count": 1,
-      "completed_count": 1,
+      "net_sales": 69.6,
+      "tax_backout_base": 65.2,
+      "transaction_count": 2,
+      "completed_count": 2,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 2.4,
+      "tips": 9.6,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 14.4,
+      "card_total": 69.6,
       "discounts": [],
       "line_items": [
+        {
+          "name": "Orange Creamsicle",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 4.0,
+          "gross": 48.0
+        },
         {
           "name": "Bartons natural Vodka (Well)",
           "variation": "Regular",
@@ -84,9 +91,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 49.4,
-    "transaction_count": 2,
-    "tips": 9.4,
+    "net_sales": 104.6,
+    "transaction_count": 3,
+    "tips": 16.6,
     "open_tab_total": 0.0
   }
 }
