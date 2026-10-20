@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-20T02:08:47Z",
-  "generated_at_et": "2026-10-19 22:08:47 EDT",
+  "generated_at_utc": "2026-10-20T04:59:12Z",
+  "generated_at_et": "2026-10-20 00:59:12 EDT",
   "business_day": "2026-10-18",
   "business_day_start_et": "2026-10-18 04:00 EDT",
   "is_final": true,
@@ -182,16 +182,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 2019.0,
-      "tax_backout_base": 1891.33,
-      "transaction_count": 75,
+      "net_sales": 1975.0,
+      "tax_backout_base": 1850.12,
+      "transaction_count": 74,
       "completed_count": 68,
-      "open_count": 7,
-      "open_tab_total": 237.0,
+      "open_count": 6,
+      "open_tab_total": 193.0,
       "tips": 288.4,
       "tax_collected": 0.0,
       "cash_total": 198.0,
-      "card_total": 1874.9,
+      "card_total": 1822.1,
       "discounts": [
         {
           "name": "Employee Discount",
@@ -211,8 +211,8 @@
           "name": "Pumpkin Spice Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 29.0,
-          "gross": 116.0
+          "qty": 27.0,
+          "gross": 108.0
         },
         {
           "name": "Michelob Ultra Can",
@@ -232,8 +232,8 @@
           "name": "Maine Beer Company Lunch IPA",
           "variation": "Regular",
           "category": "Beer",
-          "qty": 11.0,
-          "gross": 99.0
+          "qty": 9.0,
+          "gross": 81.0
         },
         {
           "name": "Nor'easter (Hurricane)",
@@ -285,13 +285,6 @@
           "gross": 18.0
         },
         {
-          "name": "Lemon Shake Up",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 6.0,
-          "gross": 54.0
-        },
-        {
           "name": "Stolichinaya",
           "variation": "Regular",
           "category": "Liquor",
@@ -325,6 +318,13 @@
           "category": "Liquor",
           "qty": 4.0,
           "gross": 28.0
+        },
+        {
+          "name": "Lemon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 4.0,
+          "gross": 36.0
         },
         {
           "name": "Orange Creamsicle",
@@ -943,9 +943,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 3577.32,
-    "transaction_count": 130,
+    "net_sales": 3533.32,
+    "transaction_count": 129,
     "tips": 512.04,
-    "open_tab_total": 265.0
+    "open_tab_total": 221.0
   }
 }
