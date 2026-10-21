@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-21T01:37:55Z",
-  "generated_at_et": "2026-10-20 21:37:55 EDT",
+  "generated_at_utc": "2026-10-21T04:58:31Z",
+  "generated_at_et": "2026-10-21 00:58:31 EDT",
   "business_day": "2026-10-20",
   "business_day_start_et": "2026-10-20 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-20T08:00:00Z",
-  "window_end_utc": "2026-10-21T01:37:55Z",
+  "window_end_utc": "2026-10-21T04:58:31Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 757.9,
-      "tax_backout_base": 709.98,
-      "transaction_count": 37,
-      "completed_count": 9,
+      "net_sales": 765.9,
+      "tax_backout_base": 717.47,
+      "transaction_count": 39,
+      "completed_count": 11,
       "open_count": 28,
       "open_tab_total": 590.8,
       "tips": 15.1,
       "tax_collected": 0.0,
-      "cash_total": 66.0,
-      "card_total": 802.4,
+      "cash_total": 69.0,
+      "card_total": 806.15,
       "discounts": [
         {
           "name": "Mug Club",
@@ -54,8 +54,8 @@
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 15.0,
-          "gross": 45.0
+          "qty": 16.0,
+          "gross": 48.0
         },
         {
           "name": "Bartons natural Vodka (Well)",
@@ -217,6 +217,13 @@
           "category": "Wine",
           "qty": 2.0,
           "gross": 22.0
+        },
+        {
+          "name": "Coors Light Aluminum Bottle",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 5.0
         },
         {
           "name": "Shoreline Sunset",
@@ -382,8 +389,8 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 792.9,
-    "transaction_count": 38,
+    "net_sales": 800.9,
+    "transaction_count": 40,
     "tips": 22.1,
     "open_tab_total": 590.8
   }
