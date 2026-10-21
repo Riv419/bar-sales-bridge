@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-21T09:42:02Z",
-  "generated_at_et": "2026-10-21 05:42:02 EDT",
+  "generated_at_utc": "2026-10-21T10:16:47Z",
+  "generated_at_et": "2026-10-21 06:16:47 EDT",
   "business_day": "2026-10-21",
   "business_day_start_et": "2026-10-21 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-21T08:00:00Z",
-  "window_end_utc": "2026-10-21T09:42:02Z",
+  "window_end_utc": "2026-10-21T10:16:47Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,18 +27,82 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 0.0,
-      "tax_backout_base": 0.0,
-      "transaction_count": 0,
-      "completed_count": 0,
+      "net_sales": 71.55,
+      "tax_backout_base": 67.03,
+      "transaction_count": 3,
+      "completed_count": 3,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 0.0,
+      "tips": 12.55,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 0.0,
+      "card_total": 71.55,
       "discounts": [],
-      "line_items": [],
+      "line_items": [
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Hamm\u2019s",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Black Velvet",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Red Stripe",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Big Nut",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Meiers Rum (well)",
+          "variation": "Regular",
+          "category": "Rum",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Paddle Margarita",
+          "variation": "strawberry Margarita",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 11.0
+        },
+        {
+          "name": "Cucumber Smash",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Coors Light Aluminum Bottle",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        }
+      ],
       "custom_amount_items": []
     },
     "volstead": {
@@ -69,9 +133,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 12.0,
-    "transaction_count": 1,
-    "tips": 5.0,
+    "net_sales": 83.55,
+    "transaction_count": 4,
+    "tips": 17.55,
     "open_tab_total": 0.0
   }
 }
