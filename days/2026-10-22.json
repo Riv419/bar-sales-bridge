@@ -1,0 +1,84 @@
+{
+  "generated_at_utc": "2026-10-22T09:41:31Z",
+  "generated_at_et": "2026-10-22 05:41:31 EDT",
+  "business_day": "2026-10-22",
+  "business_day_start_et": "2026-10-22 04:00 EDT",
+  "is_final": false,
+  "window_start_utc": "2026-10-22T08:00:00Z",
+  "window_end_utc": "2026-10-22T09:41:31Z",
+  "bars": {
+    "tiques": {
+      "name": "Tique's",
+      "location_id": "L91FN4CPCADRA",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "paddle": {
+      "name": "Paddle Bar",
+      "location_id": "RMSRRF4GTR3J5",
+      "net_sales": 26.4,
+      "tax_backout_base": 24.73,
+      "transaction_count": 1,
+      "completed_count": 1,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 4.4,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 26.4,
+      "discounts": [],
+      "line_items": [
+        {
+          "name": "Surfside Ice Tea & Vodka",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 3.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        }
+      ],
+      "custom_amount_items": []
+    },
+    "volstead": {
+      "name": "Volstead",
+      "location_id": "G9XHMF97SD95W",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    }
+  },
+  "errors": [],
+  "combined": {
+    "net_sales": 26.4,
+    "transaction_count": 1,
+    "tips": 4.4,
+    "open_tab_total": 0.0
+  }
+}
