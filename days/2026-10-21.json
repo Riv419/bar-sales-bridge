@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-22T01:54:35Z",
-  "generated_at_et": "2026-10-21 21:54:35 EDT",
+  "generated_at_utc": "2026-10-22T04:59:48Z",
+  "generated_at_et": "2026-10-22 00:59:48 EDT",
   "business_day": "2026-10-21",
   "business_day_start_et": "2026-10-21 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-21T08:00:00Z",
-  "window_end_utc": "2026-10-22T01:54:35Z",
+  "window_end_utc": "2026-10-22T04:59:48Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,21 +27,26 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 857.1,
-      "tax_backout_base": 802.9,
-      "transaction_count": 51,
-      "completed_count": 21,
-      "open_count": 30,
-      "open_tab_total": 475.0,
+      "net_sales": 983.9,
+      "tax_backout_base": 921.69,
+      "transaction_count": 61,
+      "completed_count": 23,
+      "open_count": 38,
+      "open_tab_total": 592.8,
       "tips": 43.1,
       "tax_collected": 0.0,
-      "cash_total": 120.0,
-      "card_total": 885.1,
+      "cash_total": 129.0,
+      "card_total": 1049.4,
       "discounts": [
         {
           "name": "Mug Club",
-          "amount": 1.0,
-          "count": 1
+          "amount": 2.0,
+          "count": 2
+        },
+        {
+          "name": "Employee Discount",
+          "amount": 0.0,
+          "count": 2
         }
       ],
       "line_items": [
@@ -49,8 +54,8 @@
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 13.0,
-          "gross": 39.0
+          "qty": 25.0,
+          "gross": 75.0
         },
         {
           "name": "Titos",
@@ -63,8 +68,8 @@
           "name": "Lemon Shake Up",
           "variation": "Raspberry",
           "category": "Specialty Drinks",
-          "qty": 9.0,
-          "gross": 90.0
+          "qty": 11.0,
+          "gross": 110.0
         },
         {
           "name": "Echo Bay  Sauvignon Blanc",
@@ -72,6 +77,13 @@
           "category": "Wine",
           "qty": 7.0,
           "gross": 56.0
+        },
+        {
+          "name": "Kona Big Wave",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 6.0,
+          "gross": 36.0
         },
         {
           "name": "Breck Vanilla Porter",
@@ -88,11 +100,25 @@
           "gross": 6.0
         },
         {
-          "name": "Kona Big Wave",
+          "name": "Hamm\u2019s",
           "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 5.0,
-          "gross": 30.0
+          "category": "Canned Beer",
+          "qty": 4.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 4.0,
+          "gross": 16.0
+        },
+        {
+          "name": "Montucky Cold Snack",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 4.0,
+          "gross": 16.0
         },
         {
           "name": "Miller Lite Can",
@@ -100,6 +126,13 @@
           "category": "Canned Beer",
           "qty": 4.0,
           "gross": 16.0
+        },
+        {
+          "name": "Deschutes Fresh Squeezed IPA",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 3.0,
+          "gross": 21.0
         },
         {
           "name": "Busch Light",
@@ -116,13 +149,6 @@
           "gross": 15.0
         },
         {
-          "name": "Michelob Ultra Can",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 3.0,
-          "gross": 12.0
-        },
-        {
           "name": "White Claw - Mango",
           "variation": "Regular",
           "category": "Seltzers",
@@ -135,6 +161,13 @@
           "category": "Specialty Drinks",
           "qty": 3.0,
           "gross": 30.0
+        },
+        {
+          "name": "Big Nut",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 3.0,
+          "gross": 18.0
         },
         {
           "name": "Coors Light Aluminum Bottle",
@@ -151,11 +184,11 @@
           "gross": 18.0
         },
         {
-          "name": "Deschutes Fresh Squeezed IPA",
+          "name": "Findlay Brilliant Blonde",
           "variation": "Regular",
           "category": "Draft Beer",
-          "qty": 2.0,
-          "gross": 14.0
+          "qty": 3.0,
+          "gross": 18.0
         },
         {
           "name": "White Claw - Peach",
@@ -207,23 +240,16 @@
           "gross": 10.0
         },
         {
-          "name": "Big Nut",
+          "name": "XIN Black",
           "variation": "Regular",
-          "category": "Specialty Drinks",
+          "category": null,
           "qty": 2.0,
-          "gross": 12.0
+          "gross": 14.0
         },
         {
-          "name": "Hamm\u2019s",
+          "name": "Surfside Blueberry + Lemonade",
           "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Findlay Brilliant Blonde",
-          "variation": "Regular",
-          "category": "Draft Beer",
+          "category": "Canned Drinks",
           "qty": 2.0,
           "gross": 12.0
         },
@@ -298,11 +324,11 @@
           "gross": 10.0
         },
         {
-          "name": "Surfside Blueberry + Lemonade",
+          "name": "Corazon",
           "variation": "Regular",
-          "category": "Canned Drinks",
+          "category": "Liquor",
           "qty": 1.0,
-          "gross": 6.0
+          "gross": 8.0
         },
         {
           "name": "Jagermeister",
@@ -326,9 +352,9 @@
           "gross": 6.0
         },
         {
-          "name": "Montucky Cold Snack",
+          "name": "Garage Beer Lime",
           "variation": "Regular",
-          "category": "Canned Beer",
+          "category": null,
           "qty": 1.0,
           "gross": 4.0
         },
@@ -467,9 +493,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1017.85,
-    "transaction_count": 57,
+    "net_sales": 1144.65,
+    "transaction_count": 67,
     "tips": 76.85,
-    "open_tab_total": 519.0
+    "open_tab_total": 636.8
   }
 }
