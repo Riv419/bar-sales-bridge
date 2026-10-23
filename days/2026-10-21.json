@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-23T01:59:54Z",
-  "generated_at_et": "2026-10-22 21:59:54 EDT",
+  "generated_at_utc": "2026-10-23T05:00:57Z",
+  "generated_at_et": "2026-10-23 01:00:57 EDT",
   "business_day": "2026-10-21",
   "business_day_start_et": "2026-10-21 04:00 EDT",
   "is_final": true,
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 1183.2,
-      "tax_backout_base": 1108.38,
-      "transaction_count": 62,
+      "net_sales": 1088.2,
+      "tax_backout_base": 1019.39,
+      "transaction_count": 56,
       "completed_count": 56,
-      "open_count": 6,
-      "open_tab_total": 95.0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
       "tips": 225.4,
       "tax_collected": 0.0,
       "cash_total": 129.0,
-      "card_total": 1069.8,
+      "card_total": 959.2,
       "discounts": [
         {
           "name": "Mug Club",
@@ -54,15 +54,8 @@
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 25.0,
-          "gross": 75.0
-        },
-        {
-          "name": "Titos",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 13.0,
-          "gross": 91.0
+          "qty": 22.0,
+          "gross": 66.0
         },
         {
           "name": "Lemon Shake Up",
@@ -70,6 +63,13 @@
           "category": "Specialty Drinks",
           "qty": 11.0,
           "gross": 110.0
+        },
+        {
+          "name": "Titos",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 11.0,
+          "gross": 77.0
         },
         {
           "name": "Breck Vanilla Porter",
@@ -100,13 +100,6 @@
           "gross": 36.0
         },
         {
-          "name": "Findlay Brilliant Blonde",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 4.0,
-          "gross": 24.0
-        },
-        {
           "name": "Montucky Cold Snack",
           "variation": "Regular",
           "category": "Canned Beer",
@@ -128,18 +121,11 @@
           "gross": 16.0
         },
         {
-          "name": "Miller Lite Can",
+          "name": "Findlay Brilliant Blonde",
           "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 4.0,
-          "gross": 16.0
-        },
-        {
-          "name": "Moosehead",
-          "variation": "Regular",
-          "category": "Bottled Beer",
+          "category": "Draft Beer",
           "qty": 3.0,
-          "gross": 15.0
+          "gross": 18.0
         },
         {
           "name": "Deschutes Fresh Squeezed IPA",
@@ -154,6 +140,13 @@
           "category": "Specialty Drinks",
           "qty": 3.0,
           "gross": 18.0
+        },
+        {
+          "name": "Miller Lite Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 3.0,
+          "gross": 12.0
         },
         {
           "name": "Coors Light Aluminum Bottle",
@@ -177,23 +170,9 @@
           "gross": 9.0
         },
         {
-          "name": "Fireball",
-          "variation": "Regular",
-          "category": "Whiskey",
-          "qty": 3.0,
-          "gross": 15.0
-        },
-        {
           "name": "White Claw - Mango",
           "variation": "Regular",
           "category": "Seltzers",
-          "qty": 3.0,
-          "gross": 18.0
-        },
-        {
-          "name": "Surfside Strawberry",
-          "variation": "Regular",
-          "category": "Canned Drinks",
           "qty": 3.0,
           "gross": 18.0
         },
@@ -233,13 +212,6 @@
           "gross": 12.0
         },
         {
-          "name": "Corona Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 10.0
-        },
-        {
           "name": "Paddle Margarita",
           "variation": "strawberry Margarita",
           "category": "Specialty Drinks",
@@ -268,11 +240,11 @@
           "gross": 10.0
         },
         {
-          "name": "Surfside Blueberry + Lemonade",
+          "name": "Moosehead",
           "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 2.0,
-          "gross": 12.0
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
         },
         {
           "name": "Mount Gay",
@@ -373,6 +345,20 @@
           "gross": 6.0
         },
         {
+          "name": "Corona Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Fireball",
+          "variation": "Regular",
+          "category": "Whiskey",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
           "name": "The Botanist",
           "variation": "Regular",
           "category": "Liquor",
@@ -406,13 +392,6 @@
           "category": "Specialty Drinks",
           "qty": 1.0,
           "gross": 10.0
-        },
-        {
-          "name": "High Noon - Grapefruit",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 7.0
         }
       ],
       "custom_amount_items": []
@@ -493,9 +472,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1343.95,
-    "transaction_count": 68,
+    "net_sales": 1248.95,
+    "transaction_count": 62,
     "tips": 259.15,
-    "open_tab_total": 139.0
+    "open_tab_total": 44.0
   }
 }
