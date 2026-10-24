@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-24T09:10:04Z",
-  "generated_at_et": "2026-10-24 05:10:04 EDT",
+  "generated_at_utc": "2026-10-24T09:36:40Z",
+  "generated_at_et": "2026-10-24 05:36:40 EDT",
   "business_day": "2026-10-24",
   "business_day_start_et": "2026-10-24 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-24T08:00:00Z",
-  "window_end_utc": "2026-10-24T09:10:04Z",
+  "window_end_utc": "2026-10-24T09:36:40Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -44,25 +44,33 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 0.0,
-      "tax_backout_base": 0.0,
-      "transaction_count": 0,
-      "completed_count": 0,
+      "net_sales": 56.0,
+      "tax_backout_base": 52.46,
+      "transaction_count": 1,
+      "completed_count": 1,
       "open_count": 0,
       "open_tab_total": 0.0,
       "tips": 0.0,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 0.0,
+      "card_total": 56.0,
       "discounts": [],
-      "line_items": [],
+      "line_items": [
+        {
+          "name": "Whiskey Sour",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 4.0,
+          "gross": 56.0
+        }
+      ],
       "custom_amount_items": []
     }
   },
   "errors": [],
   "combined": {
-    "net_sales": 0.0,
-    "transaction_count": 0,
+    "net_sales": 56.0,
+    "transaction_count": 1,
     "tips": 0.0,
     "open_tab_total": 0.0
   }
