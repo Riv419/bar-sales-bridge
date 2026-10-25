@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-25T09:27:20Z",
-  "generated_at_et": "2026-10-25 05:27:20 EDT",
+  "generated_at_utc": "2026-10-25T09:53:25Z",
+  "generated_at_et": "2026-10-25 05:53:25 EDT",
   "business_day": "2026-10-25",
   "business_day_start_et": "2026-10-25 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-25T08:00:00Z",
-  "window_end_utc": "2026-10-25T09:27:20Z",
+  "window_end_utc": "2026-10-25T09:53:25Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -44,16 +44,16 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 30.0,
-      "tax_backout_base": 28.1,
-      "transaction_count": 1,
-      "completed_count": 1,
+      "net_sales": 126.0,
+      "tax_backout_base": 118.03,
+      "transaction_count": 2,
+      "completed_count": 2,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 6.0,
+      "tips": 22.0,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 30.0,
+      "card_total": 126.0,
       "discounts": [],
       "line_items": [
         {
@@ -62,6 +62,48 @@
           "category": "Bourbon - Whiskey",
           "qty": 2.0,
           "gross": 24.0
+        },
+        {
+          "name": "Sazerac",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Rum Old Fashioned",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Rand McNally\u2019s Remedy",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "James Rose",
+          "variation": "Regular",
+          "category": "After Dinner",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Waldorf",
+          "variation": "Regular",
+          "category": "Scotch",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Betty White Lady",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 1.0,
+          "gross": 14.0
         }
       ],
       "custom_amount_items": []
@@ -69,9 +111,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 30.0,
-    "transaction_count": 1,
-    "tips": 6.0,
+    "net_sales": 126.0,
+    "transaction_count": 2,
+    "tips": 22.0,
     "open_tab_total": 0.0
   }
 }
