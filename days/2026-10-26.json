@@ -1,0 +1,281 @@
+{
+  "generated_at_utc": "2026-10-26T10:34:36Z",
+  "generated_at_et": "2026-10-26 06:34:36 EDT",
+  "business_day": "2026-10-26",
+  "business_day_start_et": "2026-10-26 04:00 EDT",
+  "is_final": false,
+  "window_start_utc": "2026-10-26T08:00:00Z",
+  "window_end_utc": "2026-10-26T10:34:36Z",
+  "bars": {
+    "tiques": {
+      "name": "Tique's",
+      "location_id": "L91FN4CPCADRA",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "paddle": {
+      "name": "Paddle Bar",
+      "location_id": "RMSRRF4GTR3J5",
+      "net_sales": 221.5,
+      "tax_backout_base": 207.49,
+      "transaction_count": 6,
+      "completed_count": 6,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 27.5,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 221.5,
+      "discounts": [],
+      "line_items": [
+        {
+          "name": "Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 7.0,
+          "gross": 21.0
+        },
+        {
+          "name": "Bartons natural Vodka (Well)",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 5.0,
+          "gross": 30.0
+        },
+        {
+          "name": "Fresh Fruit",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 5.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Jameson",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 4.0,
+          "gross": 32.0
+        },
+        {
+          "name": "Bud Light Bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 4.0,
+          "gross": 16.0
+        },
+        {
+          "name": "Lemon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 3.0,
+          "gross": 27.0
+        },
+        {
+          "name": "Labatt Blue",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Orange Creamsicle",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Deschutes Fresh Squeezed IPA",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Malibu",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Grapefruit Squeeze",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Narragansett Lager",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Coors Banquet",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Coors Light Aluminum Bottle",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Garage Beer Lime",
+          "variation": "Regular",
+          "category": null,
+          "qty": 1.0,
+          "gross": 6.0
+        }
+      ],
+      "custom_amount_items": []
+    },
+    "volstead": {
+      "name": "Volstead",
+      "location_id": "G9XHMF97SD95W",
+      "net_sales": 381.2,
+      "tax_backout_base": 357.1,
+      "transaction_count": 6,
+      "completed_count": 6,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 64.2,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 381.2,
+      "discounts": [],
+      "line_items": [
+        {
+          "name": "Magic Moment",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 4.0,
+          "gross": 48.0
+        },
+        {
+          "name": "French 75",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 3.0,
+          "gross": 36.0
+        },
+        {
+          "name": "Moscow Mule",
+          "variation": "Regular",
+          "category": "Mules",
+          "qty": 3.0,
+          "gross": 30.0
+        },
+        {
+          "name": "Old Fashioned",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Whiskey Sour",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 2.0,
+          "gross": 28.0
+        },
+        {
+          "name": "Margarita",
+          "variation": "Regular",
+          "category": "Tequila",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Brown Derby",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Rand McNally\u2019s Remedy",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 2.0,
+          "gross": 28.0
+        },
+        {
+          "name": "Aviation",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Betty White Lady",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Woodford Reserve",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Gin Fizz",
+          "variation": "Regular",
+          "category": "Classic Cocktails",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Singapore Sling",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 1.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Corpse Reviver #2",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 1.0,
+          "gross": 12.0
+        }
+      ],
+      "custom_amount_items": []
+    }
+  },
+  "errors": [],
+  "combined": {
+    "net_sales": 602.7,
+    "transaction_count": 12,
+    "tips": 91.7,
+    "open_tab_total": 0.0
+  }
+}
