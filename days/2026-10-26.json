@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-26T10:34:36Z",
-  "generated_at_et": "2026-10-26 06:34:36 EDT",
+  "generated_at_utc": "2026-10-26T11:13:50Z",
+  "generated_at_et": "2026-10-26 07:13:50 EDT",
   "business_day": "2026-10-26",
   "business_day_start_et": "2026-10-26 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-26T08:00:00Z",
-  "window_end_utc": "2026-10-26T10:34:36Z",
+  "window_end_utc": "2026-10-26T11:13:50Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,24 +27,44 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 221.5,
-      "tax_backout_base": 207.49,
-      "transaction_count": 6,
-      "completed_count": 6,
+      "net_sales": 363.6,
+      "tax_backout_base": 340.61,
+      "transaction_count": 11,
+      "completed_count": 11,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 27.5,
+      "tips": 43.6,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 221.5,
-      "discounts": [],
+      "card_total": 363.6,
+      "discounts": [
+        {
+          "name": "Mug Club",
+          "amount": 3.0,
+          "count": 1
+        }
+      ],
       "line_items": [
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 8.0,
+          "gross": 32.0
+        },
         {
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 7.0,
           "gross": 21.0
+        },
+        {
+          "name": "Lemon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 5.0,
+          "gross": 45.0
         },
         {
           "name": "Bartons natural Vodka (Well)",
@@ -75,11 +95,53 @@
           "gross": 16.0
         },
         {
-          "name": "Lemon Shake Up",
+          "name": "White Claw - Natural Lime",
           "variation": "Regular",
-          "category": "Specialty Drinks",
+          "category": "Seltzers",
           "qty": 3.0,
-          "gross": 27.0
+          "gross": 18.0
+        },
+        {
+          "name": "Findlay Brilliant Blonde",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 3.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Jackie O's Who Cooks for you",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Sun Cruiser Classic Iced Tea",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Kona Big Wave",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Superlyte Orange",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Soda",
+          "variation": "Regular",
+          "category": "Beverages",
+          "qty": 1.0,
+          "gross": 3.0
         },
         {
           "name": "Labatt Blue",
@@ -138,13 +200,6 @@
           "gross": 5.0
         },
         {
-          "name": "Michelob Ultra Can",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 4.0
-        },
-        {
           "name": "Garage Beer Lime",
           "variation": "Regular",
           "category": null,
@@ -157,18 +212,39 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 381.2,
-      "tax_backout_base": 357.1,
-      "transaction_count": 6,
-      "completed_count": 6,
+      "net_sales": 603.4,
+      "tax_backout_base": 565.25,
+      "transaction_count": 9,
+      "completed_count": 9,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 64.2,
+      "tips": 102.4,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 381.2,
+      "card_total": 603.4,
       "discounts": [],
       "line_items": [
+        {
+          "name": "Betty White Lady",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 5.0,
+          "gross": 70.0
+        },
+        {
+          "name": "Sazerac",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 4.0,
+          "gross": 48.0
+        },
+        {
+          "name": "Rum Old Fashioned",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 4.0,
+          "gross": 56.0
+        },
         {
           "name": "Magic Moment",
           "variation": "Regular",
@@ -189,6 +265,13 @@
           "category": "Mules",
           "qty": 3.0,
           "gross": 30.0
+        },
+        {
+          "name": "Weekly Special",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 2.0,
+          "gross": 24.0
         },
         {
           "name": "Old Fashioned",
@@ -233,13 +316,6 @@
           "gross": 14.0
         },
         {
-          "name": "Betty White Lady",
-          "variation": "Regular",
-          "category": "Gin",
-          "qty": 1.0,
-          "gross": 14.0
-        },
-        {
           "name": "Woodford Reserve",
           "variation": "Regular",
           "category": "Bourbon - Whiskey",
@@ -273,9 +349,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 602.7,
-    "transaction_count": 12,
-    "tips": 91.7,
+    "net_sales": 967.0,
+    "transaction_count": 20,
+    "tips": 146.0,
     "open_tab_total": 0.0
   }
 }
