@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-26T00:44:04Z",
-  "generated_at_et": "2026-10-25 20:44:04 EDT",
+  "generated_at_utc": "2026-10-26T04:57:01Z",
+  "generated_at_et": "2026-10-26 00:57:01 EDT",
   "business_day": "2026-10-25",
   "business_day_start_et": "2026-10-25 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-25T08:00:00Z",
-  "window_end_utc": "2026-10-26T00:44:04Z",
+  "window_end_utc": "2026-10-26T04:57:01Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -97,16 +97,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 762.2,
-      "tax_backout_base": 714.0,
-      "transaction_count": 50,
-      "completed_count": 17,
+      "net_sales": 800.95,
+      "tax_backout_base": 750.3,
+      "transaction_count": 51,
+      "completed_count": 18,
       "open_count": 33,
       "open_tab_total": 536.0,
-      "tips": 0.0,
+      "tips": 7.75,
       "tax_collected": 0.0,
       "cash_total": 226.2,
-      "card_total": 707.0,
+      "card_total": 745.75,
       "discounts": [
         {
           "name": "Mug Club",
@@ -131,8 +131,15 @@
           "name": "Michelob Ultra Can",
           "variation": "Regular",
           "category": "Canned Beer",
-          "qty": 10.0,
-          "gross": 40.0
+          "qty": 11.0,
+          "gross": 44.0
+        },
+        {
+          "name": "Kona Big Wave",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 6.0,
+          "gross": 36.0
         },
         {
           "name": "Pacifico",
@@ -147,13 +154,6 @@
           "category": "Bottled Beer",
           "qty": 5.0,
           "gross": 20.0
-        },
-        {
-          "name": "Kona Big Wave",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 5.0,
-          "gross": 30.0
         },
         {
           "name": "XIN Black",
@@ -308,6 +308,20 @@
           "category": "Seltzers",
           "qty": 2.0,
           "gross": 12.0
+        },
+        {
+          "name": "Mai Tai",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Shipfaced Bloody Mary",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 9.0
         },
         {
           "name": "Shot And Snack",
@@ -690,9 +704,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 2506.61,
-    "transaction_count": 156,
-    "tips": 307.41,
+    "net_sales": 2545.36,
+    "transaction_count": 157,
+    "tips": 315.16,
     "open_tab_total": 692.0
   }
 }

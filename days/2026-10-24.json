@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-26T00:44:04Z",
-  "generated_at_et": "2026-10-25 20:44:04 EDT",
+  "generated_at_utc": "2026-10-26T04:57:01Z",
+  "generated_at_et": "2026-10-26 00:57:01 EDT",
   "business_day": "2026-10-24",
   "business_day_start_et": "2026-10-24 04:00 EDT",
   "is_final": true,
@@ -147,16 +147,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 2407.55,
-      "tax_backout_base": 2255.32,
-      "transaction_count": 127,
+      "net_sales": 2376.55,
+      "tax_backout_base": 2226.28,
+      "transaction_count": 126,
       "completed_count": 106,
-      "open_count": 21,
-      "open_tab_total": 576.0,
+      "open_count": 20,
+      "open_tab_total": 545.0,
       "tips": 209.95,
       "tax_collected": 0.0,
       "cash_total": 411.6,
-      "card_total": 2097.1,
+      "card_total": 2058.35,
       "discounts": [
         {
           "name": "Mug Club",
@@ -181,8 +181,8 @@
           "name": "Kona Big Wave",
           "variation": "Regular",
           "category": "Draft Beer",
-          "qty": 25.0,
-          "gross": 150.0
+          "qty": 24.0,
+          "gross": 144.0
         },
         {
           "name": "Busch Light",
@@ -192,18 +192,18 @@
           "gross": 60.0
         },
         {
-          "name": "Michelob Ultra Can",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 19.0,
-          "gross": 76.0
-        },
-        {
           "name": "Coors Light Aluminum Bottle",
           "variation": "Regular",
           "category": "Canned Beer",
           "qty": 18.0,
           "gross": 90.0
+        },
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 18.0,
+          "gross": 72.0
         },
         {
           "name": "Soda",
@@ -325,13 +325,6 @@
           "gross": 24.0
         },
         {
-          "name": "Shipfaced Bloody Mary",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 4.0,
-          "gross": 36.0
-        },
-        {
           "name": "Miller Lite Can",
           "variation": "Regular",
           "category": "Canned Beer",
@@ -435,6 +428,13 @@
           "category": "Liquor",
           "qty": 3.0,
           "gross": 18.0
+        },
+        {
+          "name": "Shipfaced Bloody Mary",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 3.0,
+          "gross": 27.0
         },
         {
           "name": "Juiced Mimosa",
@@ -764,13 +764,6 @@
           "category": "Seltzers",
           "qty": 1.0,
           "gross": 7.0
-        },
-        {
-          "name": "Mai Tai",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 12.0
         }
       ],
       "custom_amount_items": []
@@ -1069,9 +1062,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 4109.2,
-    "transaction_count": 178,
+    "net_sales": 4078.2,
+    "transaction_count": 177,
     "tips": 261.6,
-    "open_tab_total": 1662.0
+    "open_tab_total": 1631.0
   }
 }
