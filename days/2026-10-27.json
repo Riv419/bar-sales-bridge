@@ -1,0 +1,99 @@
+{
+  "generated_at_utc": "2026-10-27T10:04:34Z",
+  "generated_at_et": "2026-10-27 06:04:34 EDT",
+  "business_day": "2026-10-27",
+  "business_day_start_et": "2026-10-27 04:00 EDT",
+  "is_final": false,
+  "window_start_utc": "2026-10-27T08:00:00Z",
+  "window_end_utc": "2026-10-27T10:04:34Z",
+  "bars": {
+    "tiques": {
+      "name": "Tique's",
+      "location_id": "L91FN4CPCADRA",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "paddle": {
+      "name": "Paddle Bar",
+      "location_id": "RMSRRF4GTR3J5",
+      "net_sales": 20.0,
+      "tax_backout_base": 18.74,
+      "transaction_count": 1,
+      "completed_count": 1,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 4.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 20.0,
+      "discounts": [],
+      "line_items": [
+        {
+          "name": "Paddle Margarita",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Surfside Ice Tea & Vodka",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        }
+      ],
+      "custom_amount_items": []
+    },
+    "volstead": {
+      "name": "Volstead",
+      "location_id": "G9XHMF97SD95W",
+      "net_sales": 57.6,
+      "tax_backout_base": 53.96,
+      "transaction_count": 1,
+      "completed_count": 1,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 9.6,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 57.6,
+      "discounts": [],
+      "line_items": [
+        {
+          "name": "Weekly Special",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 3.0,
+          "gross": 36.0
+        },
+        {
+          "name": "Old Fashioned",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 12.0
+        }
+      ],
+      "custom_amount_items": []
+    }
+  },
+  "errors": [],
+  "combined": {
+    "net_sales": 77.6,
+    "transaction_count": 2,
+    "tips": 13.6,
+    "open_tab_total": 0.0
+  }
+}
