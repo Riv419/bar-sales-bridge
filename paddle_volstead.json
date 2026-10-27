@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-27T10:04:34Z",
-  "generated_at_et": "2026-10-27 06:04:34 EDT",
+  "generated_at_utc": "2026-10-27T10:40:32Z",
+  "generated_at_et": "2026-10-27 06:40:32 EDT",
   "business_day": "2026-10-27",
   "business_day_start_et": "2026-10-27 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-27T08:00:00Z",
-  "window_end_utc": "2026-10-27T10:04:34Z",
+  "window_end_utc": "2026-10-27T10:40:32Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -59,16 +59,16 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 57.6,
-      "tax_backout_base": 53.96,
-      "transaction_count": 1,
-      "completed_count": 1,
+      "net_sales": 167.6,
+      "tax_backout_base": 157.0,
+      "transaction_count": 2,
+      "completed_count": 2,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 9.6,
+      "tips": 31.6,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 57.6,
+      "card_total": 167.6,
       "discounts": [],
       "line_items": [
         {
@@ -77,6 +77,48 @@
           "category": "Specialty",
           "qty": 3.0,
           "gross": 36.0
+        },
+        {
+          "name": "Pimm's Cup",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "The Old San Juan",
+          "variation": "Regular",
+          "category": "Weekly Special",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Magic Moment",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Sazerac",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "White Night",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Whiskey Sour",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 14.0
         },
         {
           "name": "Old Fashioned",
@@ -91,9 +133,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 77.6,
-    "transaction_count": 2,
-    "tips": 13.6,
+    "net_sales": 187.6,
+    "transaction_count": 3,
+    "tips": 35.6,
     "open_tab_total": 0.0
   }
 }
