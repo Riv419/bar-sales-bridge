@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-28T10:51:28Z",
-  "generated_at_et": "2026-10-28 06:51:28 EDT",
+  "generated_at_utc": "2026-10-28T11:25:01Z",
+  "generated_at_et": "2026-10-28 07:25:01 EDT",
   "business_day": "2026-10-28",
   "business_day_start_et": "2026-10-28 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-28T08:00:00Z",
-  "window_end_utc": "2026-10-28T10:51:28Z",
+  "window_end_utc": "2026-10-28T11:25:01Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,18 +27,39 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 86.0,
-      "tax_backout_base": 80.56,
-      "transaction_count": 3,
-      "completed_count": 3,
+      "net_sales": 132.8,
+      "tax_backout_base": 124.4,
+      "transaction_count": 5,
+      "completed_count": 5,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 18.0,
+      "tips": 25.8,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 86.0,
+      "card_total": 132.8,
       "discounts": [],
       "line_items": [
+        {
+          "name": "Voodoo Ranger Atomic Pumpkin",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Big Nog Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 16.0
+        },
+        {
+          "name": "Nor'easter (Hurricane)",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 24.0
+        },
         {
           "name": "Michelob Ultra Can",
           "variation": "Regular",
@@ -68,13 +89,6 @@
           "gross": 10.0
         },
         {
-          "name": "Voodoo Ranger Atomic Pumpkin",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
           "name": "Kona Big Wave",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -87,13 +101,6 @@
           "category": "Draft Beer",
           "qty": 1.0,
           "gross": 6.0
-        },
-        {
-          "name": "Big Nog Nut",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 8.0
         }
       ],
       "custom_amount_items": []
@@ -126,9 +133,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 110.0,
-    "transaction_count": 4,
-    "tips": 28.0,
+    "net_sales": 156.8,
+    "transaction_count": 6,
+    "tips": 35.8,
     "open_tab_total": 0.0
   }
 }
