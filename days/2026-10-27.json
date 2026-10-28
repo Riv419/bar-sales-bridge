@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-28T05:53:01Z",
-  "generated_at_et": "2026-10-28 01:53:01 EDT",
+  "generated_at_utc": "2026-10-28T10:51:28Z",
+  "generated_at_et": "2026-10-28 06:51:28 EDT",
   "business_day": "2026-10-27",
   "business_day_start_et": "2026-10-27 04:00 EDT",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-10-27T08:00:00Z",
-  "window_end_utc": "2026-10-28T05:53:01Z",
+  "window_end_utc": "2026-10-28T08:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,13 +27,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 585.14,
-      "tax_backout_base": 548.14,
+      "net_sales": 670.99,
+      "tax_backout_base": 628.56,
       "transaction_count": 30,
-      "completed_count": 11,
-      "open_count": 19,
-      "open_tab_total": 435.34,
-      "tips": 6.8,
+      "completed_count": 28,
+      "open_count": 2,
+      "open_tab_total": 18.14,
+      "tips": 92.65,
       "tax_collected": 0.14,
       "cash_total": 113.0,
       "card_total": 567.99,
@@ -79,18 +79,18 @@
           "gross": 36.0
         },
         {
-          "name": "XIN Black",
-          "variation": "Regular",
-          "category": null,
-          "qty": 5.0,
-          "gross": 35.0
-        },
-        {
           "name": "Old Style",
           "variation": "Regular",
           "category": "Canned Beer",
           "qty": 5.0,
           "gross": 20.0
+        },
+        {
+          "name": "XIN Black",
+          "variation": "Regular",
+          "category": null,
+          "qty": 5.0,
+          "gross": 35.0
         },
         {
           "name": "Lemon Shake Up",
@@ -100,11 +100,11 @@
           "gross": 36.0
         },
         {
-          "name": "Busch Light",
+          "name": "Jameson",
           "variation": "Regular",
-          "category": "Canned Beer",
+          "category": "Liquor",
           "qty": 3.0,
-          "gross": 9.0
+          "gross": 24.0
         },
         {
           "name": "Great Lakes German Pils",
@@ -114,53 +114,11 @@
           "gross": 18.0
         },
         {
-          "name": "Jameson",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 3.0,
-          "gross": 24.0
-        },
-        {
-          "name": "Paddle Margarita",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 20.0
-        },
-        {
-          "name": "Sandtown Mini Sticker",
-          "variation": "Regular",
-          "category": "Sandtown Stuff",
-          "qty": 2.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Jackie O's Who Cooks for you",
+          "name": "Busch Light",
           "variation": "Regular",
           "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 14.0
-        },
-        {
-          "name": "Jagermeister",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Buffalo Trace",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 24.0
-        },
-        {
-          "name": "Premium Liquor",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 8.0
+          "qty": 3.0,
+          "gross": 9.0
         },
         {
           "name": "Cinna Nut",
@@ -184,6 +142,34 @@
           "gross": 12.0
         },
         {
+          "name": "Premium Liquor",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Buffalo Trace",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Jagermeister",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
           "name": "Garage Beer Lime",
           "variation": "Regular",
           "category": null,
@@ -191,10 +177,115 @@
           "gross": 12.0
         },
         {
-          "name": "Michelob Ultra Can",
+          "name": "Paddle Margarita",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 20.0
+        },
+        {
+          "name": "Sandtown Mini Sticker",
+          "variation": "Regular",
+          "category": "Sandtown Stuff",
+          "qty": 2.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Jackie O's Who Cooks for you",
           "variation": "Regular",
           "category": "Canned Beer",
           "qty": 2.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Ketel One",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Cucumber Smash",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Blue Moon",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Rolling Rock",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Miller Lite Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Titos",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Makers Mark",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Oncore Garion's Irish Red",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Hendricks",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Oncore I Love Those Redheads",
+          "variation": "Regular",
+          "category": null,
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Lime - Ade",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Echo Bay  Sauvignon Blanc",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Wente Morning Fog Chardonnay",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
           "gross": 8.0
         },
         {
@@ -233,102 +324,11 @@
           "gross": 6.0
         },
         {
-          "name": "Hendricks",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Oncore I Love Those Redheads",
-          "variation": "Regular",
-          "category": null,
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Echo Bay  Sauvignon Blanc",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 1.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Wente Morning Fog Chardonnay",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 1.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Lime - Ade",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Titos",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Makers Mark",
-          "variation": "Regular",
-          "category": "Bourbon",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
           "name": "High Noon - Mango",
           "variation": "Regular",
           "category": "Seltzers",
           "qty": 1.0,
           "gross": 7.0
-        },
-        {
-          "name": "Oncore Garion's Irish Red",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Ketel One",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Cucumber Smash",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Rolling Rock",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Miller Lite Can",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Blue Moon",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 5.0
         },
         {
           "name": "Stroh\u2019s",
@@ -424,9 +424,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 797.74,
+    "net_sales": 883.59,
     "transaction_count": 34,
-    "tips": 63.4,
-    "open_tab_total": 435.34
+    "tips": 149.25,
+    "open_tab_total": 18.14
   }
 }
