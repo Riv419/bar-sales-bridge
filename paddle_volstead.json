@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-29T00:01:14Z",
-  "generated_at_et": "2026-10-28 20:01:14 EDT",
+  "generated_at_utc": "2026-10-29T05:57:17Z",
+  "generated_at_et": "2026-10-29 01:57:17 EDT",
   "business_day": "2026-10-28",
   "business_day_start_et": "2026-10-28 04:00 EDT",
   "is_final": false,
   "window_start_utc": "2026-10-28T08:00:00Z",
-  "window_end_utc": "2026-10-29T00:01:14Z",
+  "window_end_utc": "2026-10-29T05:57:17Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,24 +27,51 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 479.8,
-      "tax_backout_base": 449.46,
-      "transaction_count": 23,
+      "net_sales": 765.2,
+      "tax_backout_base": 716.81,
+      "transaction_count": 37,
       "completed_count": 10,
-      "open_count": 13,
-      "open_tab_total": 223.0,
+      "open_count": 27,
+      "open_tab_total": 508.4,
       "tips": 44.8,
       "tax_collected": 0.0,
       "cash_total": 43.0,
-      "card_total": 480.7,
-      "discounts": [],
+      "card_total": 860.4,
+      "discounts": [
+        {
+          "name": "Employee Discount",
+          "amount": 0.0,
+          "count": 1
+        }
+      ],
       "line_items": [
         {
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 9.0,
-          "gross": 27.0
+          "qty": 13.0,
+          "gross": 39.0
+        },
+        {
+          "name": "Old Style",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 7.0,
+          "gross": 28.0
+        },
+        {
+          "name": "Kona Big Wave",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 7.0,
+          "gross": 42.0
+        },
+        {
+          "name": "Paddle Margarita",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 6.0,
+          "gross": 60.0
         },
         {
           "name": "Bartons natural Vodka (Well)",
@@ -54,20 +81,6 @@
           "gross": 36.0
         },
         {
-          "name": "Old Style",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 5.0,
-          "gross": 20.0
-        },
-        {
-          "name": "Kona Big Wave",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 5.0,
-          "gross": 30.0
-        },
-        {
           "name": "Bud Light Bottle",
           "variation": "Regular",
           "category": "Bottled Beer",
@@ -75,11 +88,39 @@
           "gross": 16.0
         },
         {
+          "name": "The Federalist Honest Red Blend",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 4.0,
+          "gross": 32.0
+        },
+        {
+          "name": "Bota Box Pinot Grigio",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 3.0,
+          "gross": 15.0
+        },
+        {
           "name": "Juniper Low Rider",
           "variation": "Regular",
           "category": "Draft Beer",
           "qty": 3.0,
           "gross": 18.0
+        },
+        {
+          "name": "High Noon - Grapefruit",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 3.0,
+          "gross": 21.0
+        },
+        {
+          "name": "XIN Black",
+          "variation": "Regular",
+          "category": null,
+          "qty": 3.0,
+          "gross": 21.0
         },
         {
           "name": "Hamm\u2019s",
@@ -110,11 +151,18 @@
           "gross": 18.0
         },
         {
-          "name": "Bota Box Pinot Grigio",
+          "name": "Busch Light",
           "variation": "Regular",
-          "category": "Wine",
+          "category": "Canned Beer",
           "qty": 2.0,
-          "gross": 10.0
+          "gross": 6.0
+        },
+        {
+          "name": "Espolon Reposado",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 20.0
         },
         {
           "name": "Surfside Blueberry + Lemonade",
@@ -166,25 +214,53 @@
           "gross": 14.0
         },
         {
-          "name": "Guinness",
+          "name": "Cucumber Smash",
           "variation": "Regular",
-          "category": "Canned Beer",
+          "category": "Specialty Drinks",
           "qty": 2.0,
-          "gross": 12.0
+          "gross": 20.0
         },
         {
-          "name": "The Federalist Honest Red Blend",
+          "name": "Lime - Ade",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 20.0
+        },
+        {
+          "name": "Echo Bay  Sauvignon Blanc",
           "variation": "Regular",
           "category": "Wine",
           "qty": 2.0,
           "gross": 16.0
         },
         {
-          "name": "XIN Black",
+          "name": "Great Lakes German Pils",
           "variation": "Regular",
-          "category": null,
+          "category": "Draft Beer",
           "qty": 2.0,
-          "gross": 14.0
+          "gross": 12.0
+        },
+        {
+          "name": "Bourbonade",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 2.0,
+          "gross": 28.0
+        },
+        {
+          "name": "Crown Royal",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Guinness",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 12.0
         },
         {
           "name": "Lamarca Prosecco",
@@ -201,20 +277,6 @@
           "gross": 14.0
         },
         {
-          "name": "Busch Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 3.0
-        },
-        {
-          "name": "Espolon Reposado",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
           "name": "Lemon Shake Up",
           "variation": "Strawberry",
           "category": "Specialty Drinks",
@@ -222,11 +284,32 @@
           "gross": 10.0
         },
         {
-          "name": "Cucumber Smash",
+          "name": "Orange Creamsicle",
           "variation": "Regular",
           "category": "Specialty Drinks",
           "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Lemon Shake Up",
+          "variation": "Raspberry",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
           "gross": 10.0
+        },
+        {
+          "name": "Meiers Rum (well)",
+          "variation": "Regular",
+          "category": "Rum",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Weller 12",
+          "variation": "Regular",
+          "category": null,
+          "qty": 1.0,
+          "gross": 16.0
         },
         {
           "name": "Chips",
@@ -241,13 +324,6 @@
           "category": "Beverages",
           "qty": 1.0,
           "gross": 3.0
-        },
-        {
-          "name": "Bourbonade",
-          "variation": "Regular",
-          "category": "Bourbon",
-          "qty": 1.0,
-          "gross": 14.0
         }
       ],
       "custom_amount_items": []
@@ -255,26 +331,26 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 147.8,
-      "tax_backout_base": 138.45,
-      "transaction_count": 7,
-      "completed_count": 4,
-      "open_count": 3,
-      "open_tab_total": 36.0,
+      "net_sales": 209.8,
+      "tax_backout_base": 196.53,
+      "transaction_count": 12,
+      "completed_count": 5,
+      "open_count": 7,
+      "open_tab_total": 92.0,
       "tips": 33.5,
       "tax_collected": 0.0,
-      "cash_total": 37.0,
-      "card_total": 124.8,
+      "cash_total": 43.0,
+      "card_total": 195.4,
       "discounts": [
+        {
+          "name": "Summer Wednesday ",
+          "amount": 0.0,
+          "count": 7
+        },
         {
           "name": "Employee Discount",
           "amount": 0.0,
           "count": 1
-        },
-        {
-          "name": "Summer Wednesday ",
-          "amount": 0.0,
-          "count": 3
         }
       ],
       "line_items": [
@@ -286,11 +362,25 @@
           "gross": 42.0
         },
         {
+          "name": "French 75",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 5.0,
+          "gross": 60.0
+        },
+        {
           "name": "French 76",
           "variation": "Regular",
           "category": "Vodka",
           "qty": 3.0,
           "gross": 36.0
+        },
+        {
+          "name": "Manhattan",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 2.0,
+          "gross": 26.0
         },
         {
           "name": "Moscow Mule",
@@ -328,9 +418,9 @@
           "gross": 5.0
         },
         {
-          "name": "French 75",
+          "name": "Roast N' Toast",
           "variation": "Regular",
-          "category": "Gin",
+          "category": "Mules",
           "qty": 1.0,
           "gross": 12.0
         },
@@ -347,9 +437,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 627.6,
-    "transaction_count": 30,
+    "net_sales": 975.0,
+    "transaction_count": 49,
     "tips": 78.3,
-    "open_tab_total": 259.0
+    "open_tab_total": 600.4
   }
 }
