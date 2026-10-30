@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-29T23:57:21Z",
-  "generated_at_et": "2026-10-29 19:57:21 EDT",
+  "generated_at_utc": "2026-10-30T05:58:21Z",
+  "generated_at_et": "2026-10-30 01:58:21 EDT",
   "business_day": "2026-10-28",
   "business_day_start_et": "2026-10-28 04:00 EDT",
   "is_final": true,
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 901.34,
-      "tax_backout_base": 844.35,
-      "transaction_count": 38,
+      "net_sales": 807.34,
+      "tax_backout_base": 756.29,
+      "transaction_count": 35,
       "completed_count": 35,
-      "open_count": 3,
-      "open_tab_total": 94.0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
       "tips": 169.8,
       "tax_collected": 0.14,
       "cash_total": 43.0,
-      "card_total": 871.54,
+      "card_total": 764.34,
       "discounts": [
         {
           "name": "Employee Discount",
@@ -67,13 +67,6 @@
           "gross": 28.0
         },
         {
-          "name": "Bartons natural Vodka (Well)",
-          "variation": "Regular",
-          "category": "Vodka",
-          "qty": 6.0,
-          "gross": 36.0
-        },
-        {
           "name": "Paddle Margarita",
           "variation": "Regular",
           "category": "Specialty Drinks",
@@ -81,11 +74,11 @@
           "gross": 60.0
         },
         {
-          "name": "The Federalist Honest Red Blend",
+          "name": "Bartons natural Vodka (Well)",
           "variation": "Regular",
-          "category": "Wine",
+          "category": "Vodka",
           "qty": 4.0,
-          "gross": 32.0
+          "gross": 24.0
         },
         {
           "name": "Bud Light Bottle",
@@ -123,30 +116,9 @@
           "gross": 9.0
         },
         {
-          "name": "Fresh Fruit",
-          "variation": "Regular",
-          "category": "Snacks",
-          "qty": 3.0,
-          "gross": 3.0
-        },
-        {
           "name": "Juniper Low Rider",
           "variation": "Regular",
           "category": "Draft Beer",
-          "qty": 3.0,
-          "gross": 18.0
-        },
-        {
-          "name": "Miller Lite Can",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 3.0,
-          "gross": 12.0
-        },
-        {
-          "name": "White Claw - Peach",
-          "variation": "Regular",
-          "category": "Seltzers",
           "qty": 3.0,
           "gross": 18.0
         },
@@ -163,6 +135,13 @@
           "category": "Liquor",
           "qty": 2.0,
           "gross": 20.0
+        },
+        {
+          "name": "The Federalist Honest Red Blend",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 2.0,
+          "gross": 16.0
         },
         {
           "name": "Lemon Shake Up",
@@ -263,20 +242,6 @@
           "gross": 14.0
         },
         {
-          "name": "Guinness",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Lamarca Prosecco",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 2.0,
-          "gross": 22.0
-        },
-        {
           "name": "Stroh\u2019s",
           "variation": "Regular",
           "category": "Canned Beer",
@@ -331,6 +296,13 @@
           "category": "Beverages",
           "qty": 1.0,
           "gross": 3.0
+        },
+        {
+          "name": "Fresh Fruit",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 1.0,
+          "gross": 1.0
         },
         {
           "name": "Meiers Rum (well)",
@@ -458,9 +430,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1111.14,
-    "transaction_count": 50,
+    "net_sales": 1017.14,
+    "transaction_count": 47,
     "tips": 203.3,
-    "open_tab_total": 186.0
+    "open_tab_total": 92.0
   }
 }
