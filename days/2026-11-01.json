@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-02T02:45:37Z",
-  "generated_at_et": "2026-11-01 21:45:37 EST",
+  "generated_at_utc": "2026-11-02T06:21:47Z",
+  "generated_at_et": "2026-11-02 01:21:47 EST",
   "business_day": "2026-11-01",
   "business_day_start_et": "2026-11-01 04:00 EST",
   "is_final": false,
   "window_start_utc": "2026-11-01T09:00:00Z",
-  "window_end_utc": "2026-11-02T02:45:37Z",
+  "window_end_utc": "2026-11-02T06:21:47Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 540.8,
-      "tax_backout_base": 506.6,
-      "transaction_count": 31,
-      "completed_count": 6,
+      "net_sales": 588.4,
+      "tax_backout_base": 551.19,
+      "transaction_count": 34,
+      "completed_count": 9,
       "open_count": 25,
       "open_tab_total": 497.8,
-      "tips": 0.0,
+      "tips": 11.6,
       "tax_collected": 0.0,
       "cash_total": 43.0,
-      "card_total": 617.6,
+      "card_total": 665.2,
       "discounts": [
         {
           "name": "Mug Club",
@@ -54,8 +54,8 @@
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 17.0,
-          "gross": 51.0
+          "qty": 19.0,
+          "gross": 57.0
         },
         {
           "name": "Maine Beer Company Lunch IPA",
@@ -105,6 +105,20 @@
           "category": "Specialty Drinks",
           "qty": 4.0,
           "gross": 40.0
+        },
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 3.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Coors Banquet",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 3.0,
+          "gross": 12.0
         },
         {
           "name": "Bartons natural Vodka (Well)",
@@ -175,6 +189,13 @@
           "category": "Seltzers",
           "qty": 2.0,
           "gross": 12.0
+        },
+        {
+          "name": "Carib Beer",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 6.0
         },
         {
           "name": "Budweiser Bottle",
@@ -529,9 +550,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1313.47,
-    "transaction_count": 54,
-    "tips": 105.86,
+    "net_sales": 1361.07,
+    "transaction_count": 57,
+    "tips": 117.46,
     "open_tab_total": 588.8
   }
 }

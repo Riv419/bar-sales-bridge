@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-02T02:45:37Z",
-  "generated_at_et": "2026-11-01 21:45:37 EST",
+  "generated_at_utc": "2026-11-02T06:21:47Z",
+  "generated_at_et": "2026-11-02 01:21:47 EST",
   "business_day": "2026-10-31",
   "business_day_start_et": "2026-10-31 04:00 EDT",
   "is_final": true,
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 1492.65,
-      "tax_backout_base": 1398.27,
-      "transaction_count": 79,
+      "net_sales": 1456.65,
+      "tax_backout_base": 1364.54,
+      "transaction_count": 76,
       "completed_count": 67,
-      "open_count": 12,
-      "open_tab_total": 261.0,
+      "open_count": 9,
+      "open_tab_total": 225.0,
       "tips": 155.25,
       "tax_collected": 0.0,
       "cash_total": 313.0,
-      "card_total": 1238.9,
+      "card_total": 1191.3,
       "discounts": [
         {
           "name": "Mug Club",
@@ -54,8 +54,8 @@
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 53.0,
-          "gross": 159.0
+          "qty": 51.0,
+          "gross": 153.0
         },
         {
           "name": "Busch Light",
@@ -91,20 +91,6 @@
           "category": "Draft Beer",
           "qty": 7.0,
           "gross": 42.0
-        },
-        {
-          "name": "Coors Banquet",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 7.0,
-          "gross": 28.0
-        },
-        {
-          "name": "Michelob Ultra Can",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 7.0,
-          "gross": 28.0
         },
         {
           "name": "Bartons natural Vodka (Well)",
@@ -149,11 +135,25 @@
           "gross": 50.0
         },
         {
+          "name": "Coors Banquet",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 4.0,
+          "gross": 16.0
+        },
+        {
           "name": "Crown Royal",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 4.0,
           "gross": 36.0
+        },
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 4.0,
+          "gross": 16.0
         },
         {
           "name": "Garage Beer Lime",
@@ -469,13 +469,6 @@
           "category": "Specialty Drinks",
           "qty": 1.0,
           "gross": 10.0
-        },
-        {
-          "name": "Carib Beer",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
-          "gross": 6.0
         }
       ],
       "custom_amount_items": [
@@ -794,9 +787,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 2842.65,
-    "transaction_count": 117,
+    "net_sales": 2806.65,
+    "transaction_count": 114,
     "tips": 245.25,
-    "open_tab_total": 1019.0
+    "open_tab_total": 983.0
   }
 }
