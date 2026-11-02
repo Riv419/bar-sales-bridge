@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-02T12:53:48Z",
-  "generated_at_et": "2026-11-02 07:53:48 EST",
+  "generated_at_utc": "2026-11-02T13:37:28Z",
+  "generated_at_et": "2026-11-02 08:37:28 EST",
   "business_day": "2026-11-02",
   "business_day_start_et": "2026-11-02 04:00 EST",
   "is_final": false,
   "window_start_utc": "2026-11-02T09:00:00Z",
-  "window_end_utc": "2026-11-02T12:53:48Z",
+  "window_end_utc": "2026-11-02T13:37:28Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -73,18 +73,32 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 254.9,
-      "tax_backout_base": 238.78,
-      "transaction_count": 5,
-      "completed_count": 5,
+      "net_sales": 326.9,
+      "tax_backout_base": 306.23,
+      "transaction_count": 6,
+      "completed_count": 6,
       "open_count": 0,
       "open_tab_total": 0.0,
       "tips": 45.9,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 254.9,
+      "card_total": 326.9,
       "discounts": [],
       "line_items": [
+        {
+          "name": "Old Fashioned",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 4.0,
+          "gross": 48.0
+        },
+        {
+          "name": "Weekly Special",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 3.0,
+          "gross": 36.0
+        },
         {
           "name": "Magic Moment",
           "variation": "Regular",
@@ -100,18 +114,18 @@
           "gross": 28.0
         },
         {
-          "name": "Weekly Special",
-          "variation": "Regular",
-          "category": "Specialty",
-          "qty": 2.0,
-          "gross": 24.0
-        },
-        {
           "name": "Whiskey Sour",
           "variation": "Regular",
           "category": "Bourbon - Whiskey",
           "qty": 2.0,
           "gross": 28.0
+        },
+        {
+          "name": "Margarita",
+          "variation": "Regular",
+          "category": "Tequila",
+          "qty": 1.0,
+          "gross": 12.0
         },
         {
           "name": "Stowe Away",
@@ -175,8 +189,8 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 295.6,
-    "transaction_count": 7,
+    "net_sales": 367.6,
+    "transaction_count": 8,
     "tips": 53.6,
     "open_tab_total": 0.0
   }
