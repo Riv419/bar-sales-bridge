@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-02T06:21:47Z",
-  "generated_at_et": "2026-11-02 01:21:47 EST",
+  "generated_at_utc": "2026-11-02T12:53:48Z",
+  "generated_at_et": "2026-11-02 07:53:48 EST",
   "business_day": "2026-11-01",
   "business_day_start_et": "2026-11-01 04:00 EST",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-11-01T09:00:00Z",
-  "window_end_utc": "2026-11-02T06:21:47Z",
+  "window_end_utc": "2026-11-02T09:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 588.4,
-      "tax_backout_base": 551.19,
-      "transaction_count": 34,
-      "completed_count": 9,
-      "open_count": 25,
-      "open_tab_total": 497.8,
-      "tips": 11.6,
+      "net_sales": 740.8,
+      "tax_backout_base": 693.96,
+      "transaction_count": 36,
+      "completed_count": 30,
+      "open_count": 6,
+      "open_tab_total": 171.0,
+      "tips": 107.0,
       "tax_collected": 0.0,
       "cash_total": 43.0,
-      "card_total": 665.2,
+      "card_total": 735.15,
       "discounts": [
         {
           "name": "Mug Club",
@@ -54,8 +54,8 @@
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 19.0,
-          "gross": 57.0
+          "qty": 21.0,
+          "gross": 63.0
         },
         {
           "name": "Maine Beer Company Lunch IPA",
@@ -65,18 +65,18 @@
           "gross": 90.0
         },
         {
+          "name": "Titos",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 8.0,
+          "gross": 56.0
+        },
+        {
           "name": "Chips",
           "variation": "Regular",
           "category": "Snacks",
           "qty": 7.0,
           "gross": 14.0
-        },
-        {
-          "name": "Titos",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 7.0,
-          "gross": 49.0
         },
         {
           "name": "Corona Light",
@@ -86,11 +86,11 @@
           "gross": 30.0
         },
         {
-          "name": "Busch Light",
+          "name": "Cucumber Smash",
           "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 4.0,
-          "gross": 12.0
+          "category": "Specialty Drinks",
+          "qty": 5.0,
+          "gross": 50.0
         },
         {
           "name": "Soda",
@@ -100,24 +100,10 @@
           "gross": 12.0
         },
         {
-          "name": "Cucumber Smash",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 4.0,
-          "gross": 40.0
-        },
-        {
-          "name": "Michelob Ultra Can",
+          "name": "Busch Light",
           "variation": "Regular",
           "category": "Canned Beer",
-          "qty": 3.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Coors Banquet",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 3.0,
+          "qty": 4.0,
           "gross": 12.0
         },
         {
@@ -135,6 +121,55 @@
           "gross": 24.0
         },
         {
+          "name": "Kona Big Wave",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 3.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 3.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Coors Banquet",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 3.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Espolon Blanco",
+          "variation": "Regular",
+          "category": "Tequila",
+          "qty": 2.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Mai Tai",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Long Drink Peach",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Wente Morning Fog Chardonnay",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 2.0,
+          "gross": 16.0
+        },
+        {
           "name": "Bota Box Pinot Grigio",
           "variation": "Regular",
           "category": "Wine",
@@ -147,20 +182,6 @@
           "category": "Snacks",
           "qty": 2.0,
           "gross": 2.0
-        },
-        {
-          "name": "Espolon Blanco",
-          "variation": "Regular",
-          "category": "Tequila",
-          "qty": 2.0,
-          "gross": 18.0
-        },
-        {
-          "name": "Wente Morning Fog Chardonnay",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 2.0,
-          "gross": 16.0
         },
         {
           "name": "Paddle Palmer",
@@ -177,18 +198,60 @@
           "gross": 16.0
         },
         {
-          "name": "Mai Tai",
+          "name": "Paddle Margarita",
           "variation": "Regular",
           "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 24.0
+          "qty": 1.0,
+          "gross": 10.0
         },
         {
-          "name": "Long Drink Peach",
+          "name": "Jackie O's Who Cooks for you",
           "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 2.0,
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Oncore I Love Those Redheads",
+          "variation": "Regular",
+          "category": null,
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Bacardi Light",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Deschutes Black Butte",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Surfside Strawberry",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Nor'easter (Hurricane)",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
           "gross": 12.0
+        },
+        {
+          "name": "Surfside Blueberry + Lemonade",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 6.0
         },
         {
           "name": "Carib Beer",
@@ -219,41 +282,6 @@
           "gross": 5.0
         },
         {
-          "name": "Surfside Strawberry",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Deschutes Black Butte",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Oncore I Love Those Redheads",
-          "variation": "Regular",
-          "category": null,
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Jackie O's Who Cooks for you",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Nor'easter (Hurricane)",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 12.0
-        },
-        {
           "name": "Buffalo Trace",
           "variation": "Regular",
           "category": "Liquor",
@@ -266,13 +294,6 @@
           "category": "Draft Beer",
           "qty": 1.0,
           "gross": 6.0
-        },
-        {
-          "name": "Bacardi Light",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 7.0
         },
         {
           "name": "Lemon Shake Up",
@@ -550,9 +571,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1361.07,
-    "transaction_count": 57,
-    "tips": 117.46,
-    "open_tab_total": 588.8
+    "net_sales": 1513.47,
+    "transaction_count": 59,
+    "tips": 212.86,
+    "open_tab_total": 262.0
   }
 }
