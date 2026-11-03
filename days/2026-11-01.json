@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-03T02:21:45Z",
-  "generated_at_et": "2026-11-02 21:21:45 EST",
+  "generated_at_utc": "2026-11-03T06:57:06Z",
+  "generated_at_et": "2026-11-03 01:57:06 EST",
   "business_day": "2026-11-01",
   "business_day_start_et": "2026-11-01 04:00 EST",
   "is_final": true,
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 740.8,
-      "tax_backout_base": 693.96,
-      "transaction_count": 36,
+      "net_sales": 682.8,
+      "tax_backout_base": 639.63,
+      "transaction_count": 35,
       "completed_count": 30,
-      "open_count": 6,
-      "open_tab_total": 171.0,
+      "open_count": 5,
+      "open_tab_total": 113.0,
       "tips": 107.0,
       "tax_collected": 0.0,
       "cash_total": 43.0,
-      "card_total": 735.15,
+      "card_total": 662.65,
       "discounts": [
         {
           "name": "Mug Club",
@@ -63,13 +63,6 @@
           "category": "Beer",
           "qty": 10.0,
           "gross": 90.0
-        },
-        {
-          "name": "Titos",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 8.0,
-          "gross": 56.0
         },
         {
           "name": "Chips",
@@ -247,6 +240,13 @@
           "gross": 12.0
         },
         {
+          "name": "Titos",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
           "name": "Surfside Blueberry + Lemonade",
           "variation": "Regular",
           "category": "Canned Drinks",
@@ -294,13 +294,6 @@
           "category": "Draft Beer",
           "qty": 1.0,
           "gross": 6.0
-        },
-        {
-          "name": "Lemon Shake Up",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 9.0
         }
       ],
       "custom_amount_items": []
@@ -571,9 +564,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1513.47,
-    "transaction_count": 59,
+    "net_sales": 1455.47,
+    "transaction_count": 58,
     "tips": 212.86,
-    "open_tab_total": 262.0
+    "open_tab_total": 204.0
   }
 }
