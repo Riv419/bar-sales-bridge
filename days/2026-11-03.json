@@ -1,0 +1,113 @@
+{
+  "generated_at_utc": "2026-11-03T12:25:07Z",
+  "generated_at_et": "2026-11-03 07:25:07 EST",
+  "business_day": "2026-11-03",
+  "business_day_start_et": "2026-11-03 04:00 EST",
+  "is_final": false,
+  "window_start_utc": "2026-11-03T09:00:00Z",
+  "window_end_utc": "2026-11-03T12:25:07Z",
+  "bars": {
+    "tiques": {
+      "name": "Tique's",
+      "location_id": "L91FN4CPCADRA",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "paddle": {
+      "name": "Paddle Bar",
+      "location_id": "RMSRRF4GTR3J5",
+      "net_sales": 18.0,
+      "tax_backout_base": 16.86,
+      "transaction_count": 1,
+      "completed_count": 1,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 2.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 18.0,
+      "discounts": [],
+      "line_items": [
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Cucumber Smash",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        }
+      ],
+      "custom_amount_items": []
+    },
+    "volstead": {
+      "name": "Volstead",
+      "location_id": "G9XHMF97SD95W",
+      "net_sales": 73.95,
+      "tax_backout_base": 69.27,
+      "transaction_count": 3,
+      "completed_count": 3,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 8.95,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 73.95,
+      "discounts": [],
+      "line_items": [
+        {
+          "name": "Paulaner",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 3.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Whiskey Sour",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 2.0,
+          "gross": 28.0
+        },
+        {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 2.0,
+          "gross": 6.0
+        },
+        {
+          "name": "La Crema Chardonnay",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 16.0
+        }
+      ],
+      "custom_amount_items": []
+    }
+  },
+  "errors": [],
+  "combined": {
+    "net_sales": 91.95,
+    "transaction_count": 4,
+    "tips": 10.95,
+    "open_tab_total": 0.0
+  }
+}
