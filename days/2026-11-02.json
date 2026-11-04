@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-04T00:37:45Z",
-  "generated_at_et": "2026-11-03 19:37:45 EST",
+  "generated_at_utc": "2026-11-04T06:38:33Z",
+  "generated_at_et": "2026-11-04 01:38:33 EST",
   "business_day": "2026-11-02",
   "business_day_start_et": "2026-11-02 04:00 EST",
   "is_final": true,
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 923.25,
-      "tax_backout_base": 864.87,
-      "transaction_count": 42,
+      "net_sales": 893.25,
+      "tax_backout_base": 836.77,
+      "transaction_count": 41,
       "completed_count": 41,
-      "open_count": 1,
-      "open_tab_total": 30.0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
       "tips": 135.85,
       "tax_collected": 0.0,
       "cash_total": 155.0,
-      "card_total": 774.25,
+      "card_total": 738.25,
       "discounts": [
         {
           "name": "Employee Discount",
@@ -186,13 +186,6 @@
           "gross": 12.0
         },
         {
-          "name": "Crown Royal Apple",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 18.0
-        },
-        {
           "name": "Buffalo Trace",
           "variation": "Regular",
           "category": "Liquor",
@@ -331,20 +324,6 @@
           "category": "Specials",
           "qty": 1.0,
           "gross": 10.0
-        },
-        {
-          "name": "Athletic Brewing Free Wave",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Big Nut",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 6.0
         }
       ],
       "custom_amount_items": []
@@ -601,9 +580,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 2065.45,
-    "transaction_count": 71,
+    "net_sales": 2035.45,
+    "transaction_count": 70,
     "tips": 285.05,
-    "open_tab_total": 143.0
+    "open_tab_total": 113.0
   }
 }
