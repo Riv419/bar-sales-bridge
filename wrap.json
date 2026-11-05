@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-05T06:58:11Z",
-  "generated_at_et": "2026-11-05 01:58:11 EST",
+  "generated_at_utc": "2026-11-05T12:47:37Z",
+  "generated_at_et": "2026-11-05 07:47:37 EST",
   "business_day": "2026-11-04",
   "business_day_start_et": "2026-11-04 04:00 EST",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-11-04T09:00:00Z",
-  "window_end_utc": "2026-11-05T06:58:11Z",
+  "window_end_utc": "2026-11-05T09:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,13 +27,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 309.0,
-      "tax_backout_base": 289.46,
+      "net_sales": 535.65,
+      "tax_backout_base": 501.78,
       "transaction_count": 15,
-      "completed_count": 6,
-      "open_count": 9,
-      "open_tab_total": 170.0,
-      "tips": 0.0,
+      "completed_count": 14,
+      "open_count": 1,
+      "open_tab_total": 10.0,
+      "tips": 226.65,
       "tax_collected": 0.0,
       "cash_total": 139.0,
       "card_total": 398.65,
@@ -58,13 +58,6 @@
           "category": "Canned Beer",
           "qty": 5.0,
           "gross": 25.0
-        },
-        {
-          "name": "Maine Peeper Pale Ale",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 3.0,
-          "gross": 27.0
         },
         {
           "name": "Busch Light",
@@ -95,16 +88,30 @@
           "gross": 18.0
         },
         {
-          "name": "High Noon - Grapefruit",
+          "name": "Maine Peeper Pale Ale",
           "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 2.0,
-          "gross": 14.0
+          "category": "Draft Beer",
+          "qty": 3.0,
+          "gross": 27.0
         },
         {
           "name": "Schnitz Elise Navidad",
           "variation": "Regular",
           "category": null,
+          "qty": 2.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Old Style",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
+          "name": "High Noon - Grapefruit",
+          "variation": "Regular",
+          "category": "Seltzers",
           "qty": 2.0,
           "gross": 14.0
         },
@@ -116,53 +123,11 @@
           "gross": 12.0
         },
         {
-          "name": "Old Style",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Narragansett Lager",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Sandtown \u201cFreedom\u2019s Gate\u201d Sticker",
-          "variation": "Regular",
-          "category": "Sandtown Stuff",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Bota Box Pinot Grigio",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Grey Goose",
+          "name": "Jack Daniels",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Blue Moon",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Oncore I Love Those Redheads",
-          "variation": "Regular",
-          "category": null,
-          "qty": 1.0,
-          "gross": 6.0
+          "gross": 7.0
         },
         {
           "name": "Corona Light",
@@ -184,6 +149,13 @@
           "category": "Seltzers",
           "qty": 1.0,
           "gross": 6.0
+        },
+        {
+          "name": "Blue Moon",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 5.0
         },
         {
           "name": "Garage Beer Lime",
@@ -214,11 +186,39 @@
           "gross": 4.0
         },
         {
-          "name": "Jack Daniels",
+          "name": "Oncore I Love Those Redheads",
+          "variation": "Regular",
+          "category": null,
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Narragansett Lager",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Sandtown \u201cFreedom\u2019s Gate\u201d Sticker",
+          "variation": "Regular",
+          "category": "Sandtown Stuff",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Bota Box Pinot Grigio",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Grey Goose",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 1.0,
-          "gross": 7.0
+          "gross": 10.0
         }
       ],
       "custom_amount_items": [
@@ -278,9 +278,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 462.5,
+    "net_sales": 689.15,
     "transaction_count": 21,
-    "tips": 28.5,
-    "open_tab_total": 170.0
+    "tips": 255.15,
+    "open_tab_total": 10.0
   }
 }
