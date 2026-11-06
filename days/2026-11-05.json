@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-06T06:57:45Z",
-  "generated_at_et": "2026-11-06 01:57:45 EST",
+  "generated_at_utc": "2026-11-06T12:31:26Z",
+  "generated_at_et": "2026-11-06 07:31:26 EST",
   "business_day": "2026-11-05",
   "business_day_start_et": "2026-11-05 04:00 EST",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-11-05T09:00:00Z",
-  "window_end_utc": "2026-11-06T06:57:45Z",
+  "window_end_utc": "2026-11-06T09:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,13 +27,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 722.6,
-      "tax_backout_base": 676.91,
+      "net_sales": 822.3,
+      "tax_backout_base": 770.3,
       "transaction_count": 33,
-      "completed_count": 12,
-      "open_count": 21,
-      "open_tab_total": 420.6,
-      "tips": 0.0,
+      "completed_count": 28,
+      "open_count": 5,
+      "open_tab_total": 124.0,
+      "tips": 99.7,
       "tax_collected": 0.0,
       "cash_total": 302.0,
       "card_total": 538.9,
@@ -102,7 +102,7 @@
           "gross": 30.0
         },
         {
-          "name": "Pacifico",
+          "name": "Corona Extra Bottle",
           "variation": "Regular",
           "category": "Bottled Beer",
           "qty": 4.0,
@@ -116,11 +116,32 @@
           "gross": 36.0
         },
         {
-          "name": "Corona Extra Bottle",
+          "name": "Pacifico",
           "variation": "Regular",
           "category": "Bottled Beer",
           "qty": 4.0,
           "gross": 20.0
+        },
+        {
+          "name": "The Federalist Honest Red Blend",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 3.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Bota Box Pinot Grigio",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 3.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Red Stripe",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 3.0,
+          "gross": 15.0
         },
         {
           "name": "Superlyte Blue",
@@ -128,6 +149,13 @@
           "category": "Seltzers",
           "qty": 3.0,
           "gross": 18.0
+        },
+        {
+          "name": "Schnitz Elise Navidad",
+          "variation": "Regular",
+          "category": null,
+          "qty": 3.0,
+          "gross": 21.0
         },
         {
           "name": "Busch Light",
@@ -144,25 +172,11 @@
           "gross": 30.0
         },
         {
-          "name": "Bota Box Pinot Grigio",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 3.0,
-          "gross": 15.0
-        },
-        {
           "name": "Budweiser Bottle",
           "variation": "Regular",
           "category": "Bottled Beer",
           "qty": 3.0,
           "gross": 12.0
-        },
-        {
-          "name": "Red Stripe",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 3.0,
-          "gross": 15.0
         },
         {
           "name": "Bartons natural Vodka (Well)",
@@ -172,18 +186,11 @@
           "gross": 18.0
         },
         {
-          "name": "The Federalist Honest Red Blend",
+          "name": "Coors Banquet",
           "variation": "Regular",
-          "category": "Wine",
-          "qty": 3.0,
-          "gross": 24.0
-        },
-        {
-          "name": "Schnitz Elise Navidad",
-          "variation": "Regular",
-          "category": null,
-          "qty": 3.0,
-          "gross": 21.0
+          "category": "Bottled Beer",
+          "qty": 2.0,
+          "gross": 8.0
         },
         {
           "name": "Jefferson's Very Small Batch Rye",
@@ -193,18 +200,81 @@
           "gross": 20.0
         },
         {
-          "name": "Coors Banquet",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 2.0,
-          "gross": 8.0
-        },
-        {
           "name": "High Noon - Pineapple",
           "variation": "Regular",
           "category": "Seltzers",
           "qty": 2.0,
           "gross": 14.0
+        },
+        {
+          "name": "Cucumber Smash",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Lime - Ade",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Kona Longboard",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Garage Beer Lime",
+          "variation": "Regular",
+          "category": null,
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Old Style",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Long Drink Cranberry",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Bourbonade",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Old Fashioned",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Athletic Brewing Free Wave",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 6.0
         },
         {
           "name": "Maine Peeper Pale Ale",
@@ -233,76 +303,6 @@
           "category": "Tequila",
           "qty": 1.0,
           "gross": 9.0
-        },
-        {
-          "name": "Athletic Brewing Free Wave",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Old Style",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Michelob Ultra Can",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Garage Beer Lime",
-          "variation": "Regular",
-          "category": null,
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Kona Longboard",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Long Drink Cranberry",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Bourbonade",
-          "variation": "Regular",
-          "category": "Bourbon",
-          "qty": 1.0,
-          "gross": 14.0
-        },
-        {
-          "name": "Old Fashioned",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 14.0
-        },
-        {
-          "name": "Cucumber Smash",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Lime - Ade",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
         },
         {
           "name": "Big Nut",
@@ -425,9 +425,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 925.0,
+    "net_sales": 1024.7,
     "transaction_count": 41,
-    "tips": 0.0,
-    "open_tab_total": 594.6
+    "tips": 99.7,
+    "open_tab_total": 298.0
   }
 }
