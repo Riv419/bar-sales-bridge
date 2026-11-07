@@ -1,0 +1,112 @@
+{
+  "generated_at_utc": "2026-11-07T11:21:57Z",
+  "generated_at_et": "2026-11-07 06:21:57 EST",
+  "business_day": "2026-11-07",
+  "business_day_start_et": "2026-11-07 04:00 EST",
+  "is_final": false,
+  "window_start_utc": "2026-11-07T09:00:00Z",
+  "window_end_utc": "2026-11-07T11:21:57Z",
+  "bars": {
+    "tiques": {
+      "name": "Tique's",
+      "location_id": "L91FN4CPCADRA",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "paddle": {
+      "name": "Paddle Bar",
+      "location_id": "RMSRRF4GTR3J5",
+      "net_sales": 125.6,
+      "tax_backout_base": 117.66,
+      "transaction_count": 3,
+      "completed_count": 3,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 14.6,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 125.6,
+      "discounts": [],
+      "line_items": [
+        {
+          "name": "Great Lakes Midwest IPA",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 6.0,
+          "gross": 36.0
+        },
+        {
+          "name": "Surfside Iced Tea + Lemonade",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 4.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Lemon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 3.0,
+          "gross": 27.0
+        },
+        {
+          "name": "Pumpkin Spice Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Big Nut",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Spiked Hot Chocolate",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        }
+      ],
+      "custom_amount_items": []
+    },
+    "volstead": {
+      "name": "Volstead",
+      "location_id": "G9XHMF97SD95W",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    }
+  },
+  "errors": [],
+  "combined": {
+    "net_sales": 125.6,
+    "transaction_count": 3,
+    "tips": 14.6,
+    "open_tab_total": 0.0
+  }
+}
