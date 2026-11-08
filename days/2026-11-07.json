@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-08T06:16:08Z",
-  "generated_at_et": "2026-11-08 01:16:08 EST",
+  "generated_at_utc": "2026-11-08T11:33:58Z",
+  "generated_at_et": "2026-11-08 06:33:58 EST",
   "business_day": "2026-11-07",
   "business_day_start_et": "2026-11-07 04:00 EST",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-11-07T09:00:00Z",
-  "window_end_utc": "2026-11-08T06:16:08Z",
+  "window_end_utc": "2026-11-08T09:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 1193.0,
-      "tax_backout_base": 1117.56,
-      "transaction_count": 65,
-      "completed_count": 24,
-      "open_count": 41,
-      "open_tab_total": 693.4,
-      "tips": 18.6,
+      "net_sales": 1326.9,
+      "tax_backout_base": 1243.0,
+      "transaction_count": 66,
+      "completed_count": 51,
+      "open_count": 15,
+      "open_tab_total": 290.0,
+      "tips": 126.5,
       "tax_collected": 0.0,
       "cash_total": 213.0,
-      "card_total": 1153.7,
+      "card_total": 1186.2,
       "discounts": [
         {
           "name": "Employee Discount",
@@ -53,18 +53,18 @@
           "gross": 186.0
         },
         {
-          "name": "Great Lakes Midwest IPA",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 11.0,
-          "gross": 66.0
-        },
-        {
           "name": "Miller Lite Can",
           "variation": "Regular",
           "category": "Canned Beer",
           "qty": 11.0,
           "gross": 44.0
+        },
+        {
+          "name": "Great Lakes Midwest IPA",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 11.0,
+          "gross": 66.0
         },
         {
           "name": "Surfside Iced Tea + Lemonade",
@@ -74,18 +74,18 @@
           "gross": 42.0
         },
         {
-          "name": "Coors Light Aluminum Bottle",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 6.0,
-          "gross": 30.0
-        },
-        {
           "name": "Michelob Ultra Can",
           "variation": "Regular",
           "category": "Canned Beer",
           "qty": 6.0,
           "gross": 24.0
+        },
+        {
+          "name": "Coors Light Aluminum Bottle",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 6.0,
+          "gross": 30.0
         },
         {
           "name": "Titos",
@@ -102,6 +102,20 @@
           "gross": 45.0
         },
         {
+          "name": "Skyy",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 4.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Lemon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 4.0,
+          "gross": 36.0
+        },
+        {
           "name": "Maine Peeper Pale Ale",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -116,18 +130,46 @@
           "gross": 16.0
         },
         {
-          "name": "Lemon Shake Up",
+          "name": "Breckenridge Avalanche",
           "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 4.0,
-          "gross": 36.0
+          "category": "Draft Beer",
+          "qty": 3.0,
+          "gross": 21.0
         },
         {
-          "name": "Skyy",
+          "name": "High Noon - Pineapple",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 3.0,
+          "gross": 21.0
+        },
+        {
+          "name": "Captain Morgan",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 4.0,
-          "gross": 24.0
+          "qty": 3.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Little Kings",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 3.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Green Tea",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 3.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Cucumber Smash",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 3.0,
+          "gross": 30.0
         },
         {
           "name": "Bud Light Bottle",
@@ -151,39 +193,88 @@
           "gross": 9.0
         },
         {
-          "name": "Green Tea",
+          "name": "Garage Beer Lime",
           "variation": "Regular",
-          "category": "Liquor",
-          "qty": 3.0,
-          "gross": 18.0
+          "category": null,
+          "qty": 2.0,
+          "gross": 12.0
         },
         {
-          "name": "Cucumber Smash",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 3.0,
-          "gross": 30.0
-        },
-        {
-          "name": "High Noon - Pineapple",
+          "name": "White Claw - Natural Lime",
           "variation": "Regular",
           "category": "Seltzers",
-          "qty": 3.0,
-          "gross": 21.0
+          "qty": 2.0,
+          "gross": 12.0
         },
         {
-          "name": "Little Kings",
+          "name": "Surfside Blueberry + Lemonade",
           "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 3.0,
-          "gross": 6.0
+          "category": "Canned Drinks",
+          "qty": 2.0,
+          "gross": 12.0
         },
         {
-          "name": "Captain Morgan",
+          "name": "Schnitz Elise Navidad",
+          "variation": "Regular",
+          "category": null,
+          "qty": 2.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Lamarca Prosecco",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 2.0,
+          "gross": 22.0
+        },
+        {
+          "name": "Grapefruit Squeeze",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 20.0
+        },
+        {
+          "name": "Oncore I Love Those Redheads",
+          "variation": "Regular",
+          "category": null,
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Paddle Margarita",
+          "variation": "strawberry Margarita",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 22.0
+        },
+        {
+          "name": "Labatt Blue",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Mai Tai",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Jack Daniels",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 3.0,
-          "gross": 18.0
+          "qty": 2.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Budweiser Bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 2.0,
+          "gross": 8.0
         },
         {
           "name": "Black Velvet",
@@ -207,13 +298,6 @@
           "gross": 20.0
         },
         {
-          "name": "Jack Daniels",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 14.0
-        },
-        {
           "name": "Bartons natural Vodka (Well)",
           "variation": "Regular",
           "category": "Vodka",
@@ -235,60 +319,11 @@
           "gross": 8.0
         },
         {
-          "name": "Labatt Blue",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Paddle Margarita",
-          "variation": "strawberry Margarita",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 22.0
-        },
-        {
-          "name": "Lamarca Prosecco",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 2.0,
-          "gross": 22.0
-        },
-        {
           "name": "Surfside Lemonade & Vodka",
           "variation": "Regular",
           "category": "Canned Drinks",
           "qty": 2.0,
           "gross": 12.0
-        },
-        {
-          "name": "Grapefruit Squeeze",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 20.0
-        },
-        {
-          "name": "Oncore I Love Those Redheads",
-          "variation": "Regular",
-          "category": null,
-          "qty": 2.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Mai Tai",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 24.0
-        },
-        {
-          "name": "Budweiser Bottle",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 2.0,
-          "gross": 8.0
         },
         {
           "name": "Mount Gay",
@@ -305,24 +340,45 @@
           "gross": 12.0
         },
         {
-          "name": "Schnitz Elise Navidad",
+          "name": "Kona Longboard",
           "variation": "Regular",
-          "category": null,
-          "qty": 2.0,
-          "gross": 14.0
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 6.0
         },
         {
-          "name": "White Claw - Natural Lime",
+          "name": "Knob Creek Bourbon",
           "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 2.0,
+          "category": "Bourbon",
+          "qty": 1.0,
           "gross": 12.0
         },
         {
-          "name": "Surfside Blueberry + Lemonade",
+          "name": "Lalo Tequila Blanco",
           "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 2.0,
+          "category": "Tequila",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Corona Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Juniper Low Rider",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Nor'easter (Hurricane)",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
           "gross": 12.0
         },
         {
@@ -403,27 +459,6 @@
           "gross": 10.0
         },
         {
-          "name": "Juniper Low Rider",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Corona Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Knob Creek Bourbon",
-          "variation": "Regular",
-          "category": "Bourbon",
-          "qty": 1.0,
-          "gross": 12.0
-        },
-        {
           "name": "Premium Liquor",
           "variation": "Regular",
           "category": "Liquor",
@@ -464,34 +499,6 @@
           "category": "Seltzers",
           "qty": 1.0,
           "gross": 6.0
-        },
-        {
-          "name": "Breckenridge Avalanche",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Kona Longboard",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Nor'easter (Hurricane)",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Lalo Tequila Blanco",
-          "variation": "Regular",
-          "category": "Tequila",
-          "qty": 1.0,
-          "gross": 12.0
         }
       ],
       "custom_amount_items": [
@@ -816,9 +823,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 2411.5,
-    "transaction_count": 103,
-    "tips": 106.1,
-    "open_tab_total": 1458.4
+    "net_sales": 2545.4,
+    "transaction_count": 104,
+    "tips": 214.0,
+    "open_tab_total": 1055.0
   }
 }
