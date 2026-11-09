@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-09T06:48:14Z",
-  "generated_at_et": "2026-11-09 01:48:14 EST",
+  "generated_at_utc": "2026-11-09T13:25:36Z",
+  "generated_at_et": "2026-11-09 08:25:36 EST",
   "business_day": "2026-11-08",
   "business_day_start_et": "2026-11-08 04:00 EST",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-11-08T09:00:00Z",
-  "window_end_utc": "2026-11-09T06:48:14Z",
+  "window_end_utc": "2026-11-09T09:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,13 +27,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 799.6,
-      "tax_backout_base": 749.04,
+      "net_sales": 857.25,
+      "tax_backout_base": 803.04,
       "transaction_count": 31,
-      "completed_count": 19,
-      "open_count": 12,
-      "open_tab_total": 226.8,
-      "tips": 84.8,
+      "completed_count": 29,
+      "open_count": 2,
+      "open_tab_total": 49.0,
+      "tips": 142.45,
       "tax_collected": 0.0,
       "cash_total": 90.0,
       "card_total": 779.45,
@@ -72,32 +72,11 @@
           "gross": 72.0
         },
         {
-          "name": "Lemon Shake Up",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 5.0,
-          "gross": 45.0
-        },
-        {
-          "name": "Bartons natural Vodka (Well)",
-          "variation": "Regular",
-          "category": "Vodka",
-          "qty": 5.0,
-          "gross": 30.0
-        },
-        {
           "name": "Paddle Palmer",
           "variation": "Regular",
           "category": "Specialty Drinks",
           "qty": 5.0,
           "gross": 50.0
-        },
-        {
-          "name": "Jameson",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 5.0,
-          "gross": 40.0
         },
         {
           "name": "Chips",
@@ -107,11 +86,32 @@
           "gross": 10.0
         },
         {
-          "name": "Busch Light",
+          "name": "Bartons natural Vodka (Well)",
           "variation": "Regular",
-          "category": "Canned Beer",
+          "category": "Vodka",
+          "qty": 5.0,
+          "gross": 30.0
+        },
+        {
+          "name": "Lemon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 5.0,
+          "gross": 45.0
+        },
+        {
+          "name": "Jameson",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 5.0,
+          "gross": 40.0
+        },
+        {
+          "name": "Juiced Mimosa",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
           "qty": 4.0,
-          "gross": 12.0
+          "gross": 32.0
         },
         {
           "name": "Big Nut",
@@ -121,6 +121,13 @@
           "gross": 24.0
         },
         {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 4.0,
+          "gross": 12.0
+        },
+        {
           "name": "Surfside Iced Tea + Lemonade",
           "variation": "Regular",
           "category": "Canned Drinks",
@@ -128,11 +135,11 @@
           "gross": 24.0
         },
         {
-          "name": "Juiced Mimosa",
+          "name": "Natural Light",
           "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 4.0,
-          "gross": 32.0
+          "category": "Canned Beer",
+          "qty": 3.0,
+          "gross": 9.0
         },
         {
           "name": "3 Floyds Gumball Head",
@@ -163,20 +170,6 @@
           "gross": 12.0
         },
         {
-          "name": "Natural Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 3.0,
-          "gross": 9.0
-        },
-        {
-          "name": "Schnitz Elise Navidad",
-          "variation": "Regular",
-          "category": null,
-          "qty": 2.0,
-          "gross": 14.0
-        },
-        {
           "name": "Corona Extra Bottle",
           "variation": "Regular",
           "category": "Bottled Beer",
@@ -191,11 +184,46 @@
           "gross": 28.0
         },
         {
+          "name": "Schnitz Elise Navidad",
+          "variation": "Regular",
+          "category": null,
+          "qty": 2.0,
+          "gross": 14.0
+        },
+        {
           "name": "Soda",
           "variation": "Regular",
           "category": "Beverages",
           "qty": 2.0,
           "gross": 6.0
+        },
+        {
+          "name": "Paddle Margarita",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Agave L\u00edmon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Espolon Blanco",
+          "variation": "Regular",
+          "category": "Tequila",
+          "qty": 1.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Shoreline Sunset",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 12.0
         },
         {
           "name": "Bota Box Pinot Grigio",
@@ -273,34 +301,6 @@
           "category": "Draft Beer",
           "qty": 1.0,
           "gross": 7.0
-        },
-        {
-          "name": "Espolon Blanco",
-          "variation": "Regular",
-          "category": "Tequila",
-          "qty": 1.0,
-          "gross": 9.0
-        },
-        {
-          "name": "Agave L\u00edmon Shake Up",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Shoreline Sunset",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Paddle Margarita",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
         }
       ],
       "custom_amount_items": []
@@ -528,9 +528,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1634.11,
+    "net_sales": 1691.76,
     "transaction_count": 54,
-    "tips": 187.26,
-    "open_tab_total": 386.8
+    "tips": 244.91,
+    "open_tab_total": 209.0
   }
 }
