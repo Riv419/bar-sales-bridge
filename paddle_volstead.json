@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-08T23:45:00Z",
-  "generated_at_et": "2026-11-08 18:45:00 EST",
+  "generated_at_utc": "2026-11-09T03:01:57Z",
+  "generated_at_et": "2026-11-08 22:01:57 EST",
   "business_day": "2026-11-08",
   "business_day_start_et": "2026-11-08 04:00 EST",
   "is_final": false,
   "window_start_utc": "2026-11-08T09:00:00Z",
-  "window_end_utc": "2026-11-08T23:45:00Z",
+  "window_end_utc": "2026-11-09T03:01:57Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,15 +27,15 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 780.6,
-      "tax_backout_base": 731.24,
-      "transaction_count": 28,
-      "completed_count": 15,
-      "open_count": 13,
-      "open_tab_total": 243.8,
+      "net_sales": 799.6,
+      "tax_backout_base": 749.04,
+      "transaction_count": 31,
+      "completed_count": 19,
+      "open_count": 12,
+      "open_tab_total": 226.8,
       "tips": 84.8,
       "tax_collected": 0.0,
-      "cash_total": 54.0,
+      "cash_total": 90.0,
       "card_total": 779.45,
       "discounts": [
         {
@@ -54,8 +54,8 @@
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 25.0,
-          "gross": 75.0
+          "qty": 29.0,
+          "gross": 87.0
         },
         {
           "name": "Michelob Ultra Can",
@@ -107,6 +107,13 @@
           "gross": 10.0
         },
         {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 4.0,
+          "gross": 12.0
+        },
+        {
           "name": "Big Nut",
           "variation": "Regular",
           "category": "Specialty Drinks",
@@ -119,13 +126,6 @@
           "category": "Canned Drinks",
           "qty": 4.0,
           "gross": 24.0
-        },
-        {
-          "name": "Busch Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 4.0,
-          "gross": 12.0
         },
         {
           "name": "Juiced Mimosa",
@@ -170,6 +170,13 @@
           "gross": 9.0
         },
         {
+          "name": "Schnitz Elise Navidad",
+          "variation": "Regular",
+          "category": null,
+          "qty": 2.0,
+          "gross": 14.0
+        },
+        {
           "name": "Corona Extra Bottle",
           "variation": "Regular",
           "category": "Bottled Beer",
@@ -189,6 +196,13 @@
           "category": "Beverages",
           "qty": 2.0,
           "gross": 6.0
+        },
+        {
+          "name": "Bota Box Pinot Grigio",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 5.0
         },
         {
           "name": "Shot And Snack",
@@ -261,13 +275,6 @@
           "gross": 7.0
         },
         {
-          "name": "Bota Box Pinot Grigio",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
           "name": "Espolon Blanco",
           "variation": "Regular",
           "category": "Tequila",
@@ -280,13 +287,6 @@
           "category": "Specialty Drinks",
           "qty": 1.0,
           "gross": 12.0
-        },
-        {
-          "name": "Schnitz Elise Navidad",
-          "variation": "Regular",
-          "category": null,
-          "qty": 1.0,
-          "gross": 7.0
         },
         {
           "name": "Shoreline Sunset",
@@ -308,16 +308,16 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 721.51,
-      "tax_backout_base": 675.89,
-      "transaction_count": 19,
-      "completed_count": 16,
-      "open_count": 3,
-      "open_tab_total": 112.0,
+      "net_sales": 834.51,
+      "tax_backout_base": 781.74,
+      "transaction_count": 23,
+      "completed_count": 19,
+      "open_count": 4,
+      "open_tab_total": 160.0,
       "tips": 102.46,
       "tax_collected": 0.0,
-      "cash_total": 14.0,
-      "card_total": 742.01,
+      "cash_total": 79.0,
+      "card_total": 802.01,
       "discounts": [
         {
           "name": "Murray",
@@ -327,11 +327,18 @@
       ],
       "line_items": [
         {
+          "name": "Paulaner",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 12.0,
+          "gross": 60.0
+        },
+        {
           "name": "Old Fashioned",
           "variation": "Regular",
           "category": "Bourbon - Whiskey",
-          "qty": 7.0,
-          "gross": 84.0
+          "qty": 8.0,
+          "gross": 96.0
         },
         {
           "name": "Pain Killer",
@@ -355,18 +362,18 @@
           "gross": 24.0
         },
         {
-          "name": "Paulaner",
-          "variation": "Regular",
-          "category": "Beer",
-          "qty": 3.0,
-          "gross": 15.0
-        },
-        {
           "name": "Aviation",
           "variation": "Regular",
           "category": "Gin",
           "qty": 3.0,
           "gross": 42.0
+        },
+        {
+          "name": "Sazerac",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 3.0,
+          "gross": 36.0
         },
         {
           "name": "French 76",
@@ -423,6 +430,13 @@
           "category": "Modern Cocktails",
           "qty": 2.0,
           "gross": 28.0
+        },
+        {
+          "name": "Red Breast",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 18.0
         },
         {
           "name": "Singapore Sling",
@@ -495,18 +509,18 @@
           "gross": 15.0
         },
         {
+          "name": "Kim Crawford Sauvignon Blanc",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
           "name": "Vesper",
           "variation": "Regular",
           "category": "Modern Cocktails",
           "qty": 1.0,
           "gross": 14.0
-        },
-        {
-          "name": "Sazerac",
-          "variation": "Regular",
-          "category": "Bourbon - Whiskey",
-          "qty": 1.0,
-          "gross": 12.0
         }
       ],
       "custom_amount_items": []
@@ -514,9 +528,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1502.11,
-    "transaction_count": 47,
+    "net_sales": 1634.11,
+    "transaction_count": 54,
     "tips": 187.26,
-    "open_tab_total": 355.8
+    "open_tab_total": 386.8
   }
 }
