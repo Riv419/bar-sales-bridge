@@ -1,0 +1,126 @@
+{
+  "generated_at_utc": "2026-11-10T13:03:45Z",
+  "generated_at_et": "2026-11-10 08:03:45 EST",
+  "business_day": "2026-11-10",
+  "business_day_start_et": "2026-11-10 04:00 EST",
+  "is_final": false,
+  "window_start_utc": "2026-11-10T09:00:00Z",
+  "window_end_utc": "2026-11-10T13:03:45Z",
+  "bars": {
+    "tiques": {
+      "name": "Tique's",
+      "location_id": "L91FN4CPCADRA",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "paddle": {
+      "name": "Paddle Bar",
+      "location_id": "RMSRRF4GTR3J5",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "volstead": {
+      "name": "Volstead",
+      "location_id": "G9XHMF97SD95W",
+      "net_sales": 206.5,
+      "tax_backout_base": 193.44,
+      "transaction_count": 4,
+      "completed_count": 4,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 46.5,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 206.5,
+      "discounts": [],
+      "line_items": [
+        {
+          "name": "Sazerac",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 3.0,
+          "gross": 36.0
+        },
+        {
+          "name": "Paulaner",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 2.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Monkey 47",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 2.0,
+          "gross": 32.0
+        },
+        {
+          "name": "Chic-A-Cherry Cola",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 2.0,
+          "gross": 28.0
+        },
+        {
+          "name": "Kim Crawford Sauvignon Blanc",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Old Fashioned",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Pain Killer",
+          "variation": "Regular",
+          "category": null,
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Vesper",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 1.0,
+          "gross": 14.0
+        }
+      ],
+      "custom_amount_items": []
+    }
+  },
+  "errors": [],
+  "combined": {
+    "net_sales": 206.5,
+    "transaction_count": 4,
+    "tips": 46.5,
+    "open_tab_total": 0.0
+  }
+}

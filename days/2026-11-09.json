@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-10T07:27:41Z",
-  "generated_at_et": "2026-11-10 02:27:41 EST",
+  "generated_at_utc": "2026-11-10T13:03:45Z",
+  "generated_at_et": "2026-11-10 08:03:45 EST",
   "business_day": "2026-11-09",
   "business_day_start_et": "2026-11-09 04:00 EST",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-11-09T09:00:00Z",
-  "window_end_utc": "2026-11-10T07:27:41Z",
+  "window_end_utc": "2026-11-10T09:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,13 +27,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 670.3,
-      "tax_backout_base": 627.92,
+      "net_sales": 714.8,
+      "tax_backout_base": 669.6,
       "transaction_count": 26,
-      "completed_count": 22,
-      "open_count": 4,
-      "open_tab_total": 177.8,
-      "tips": 84.5,
+      "completed_count": 26,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 129.0,
       "tax_collected": 0.0,
       "cash_total": 69.0,
       "card_total": 645.8,
@@ -81,18 +81,18 @@
           "gross": 45.0
         },
         {
-          "name": "Bartons natural Vodka (Well)",
-          "variation": "Regular",
-          "category": "Vodka",
-          "qty": 4.0,
-          "gross": 24.0
-        },
-        {
           "name": "Jack Daniels",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 4.0,
           "gross": 28.0
+        },
+        {
+          "name": "Bartons natural Vodka (Well)",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 4.0,
+          "gross": 24.0
         },
         {
           "name": "3 Floyds Gumball Head",
@@ -120,6 +120,34 @@
           "variation": "Regular",
           "category": "Canned Beer",
           "qty": 3.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Old Fashioned",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 28.0
+        },
+        {
+          "name": "Blue Moon",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Breckenridge Avalanche",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Carib Beer",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 2.0,
           "gross": 12.0
         },
         {
@@ -158,13 +186,6 @@
           "gross": 12.0
         },
         {
-          "name": "Carib Beer",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 2.0,
-          "gross": 12.0
-        },
-        {
           "name": "Mount Gay",
           "variation": "Regular",
           "category": "Liquor",
@@ -179,25 +200,32 @@
           "gross": 12.0
         },
         {
-          "name": "Breckenridge Avalanche",
+          "name": "Shot And Snack",
+          "variation": "Regular",
+          "category": "Specials",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Great Lakes Midwest IPA",
           "variation": "Regular",
           "category": "Draft Beer",
-          "qty": 2.0,
-          "gross": 14.0
+          "qty": 1.0,
+          "gross": 6.0
         },
         {
-          "name": "Old Fashioned",
+          "name": "Red Bull",
           "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 28.0
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 3.0
         },
         {
-          "name": "Blue Moon",
+          "name": "Ace Guava Craft Cider",
           "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 10.0
+          "category": "Ciders",
+          "qty": 1.0,
+          "gross": 6.0
         },
         {
           "name": "Bota Box Pinot Grigio",
@@ -310,34 +338,6 @@
           "category": "Bottled Beer",
           "qty": 1.0,
           "gross": 5.0
-        },
-        {
-          "name": "Great Lakes Midwest IPA",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Shot And Snack",
-          "variation": "Regular",
-          "category": "Specials",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Ace Guava Craft Cider",
-          "variation": "Regular",
-          "category": "Ciders",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Red Bull",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 1.0,
-          "gross": 3.0
         }
       ],
       "custom_amount_items": []
@@ -664,9 +664,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1813.0,
+    "net_sales": 1857.5,
     "transaction_count": 59,
-    "tips": 225.2,
-    "open_tab_total": 327.8
+    "tips": 269.7,
+    "open_tab_total": 150.0
   }
 }
