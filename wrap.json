@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-09T13:59:58Z",
-  "generated_at_et": "2026-11-09 08:59:58 EST",
+  "generated_at_utc": "2026-11-10T02:45:11Z",
+  "generated_at_et": "2026-11-09 21:45:11 EST",
   "business_day": "2026-11-08",
   "business_day_start_et": "2026-11-08 04:00 EST",
   "is_final": true,
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 857.25,
-      "tax_backout_base": 803.04,
-      "transaction_count": 31,
+      "net_sales": 808.25,
+      "tax_backout_base": 757.14,
+      "transaction_count": 29,
       "completed_count": 29,
-      "open_count": 2,
-      "open_tab_total": 49.0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
       "tips": 142.45,
       "tax_collected": 0.0,
       "cash_total": 90.0,
-      "card_total": 779.45,
+      "card_total": 718.25,
       "discounts": [
         {
           "name": "Mug Club",
@@ -54,8 +54,8 @@
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 29.0,
-          "gross": 87.0
+          "qty": 25.0,
+          "gross": 75.0
         },
         {
           "name": "Michelob Ultra Can",
@@ -77,13 +77,6 @@
           "category": "Specialty Drinks",
           "qty": 5.0,
           "gross": 50.0
-        },
-        {
-          "name": "Chips",
-          "variation": "Regular",
-          "category": "Snacks",
-          "qty": 5.0,
-          "gross": 10.0
         },
         {
           "name": "Bartons natural Vodka (Well)",
@@ -142,11 +135,11 @@
           "gross": 9.0
         },
         {
-          "name": "3 Floyds Gumball Head",
+          "name": "Chips",
           "variation": "Regular",
-          "category": "Draft Beer",
+          "category": "Snacks",
           "qty": 3.0,
-          "gross": 18.0
+          "gross": 6.0
         },
         {
           "name": "Echo Bay  Sauvignon Blanc",
@@ -170,32 +163,18 @@
           "gross": 12.0
         },
         {
+          "name": "3 Floyds Gumball Head",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
           "name": "Corona Extra Bottle",
           "variation": "Regular",
           "category": "Bottled Beer",
           "qty": 2.0,
           "gross": 10.0
-        },
-        {
-          "name": "Bourbonade",
-          "variation": "Regular",
-          "category": "Bourbon",
-          "qty": 2.0,
-          "gross": 28.0
-        },
-        {
-          "name": "Schnitz Elise Navidad",
-          "variation": "Regular",
-          "category": null,
-          "qty": 2.0,
-          "gross": 14.0
-        },
-        {
-          "name": "Soda",
-          "variation": "Regular",
-          "category": "Beverages",
-          "qty": 2.0,
-          "gross": 6.0
         },
         {
           "name": "Paddle Margarita",
@@ -212,6 +191,13 @@
           "gross": 12.0
         },
         {
+          "name": "Bourbonade",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
           "name": "Espolon Blanco",
           "variation": "Regular",
           "category": "Tequila",
@@ -224,6 +210,13 @@
           "category": "Liquor",
           "qty": 1.0,
           "gross": 12.0
+        },
+        {
+          "name": "Schnitz Elise Navidad",
+          "variation": "Regular",
+          "category": null,
+          "qty": 1.0,
+          "gross": 7.0
         },
         {
           "name": "Bota Box Pinot Grigio",
@@ -528,9 +521,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1691.76,
-    "transaction_count": 54,
+    "net_sales": 1642.76,
+    "transaction_count": 52,
     "tips": 244.91,
-    "open_tab_total": 209.0
+    "open_tab_total": 160.0
   }
 }
