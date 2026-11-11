@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-11T06:40:44Z",
-  "generated_at_et": "2026-11-11 01:40:44 EST",
+  "generated_at_utc": "2026-11-11T12:13:17Z",
+  "generated_at_et": "2026-11-11 07:13:17 EST",
   "business_day": "2026-11-10",
   "business_day_start_et": "2026-11-10 04:00 EST",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-11-10T09:00:00Z",
-  "window_end_utc": "2026-11-11T06:40:44Z",
+  "window_end_utc": "2026-11-11T09:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,13 +27,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 883.8,
-      "tax_backout_base": 827.92,
+      "net_sales": 1192.3,
+      "tax_backout_base": 1116.91,
       "transaction_count": 48,
-      "completed_count": 16,
-      "open_count": 32,
-      "open_tab_total": 669.8,
-      "tips": 0.0,
+      "completed_count": 46,
+      "open_count": 2,
+      "open_tab_total": 121.0,
+      "tips": 308.5,
       "tax_collected": 0.0,
       "cash_total": 214.0,
       "card_total": 983.55,
@@ -65,23 +65,9 @@
           "gross": 40.0
         },
         {
-          "name": "Titos",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 6.0,
-          "gross": 42.0
-        },
-        {
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 6.0,
-          "gross": 18.0
-        },
-        {
-          "name": "Busch Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
           "qty": 6.0,
           "gross": 18.0
         },
@@ -100,6 +86,20 @@
           "gross": 36.0
         },
         {
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 6.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Titos",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 6.0,
+          "gross": 42.0
+        },
+        {
           "name": "Jameson",
           "variation": "Regular",
           "category": "Liquor",
@@ -114,7 +114,14 @@
           "gross": 20.0
         },
         {
-          "name": "Red Stripe",
+          "name": "Captain Morgan",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 4.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Corona Extra Bottle",
           "variation": "Regular",
           "category": "Bottled Beer",
           "qty": 4.0,
@@ -128,7 +135,7 @@
           "gross": 16.0
         },
         {
-          "name": "Corona Extra Bottle",
+          "name": "Red Stripe",
           "variation": "Regular",
           "category": "Bottled Beer",
           "qty": 4.0,
@@ -142,30 +149,16 @@
           "gross": 40.0
         },
         {
-          "name": "Captain Morgan",
+          "name": "Paddle Margarita",
           "variation": "Regular",
-          "category": "Liquor",
-          "qty": 4.0,
-          "gross": 24.0
+          "category": "Specialty Drinks",
+          "qty": 3.0,
+          "gross": 30.0
         },
         {
           "name": "Espolon Reposado",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 3.0,
-          "gross": 30.0
-        },
-        {
-          "name": "Lamarca Prosecco",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 3.0,
-          "gross": 33.0
-        },
-        {
-          "name": "Paddle Margarita",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
           "qty": 3.0,
           "gross": 30.0
         },
@@ -184,32 +177,18 @@
           "gross": 18.0
         },
         {
-          "name": "Hendricks",
+          "name": "Lamarca Prosecco",
           "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 24.0
+          "category": "Wine",
+          "qty": 3.0,
+          "gross": 33.0
         },
         {
-          "name": "Great Lakes Midwest IPA",
+          "name": "Grapefruit Squeeze",
           "variation": "Regular",
-          "category": "Draft Beer",
+          "category": "Specialty Drinks",
           "qty": 2.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Chips",
-          "variation": "Regular",
-          "category": "Snacks",
-          "qty": 2.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Oncore I Love Those Redheads",
-          "variation": "Regular",
-          "category": null,
-          "qty": 2.0,
-          "gross": 12.0
+          "gross": 20.0
         },
         {
           "name": "GTB Aloha Ohio",
@@ -217,13 +196,6 @@
           "category": null,
           "qty": 2.0,
           "gross": 14.0
-        },
-        {
-          "name": "Pabst Blue Ribbon",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 8.0
         },
         {
           "name": "Long Drink Sugar Free",
@@ -247,6 +219,34 @@
           "gross": 6.0
         },
         {
+          "name": "Oncore I Love Those Redheads",
+          "variation": "Regular",
+          "category": null,
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Pabst Blue Ribbon",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Great Lakes Midwest IPA",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Chips",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 2.0,
+          "gross": 4.0
+        },
+        {
           "name": "Breckenridge Avalanche",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -254,11 +254,53 @@
           "gross": 14.0
         },
         {
-          "name": "Grapefruit Squeeze",
+          "name": "Hendricks",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Orange Squeeze",
           "variation": "Regular",
           "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 20.0
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Lemon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Schnitz Elise Navidad",
+          "variation": "Regular",
+          "category": null,
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Michelob Ultra Can",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Fresh Fruit",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 1.0,
+          "gross": 1.0
+        },
+        {
+          "name": "Maine Peeper Pale Ale",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 9.0
         },
         {
           "name": "The Botanist",
@@ -294,48 +336,6 @@
           "category": "Tequila",
           "qty": 1.0,
           "gross": 9.0
-        },
-        {
-          "name": "Michelob Ultra Can",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Maine Peeper Pale Ale",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 9.0
-        },
-        {
-          "name": "Schnitz Elise Navidad",
-          "variation": "Regular",
-          "category": null,
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Orange Squeeze",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Lemon Shake Up",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 9.0
-        },
-        {
-          "name": "Fresh Fruit",
-          "variation": "Regular",
-          "category": "Snacks",
-          "qty": 1.0,
-          "gross": 1.0
         }
       ],
       "custom_amount_items": []
@@ -417,9 +417,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1090.3,
+    "net_sales": 1398.8,
     "transaction_count": 52,
-    "tips": 46.5,
-    "open_tab_total": 669.8
+    "tips": 355.0,
+    "open_tab_total": 121.0
   }
 }
