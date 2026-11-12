@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-12T07:21:55Z",
-  "generated_at_et": "2026-11-12 02:21:55 EST",
+  "generated_at_utc": "2026-11-12T13:19:34Z",
+  "generated_at_et": "2026-11-12 08:19:34 EST",
   "business_day": "2026-11-11",
   "business_day_start_et": "2026-11-11 04:00 EST",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-11-11T09:00:00Z",
-  "window_end_utc": "2026-11-12T07:21:55Z",
+  "window_end_utc": "2026-11-12T09:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,13 +27,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 153.0,
-      "tax_backout_base": 143.33,
+      "net_sales": 264.6,
+      "tax_backout_base": 247.87,
       "transaction_count": 7,
-      "completed_count": 3,
-      "open_count": 4,
-      "open_tab_total": 99.0,
-      "tips": 0.0,
+      "completed_count": 6,
+      "open_count": 1,
+      "open_tab_total": 19.0,
+      "tips": 111.6,
       "tax_collected": 0.0,
       "cash_total": 54.0,
       "card_total": 215.35,
@@ -60,18 +60,18 @@
           "gross": 18.0
         },
         {
-          "name": "Fat Heads Leaf Man",
-          "variation": "Regular",
-          "category": null,
-          "qty": 3.0,
-          "gross": 18.0
-        },
-        {
           "name": "The Federalist Honest Red Blend",
           "variation": "Regular",
           "category": "Wine",
           "qty": 3.0,
           "gross": 24.0
+        },
+        {
+          "name": "Fat Heads Leaf Man",
+          "variation": "Regular",
+          "category": null,
+          "qty": 3.0,
+          "gross": 18.0
         },
         {
           "name": "Maine Peeper Pale Ale",
@@ -95,20 +95,6 @@
           "gross": 12.0
         },
         {
-          "name": "George Dickel Rye",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Breckenridge Avalanche",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
           "name": "High Noon - Grapefruit",
           "variation": "Regular",
           "category": "Seltzers",
@@ -128,6 +114,20 @@
           "category": "Bottled Beer",
           "qty": 1.0,
           "gross": 2.0
+        },
+        {
+          "name": "George Dickel Rye",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Breckenridge Avalanche",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 7.0
         },
         {
           "name": "GTB Aloha Ohio",
@@ -202,9 +202,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 363.2,
+    "net_sales": 474.8,
     "transaction_count": 14,
-    "tips": 60.2,
-    "open_tab_total": 99.0
+    "tips": 171.8,
+    "open_tab_total": 19.0
   }
 }
