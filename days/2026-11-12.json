@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-13T06:55:14Z",
-  "generated_at_et": "2026-11-13 01:55:14 EST",
+  "generated_at_utc": "2026-11-13T12:40:20Z",
+  "generated_at_et": "2026-11-13 07:40:20 EST",
   "business_day": "2026-11-12",
   "business_day_start_et": "2026-11-12 04:00 EST",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-11-12T09:00:00Z",
-  "window_end_utc": "2026-11-13T06:55:14Z",
+  "window_end_utc": "2026-11-13T09:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 538.85,
-      "tax_backout_base": 504.78,
-      "transaction_count": 19,
-      "completed_count": 10,
-      "open_count": 9,
-      "open_tab_total": 191.6,
-      "tips": 5.25,
+      "net_sales": 615.3,
+      "tax_backout_base": 576.39,
+      "transaction_count": 20,
+      "completed_count": 19,
+      "open_count": 1,
+      "open_tab_total": 14.0,
+      "tips": 62.7,
       "tax_collected": 0.0,
       "cash_total": 221.0,
-      "card_total": 373.35,
+      "card_total": 397.1,
       "discounts": [
         {
           "name": "Mug Club",
@@ -100,6 +100,13 @@
           "gross": 40.0
         },
         {
+          "name": "GTB Aloha Ohio",
+          "variation": "Regular",
+          "category": null,
+          "qty": 3.0,
+          "gross": 21.0
+        },
+        {
           "name": "White Claw - Raspberry",
           "variation": "Regular",
           "category": "Seltzers",
@@ -121,25 +128,11 @@
           "gross": 21.0
         },
         {
-          "name": "Chips",
+          "name": "White Claw - Black Cherry",
           "variation": "Regular",
-          "category": "Snacks",
-          "qty": 2.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Big Nut",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
+          "category": "Seltzers",
           "qty": 2.0,
           "gross": 12.0
-        },
-        {
-          "name": "GTB Aloha Ohio",
-          "variation": "Regular",
-          "category": null,
-          "qty": 2.0,
-          "gross": 14.0
         },
         {
           "name": "Schnitz Elise Navidad",
@@ -149,32 +142,25 @@
           "gross": 14.0
         },
         {
+          "name": "Big Nut",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Chips",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 2.0,
+          "gross": 4.0
+        },
+        {
           "name": "Corona Extra Bottle",
           "variation": "Regular",
           "category": "Bottled Beer",
           "qty": 2.0,
           "gross": 10.0
-        },
-        {
-          "name": "Paddle Bar Tees",
-          "variation": "Regular",
-          "category": "Paddle Bar Apparel",
-          "qty": 1.0,
-          "gross": 26.0
-        },
-        {
-          "name": "Presidente",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Old Style",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 4.0
         },
         {
           "name": "High Noon - Grapefruit",
@@ -184,25 +170,11 @@
           "gross": 7.0
         },
         {
-          "name": "Breckenridge Avalanche",
+          "name": "Juniper Low Rider",
           "variation": "Regular",
           "category": "Draft Beer",
           "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "High Noon - Peach",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Maine Peeper Pale Ale",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 9.0
+          "gross": 6.0
         },
         {
           "name": "White Russian",
@@ -247,11 +219,46 @@
           "gross": 4.0
         },
         {
-          "name": "Juniper Low Rider",
+          "name": "Maine Peeper Pale Ale",
           "variation": "Regular",
           "category": "Draft Beer",
           "qty": 1.0,
-          "gross": 6.0
+          "gross": 9.0
+        },
+        {
+          "name": "Paddle Bar Tees",
+          "variation": "Regular",
+          "category": "Paddle Bar Apparel",
+          "qty": 1.0,
+          "gross": 26.0
+        },
+        {
+          "name": "Presidente",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Old Style",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Breckenridge Avalanche",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "High Noon - Peach",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 7.0
         }
       ],
       "custom_amount_items": [
@@ -346,9 +353,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 710.85,
-    "transaction_count": 24,
-    "tips": 5.25,
-    "open_tab_total": 343.6
+    "net_sales": 787.3,
+    "transaction_count": 25,
+    "tips": 62.7,
+    "open_tab_total": 166.0
   }
 }
