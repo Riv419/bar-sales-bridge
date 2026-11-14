@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-14T00:53:33Z",
-  "generated_at_et": "2026-11-13 19:53:33 EST",
+  "generated_at_utc": "2026-11-14T06:39:33Z",
+  "generated_at_et": "2026-11-14 01:39:33 EST",
   "business_day": "2026-11-12",
   "business_day_start_et": "2026-11-12 04:00 EST",
   "is_final": true,
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 615.3,
-      "tax_backout_base": 576.39,
-      "transaction_count": 20,
+      "net_sales": 601.3,
+      "tax_backout_base": 563.28,
+      "transaction_count": 19,
       "completed_count": 19,
-      "open_count": 1,
-      "open_tab_total": 14.0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
       "tips": 62.7,
       "tax_collected": 0.0,
       "cash_total": 221.0,
-      "card_total": 397.1,
+      "card_total": 380.3,
       "discounts": [
         {
           "name": "Mug Club",
@@ -245,20 +245,6 @@
           "category": "Canned Beer",
           "qty": 1.0,
           "gross": 4.0
-        },
-        {
-          "name": "Breckenridge Avalanche",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "High Noon - Peach",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 7.0
         }
       ],
       "custom_amount_items": [
@@ -353,9 +339,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 787.3,
-    "transaction_count": 25,
+    "net_sales": 773.3,
+    "transaction_count": 24,
     "tips": 62.7,
-    "open_tab_total": 166.0
+    "open_tab_total": 152.0
   }
 }
