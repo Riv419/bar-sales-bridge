@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-15T06:45:57Z",
-  "generated_at_et": "2026-11-15 01:45:57 EST",
+  "generated_at_utc": "2026-11-15T12:19:17Z",
+  "generated_at_et": "2026-11-15 07:19:17 EST",
   "business_day": "2026-11-14",
   "business_day_start_et": "2026-11-14 04:00 EST",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-11-14T09:00:00Z",
-  "window_end_utc": "2026-11-15T06:45:57Z",
+  "window_end_utc": "2026-11-15T09:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,13 +27,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 997.6,
-      "tax_backout_base": 934.52,
+      "net_sales": 1142.55,
+      "tax_backout_base": 1070.3,
       "transaction_count": 47,
-      "completed_count": 15,
-      "open_count": 32,
-      "open_tab_total": 686.6,
-      "tips": 0.0,
+      "completed_count": 42,
+      "open_count": 5,
+      "open_tab_total": 127.0,
+      "tips": 144.95,
       "tax_collected": 0.0,
       "cash_total": 311.0,
       "card_total": 856.5,
@@ -93,18 +93,18 @@
           "gross": 28.0
         },
         {
-          "name": "Maine Beer Company Lunch IPA",
-          "variation": "Regular",
-          "category": "Beer",
-          "qty": 7.0,
-          "gross": 63.0
-        },
-        {
           "name": "Bud Light Bottle",
           "variation": "Regular",
           "category": "Bottled Beer",
           "qty": 7.0,
           "gross": 28.0
+        },
+        {
+          "name": "Maine Beer Company Lunch IPA",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 7.0,
+          "gross": 63.0
         },
         {
           "name": "Chips",
@@ -142,6 +142,13 @@
           "gross": 16.0
         },
         {
+          "name": "Pacifico",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 3.0,
+          "gross": 15.0
+        },
+        {
           "name": "Breckenridge Avalanche",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -163,13 +170,6 @@
           "gross": 18.0
         },
         {
-          "name": "Pacifico",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 3.0,
-          "gross": 15.0
-        },
-        {
           "name": "Juniper Low Rider",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -182,6 +182,41 @@
           "category": "Seltzers",
           "qty": 3.0,
           "gross": 21.0
+        },
+        {
+          "name": "Cinna Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Fat Heads Leaf Man",
+          "variation": "Regular",
+          "category": null,
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Paddle Paloma",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Espolon Reposado",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 20.0
+        },
+        {
+          "name": "Espolon Blanco",
+          "variation": "Regular",
+          "category": "Tequila",
+          "qty": 2.0,
+          "gross": 18.0
         },
         {
           "name": "Cucumber Smash",
@@ -219,25 +254,11 @@
           "gross": 14.0
         },
         {
-          "name": "Espolon Reposado",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 20.0
-        },
-        {
           "name": "Bartons natural Vodka (Well)",
           "variation": "Regular",
           "category": "Vodka",
           "qty": 2.0,
           "gross": 12.0
-        },
-        {
-          "name": "Espolon Blanco",
-          "variation": "Regular",
-          "category": "Tequila",
-          "qty": 2.0,
-          "gross": 18.0
         },
         {
           "name": "GTB Aloha Ohio",
@@ -247,20 +268,6 @@
           "gross": 14.0
         },
         {
-          "name": "Cinna Nut",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Paddle Paloma",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 24.0
-        },
-        {
           "name": "White Claw - Peach",
           "variation": "Regular",
           "category": "Seltzers",
@@ -268,11 +275,74 @@
           "gross": 12.0
         },
         {
-          "name": "Fat Heads Leaf Man",
+          "name": "Shot And Snack",
+          "variation": "Regular",
+          "category": "Specials",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Superlyte Lemon Lime",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Lemon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Superlyte Fruit Punch",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Paddle Margarita",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Echo Bay  Sauvignon Blanc",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Seagrams 7",
+          "variation": "Regular",
+          "category": "Whiskey",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Oncore I Love Those Redheads",
           "variation": "Regular",
           "category": null,
-          "qty": 2.0,
-          "gross": 12.0
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Old Style",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "High Noon - Peach",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 7.0
         },
         {
           "name": "Surfside Ice Tea & Vodka",
@@ -315,76 +385,6 @@
           "category": "Liquor",
           "qty": 1.0,
           "gross": 9.0
-        },
-        {
-          "name": "Paddle Margarita",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Echo Bay  Sauvignon Blanc",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 1.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Old Style",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 4.0
-        },
-        {
-          "name": "High Noon - Peach",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Seagrams 7",
-          "variation": "Regular",
-          "category": "Whiskey",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Oncore I Love Those Redheads",
-          "variation": "Regular",
-          "category": null,
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Shot And Snack",
-          "variation": "Regular",
-          "category": "Specials",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Superlyte Lemon Lime",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Lemon Shake Up",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 9.0
-        },
-        {
-          "name": "Superlyte Fruit Punch",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
         }
       ],
       "custom_amount_items": []
@@ -661,9 +661,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 2506.35,
+    "net_sales": 2651.3,
     "transaction_count": 81,
-    "tips": 41.25,
-    "open_tab_total": 1925.1
+    "tips": 186.2,
+    "open_tab_total": 1365.5
   }
 }
