@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-16T06:44:05Z",
-  "generated_at_et": "2026-11-16 01:44:05 EST",
+  "generated_at_utc": "2026-11-16T13:11:13Z",
+  "generated_at_et": "2026-11-16 08:11:13 EST",
   "business_day": "2026-11-15",
   "business_day_start_et": "2026-11-15 04:00 EST",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-11-15T09:00:00Z",
-  "window_end_utc": "2026-11-16T06:44:05Z",
+  "window_end_utc": "2026-11-16T09:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,13 +27,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 330.0,
-      "tax_backout_base": 309.13,
+      "net_sales": 368.7,
+      "tax_backout_base": 345.39,
       "transaction_count": 20,
-      "completed_count": 9,
-      "open_count": 11,
-      "open_tab_total": 207.0,
-      "tips": 0.0,
+      "completed_count": 19,
+      "open_count": 1,
+      "open_tab_total": 6.0,
+      "tips": 38.7,
       "tax_collected": 0.0,
       "cash_total": 123.0,
       "card_total": 247.7,
@@ -67,16 +67,16 @@
           "gross": 16.0
         },
         {
-          "name": "Bartons natural Vodka (Well)",
+          "name": "Big Nut",
           "variation": "Regular",
-          "category": "Vodka",
+          "category": "Specialty Drinks",
           "qty": 3.0,
           "gross": 18.0
         },
         {
-          "name": "Big Nut",
+          "name": "Bartons natural Vodka (Well)",
           "variation": "Regular",
-          "category": "Specialty Drinks",
+          "category": "Vodka",
           "qty": 3.0,
           "gross": 18.0
         },
@@ -86,6 +86,27 @@
           "category": "Wine",
           "qty": 3.0,
           "gross": 24.0
+        },
+        {
+          "name": "Chips",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 2.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Green Tea",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Bulleit Bourbon",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 2.0,
+          "gross": 18.0
         },
         {
           "name": "Espolon Blanco",
@@ -102,13 +123,6 @@
           "gross": 10.0
         },
         {
-          "name": "Bulleit Bourbon",
-          "variation": "Regular",
-          "category": "Bourbon",
-          "qty": 2.0,
-          "gross": 18.0
-        },
-        {
           "name": "Jameson",
           "variation": "Regular",
           "category": "Liquor",
@@ -116,18 +130,67 @@
           "gross": 16.0
         },
         {
-          "name": "Chips",
-          "variation": "Regular",
-          "category": "Snacks",
-          "qty": 2.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Green Tea",
+          "name": "Titos",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 2.0,
-          "gross": 12.0
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Lemon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Lime - Ade",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Grapefruit Squeeze",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Lemon Shake Up",
+          "variation": "Strawberry",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Soda",
+          "variation": "Regular",
+          "category": "Beverages",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
+          "name": "Fresh Fruit",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 1.0,
+          "gross": 1.0
+        },
+        {
+          "name": "Breckenridge Avalanche",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Schnitz Elise Navidad",
+          "variation": "Regular",
+          "category": null,
+          "qty": 1.0,
+          "gross": 7.0
         },
         {
           "name": "Busch Light",
@@ -149,69 +212,6 @@
           "category": "Liquor",
           "qty": 1.0,
           "gross": 6.0
-        },
-        {
-          "name": "Breckenridge Avalanche",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Schnitz Elise Navidad",
-          "variation": "Regular",
-          "category": null,
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Grapefruit Squeeze",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Lemon Shake Up",
-          "variation": "Strawberry",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Titos",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Soda",
-          "variation": "Regular",
-          "category": "Beverages",
-          "qty": 1.0,
-          "gross": 3.0
-        },
-        {
-          "name": "Fresh Fruit",
-          "variation": "Regular",
-          "category": "Snacks",
-          "qty": 1.0,
-          "gross": 1.0
-        },
-        {
-          "name": "Lemon Shake Up",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 9.0
-        },
-        {
-          "name": "Lime - Ade",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
         }
       ],
       "custom_amount_items": [
@@ -225,16 +225,16 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 611.34,
-      "tax_backout_base": 572.68,
-      "transaction_count": 15,
-      "completed_count": 11,
+      "net_sales": 642.54,
+      "tax_backout_base": 601.91,
+      "transaction_count": 16,
+      "completed_count": 12,
       "open_count": 4,
       "open_tab_total": 144.0,
-      "tips": 55.5,
+      "tips": 60.7,
       "tax_collected": 2.84,
       "cash_total": 79.0,
-      "card_total": 565.64,
+      "card_total": 596.84,
       "discounts": [],
       "line_items": [
         {
@@ -273,6 +273,13 @@
           "gross": 36.0
         },
         {
+          "name": "French 75",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
           "name": "Whiskey Sour",
           "variation": "Regular",
           "category": "Bourbon - Whiskey",
@@ -306,6 +313,13 @@
           "category": "Bourbon - Whiskey",
           "qty": 2.0,
           "gross": 26.0
+        },
+        {
+          "name": "Lake Serpent",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 1.0,
+          "gross": 14.0
         },
         {
           "name": "Martini Monday",
@@ -357,13 +371,6 @@
           "gross": 15.0
         },
         {
-          "name": "French 75",
-          "variation": "Regular",
-          "category": "Gin",
-          "qty": 1.0,
-          "gross": 12.0
-        },
-        {
           "name": "Aviation",
           "variation": "Regular",
           "category": "Gin",
@@ -396,9 +403,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 941.34,
-    "transaction_count": 35,
-    "tips": 55.5,
-    "open_tab_total": 351.0
+    "net_sales": 1011.24,
+    "transaction_count": 36,
+    "tips": 99.4,
+    "open_tab_total": 150.0
   }
 }
