@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-18T07:40:04Z",
-  "generated_at_et": "2026-11-18 02:40:04 EST",
-  "business_day": "2026-11-17",
-  "business_day_start_et": "2026-11-17 04:00 EST",
+  "generated_at_utc": "2026-11-18T13:30:15Z",
+  "generated_at_et": "2026-11-18 08:30:15 EST",
+  "business_day": "2026-11-18",
+  "business_day_start_et": "2026-11-18 04:00 EST",
   "is_final": false,
-  "window_start_utc": "2026-11-17T09:00:00Z",
-  "window_end_utc": "2026-11-18T07:40:04Z",
+  "window_start_utc": "2026-11-18T09:00:00Z",
+  "window_end_utc": "2026-11-18T13:30:15Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,287 +27,55 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 695.68,
-      "tax_backout_base": 651.69,
-      "transaction_count": 25,
-      "completed_count": 25,
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 145.38,
+      "tips": 0.0,
       "tax_collected": 0.0,
-      "cash_total": 80.0,
-      "card_total": 615.68,
-      "discounts": [
-        {
-          "name": "HH Auto $2 Off",
-          "amount": 12.0,
-          "count": 6
-        },
-        {
-          "name": "Mug Club",
-          "amount": 2.0,
-          "count": 1
-        },
-        {
-          "name": "Employee Discount",
-          "amount": 0.0,
-          "count": 3
-        },
-        {
-          "name": "Paddle Friends",
-          "amount": 0.0,
-          "count": 1
-        }
-      ],
-      "line_items": [
-        {
-          "name": "Hot Nut",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 18.0,
-          "gross": 54.0
-        },
-        {
-          "name": "Maine Beer Company Lunch IPA",
-          "variation": "Regular",
-          "category": "Beer",
-          "qty": 8.0,
-          "gross": 72.0
-        },
-        {
-          "name": "Cinna Nut",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 7.0,
-          "gross": 28.0
-        },
-        {
-          "name": "Coors Banquet",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 6.0,
-          "gross": 24.0
-        },
-        {
-          "name": "Bartons natural Vodka (Well)",
-          "variation": "Regular",
-          "category": "Vodka",
-          "qty": 5.0,
-          "gross": 30.0
-        },
-        {
-          "name": "Jameson",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 5.0,
-          "gross": 40.0
-        },
-        {
-          "name": "Captain Morgan",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 4.0,
-          "gross": 24.0
-        },
-        {
-          "name": "Cucumber Smash",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 4.0,
-          "gross": 40.0
-        },
-        {
-          "name": "Big Nut",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 4.0,
-          "gross": 24.0
-        },
-        {
-          "name": "Miller Lite Can",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 4.0,
-          "gross": 16.0
-        },
-        {
-          "name": "Old Style",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 3.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Coors Light Aluminum Bottle",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 3.0,
-          "gross": 15.0
-        },
-        {
-          "name": "Peppermint Patty Nut",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 3.0,
-          "gross": 12.0
-        },
-        {
-          "name": "High Noon - Pineapple",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 3.0,
-          "gross": 21.0
-        },
-        {
-          "name": "Jack Daniels",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 3.0,
-          "gross": 21.0
-        },
-        {
-          "name": "Surfside Iced Tea + Lemonade",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 2.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Mai Tai",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 24.0
-        },
-        {
-          "name": "Breckenridge Avalanche",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 2.0,
-          "gross": 14.0
-        },
-        {
-          "name": "Red Stripe",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 2.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Premium Liquor",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Buffalo Trace",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 24.0
-        },
-        {
-          "name": "Corona Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Busch Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Paddle Margarita",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Juniper Low Rider",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "New Amsterdam Gin (Well)",
-          "variation": "Regular",
-          "category": "Gin",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Superlyte Orange",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Echo Bay  Sauvignon Blanc",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 1.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Schnitz Elise Navidad",
-          "variation": "Regular",
-          "category": null,
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "Bota Box Pinot Grigio",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Red Bull",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 1.0,
-          "gross": 3.0
-        },
-        {
-          "name": "Espolon Blanco",
-          "variation": "Regular",
-          "category": "Tequila",
-          "qty": 1.0,
-          "gross": 9.0
-        }
-      ],
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
       "custom_amount_items": []
     },
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 177.3,
-      "tax_backout_base": 166.09,
-      "transaction_count": 4,
-      "completed_count": 4,
+      "net_sales": 132.45,
+      "tax_backout_base": 124.07,
+      "transaction_count": 5,
+      "completed_count": 5,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 33.3,
+      "tips": 15.45,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 177.3,
+      "card_total": 132.45,
       "discounts": [],
       "line_items": [
         {
-          "name": "Weekly Special",
+          "name": "Martini Monday",
           "variation": "Regular",
-          "category": "Specialty",
-          "qty": 5.0,
-          "gross": 60.0
+          "category": "other",
+          "qty": 8.0,
+          "gross": 56.0
+        },
+        {
+          "name": "Paulaner",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 3.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Woodford Reserve",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 2.0,
+          "gross": 20.0
         },
         {
           "name": "Aviation",
@@ -317,46 +85,11 @@
           "gross": 14.0
         },
         {
-          "name": "Betty White Lady",
-          "variation": "Regular",
-          "category": "Gin",
-          "qty": 1.0,
-          "gross": 14.0
-        },
-        {
-          "name": "Absinthe",
-          "variation": "Regular",
-          "category": "Specialty",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Paulaner",
-          "variation": "Regular",
-          "category": "Beer",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Pain Killer",
-          "variation": "Regular",
-          "category": null,
-          "qty": 1.0,
-          "gross": 14.0
-        },
-        {
-          "name": "Manhattan",
+          "name": "Old Fashioned",
           "variation": "Regular",
           "category": "Bourbon - Whiskey",
           "qty": 1.0,
-          "gross": 13.0
-        },
-        {
-          "name": "Whiskey Sour",
-          "variation": "Regular",
-          "category": "Bourbon - Whiskey",
-          "qty": 1.0,
-          "gross": 14.0
+          "gross": 12.0
         }
       ],
       "custom_amount_items": []
@@ -364,9 +97,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 872.98,
-    "transaction_count": 29,
-    "tips": 178.68,
+    "net_sales": 132.45,
+    "transaction_count": 5,
+    "tips": 15.45,
     "open_tab_total": 0.0
   }
 }
