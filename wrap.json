@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-19T07:36:34Z",
-  "generated_at_et": "2026-11-19 02:36:34 EST",
+  "generated_at_utc": "2026-11-19T13:57:58Z",
+  "generated_at_et": "2026-11-19 08:57:58 EST",
   "business_day": "2026-11-18",
   "business_day_start_et": "2026-11-18 04:00 EST",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-11-18T09:00:00Z",
-  "window_end_utc": "2026-11-19T07:36:34Z",
+  "window_end_utc": "2026-11-19T09:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,13 +27,13 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 409.6,
-      "tax_backout_base": 383.7,
+      "net_sales": 485.55,
+      "tax_backout_base": 454.85,
       "transaction_count": 19,
-      "completed_count": 8,
-      "open_count": 11,
-      "open_tab_total": 243.6,
-      "tips": 0.0,
+      "completed_count": 18,
+      "open_count": 1,
+      "open_tab_total": 18.0,
+      "tips": 75.95,
       "tax_collected": 0.0,
       "cash_total": 166.0,
       "card_total": 323.15,
@@ -65,6 +65,13 @@
           "gross": 45.0
         },
         {
+          "name": "Espolon Reposado",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 4.0,
+          "gross": 40.0
+        },
+        {
           "name": "Long Drink Sugar Free",
           "variation": "Regular",
           "category": "Seltzers",
@@ -79,18 +86,11 @@
           "gross": 12.0
         },
         {
-          "name": "Espolon Reposado",
+          "name": "New Amsterdam Gin (Well)",
           "variation": "Regular",
-          "category": "Liquor",
-          "qty": 4.0,
-          "gross": 40.0
-        },
-        {
-          "name": "Corona Extra Bottle",
-          "variation": "Regular",
-          "category": "Bottled Beer",
+          "category": "Gin",
           "qty": 3.0,
-          "gross": 15.0
+          "gross": 18.0
         },
         {
           "name": "Peppermint Patty Nut",
@@ -100,18 +100,53 @@
           "gross": 12.0
         },
         {
-          "name": "New Amsterdam Gin (Well)",
-          "variation": "Regular",
-          "category": "Gin",
-          "qty": 3.0,
-          "gross": 18.0
-        },
-        {
           "name": "High Noon - Mango",
           "variation": "Regular",
           "category": "Seltzers",
           "qty": 3.0,
           "gross": 21.0
+        },
+        {
+          "name": "Corona Extra Bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 3.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Maine Beer Company Lunch IPA",
+          "variation": "Regular",
+          "category": "Beer",
+          "qty": 2.0,
+          "gross": 18.0
+        },
+        {
+          "name": "GTB Aloha Ohio",
+          "variation": "Regular",
+          "category": null,
+          "qty": 2.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Fatheads Headhunter",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 14.0
+        },
+        {
+          "name": "High Noon - Peach",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 2.0,
+          "gross": 14.0
+        },
+        {
+          "name": "High Noon - Pineapple",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 2.0,
+          "gross": 14.0
         },
         {
           "name": "Grapefruit Squeeze",
@@ -142,39 +177,53 @@
           "gross": 14.0
         },
         {
-          "name": "High Noon - Peach",
+          "name": "Labatt Blue",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Montucky Cold Snack",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Long Drink Citrus",
           "variation": "Regular",
           "category": "Seltzers",
-          "qty": 2.0,
-          "gross": 14.0
+          "qty": 1.0,
+          "gross": 6.0
         },
         {
-          "name": "GTB Aloha Ohio",
+          "name": "Pumpkin Spice Hot Nut",
           "variation": "Regular",
-          "category": null,
-          "qty": 2.0,
-          "gross": 14.0
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 4.0
         },
         {
-          "name": "Fatheads Headhunter",
+          "name": "The Federalist Honest Red Blend",
           "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 2.0,
-          "gross": 14.0
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 8.0
         },
         {
-          "name": "Maine Beer Company Lunch IPA",
-          "variation": "Regular",
-          "category": "Beer",
-          "qty": 2.0,
-          "gross": 18.0
-        },
-        {
-          "name": "High Noon - Pineapple",
+          "name": "High Noon - Grapefruit",
           "variation": "Regular",
           "category": "Seltzers",
-          "qty": 2.0,
-          "gross": 14.0
+          "qty": 1.0,
+          "gross": 7.0
+        },
+        {
+          "name": "Stroh\u2019s",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 3.0
         },
         {
           "name": "Crown Royal Apple",
@@ -203,55 +252,6 @@
           "category": "Liquor",
           "qty": 1.0,
           "gross": 6.0
-        },
-        {
-          "name": "High Noon - Grapefruit",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 7.0
-        },
-        {
-          "name": "The Federalist Honest Red Blend",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 1.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Stroh\u2019s",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 3.0
-        },
-        {
-          "name": "Labatt Blue",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Montucky Cold Snack",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Long Drink Citrus",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Pumpkin Spice Hot Nut",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 4.0
         },
         {
           "name": "Lime - Ade",
@@ -396,9 +396,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 753.05,
+    "net_sales": 829.0,
     "transaction_count": 29,
-    "tips": 35.45,
-    "open_tab_total": 375.6
+    "tips": 111.4,
+    "open_tab_total": 150.0
   }
 }
