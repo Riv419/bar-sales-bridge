@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-20T01:46:52Z",
-  "generated_at_et": "2026-11-19 20:46:52 EST",
+  "generated_at_utc": "2026-11-20T07:27:33Z",
+  "generated_at_et": "2026-11-20 02:27:33 EST",
   "business_day": "2026-11-19",
   "business_day_start_et": "2026-11-19 04:00 EST",
   "is_final": false,
   "window_start_utc": "2026-11-19T09:00:00Z",
-  "window_end_utc": "2026-11-20T01:46:52Z",
+  "window_end_utc": "2026-11-20T07:27:33Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 500.0,
-      "tax_backout_base": 468.38,
-      "transaction_count": 25,
-      "completed_count": 11,
-      "open_count": 14,
-      "open_tab_total": 287.0,
+      "net_sales": 546.0,
+      "tax_backout_base": 511.48,
+      "transaction_count": 28,
+      "completed_count": 12,
+      "open_count": 16,
+      "open_tab_total": 321.0,
       "tips": 0.0,
       "tax_collected": 0.0,
-      "cash_total": 213.0,
-      "card_total": 299.2,
+      "cash_total": 225.0,
+      "card_total": 390.25,
       "discounts": [
         {
           "name": "HH Auto $2 Off",
@@ -54,15 +54,15 @@
           "name": "Peppermint Patty Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 10.0,
-          "gross": 40.0
+          "qty": 13.0,
+          "gross": 52.0
         },
         {
           "name": "Busch Light",
           "variation": "Regular",
           "category": "Canned Beer",
-          "qty": 8.0,
-          "gross": 24.0
+          "qty": 9.0,
+          "gross": 27.0
         },
         {
           "name": "Espolon Reposado",
@@ -72,11 +72,25 @@
           "gross": 70.0
         },
         {
+          "name": "Old Style",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 5.0,
+          "gross": 20.0
+        },
+        {
           "name": "Captain Morgan",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 5.0,
           "gross": 30.0
+        },
+        {
+          "name": "Coors Banquet",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 4.0,
+          "gross": 16.0
         },
         {
           "name": "Great Lakes Midwest IPA",
@@ -86,11 +100,18 @@
           "gross": 24.0
         },
         {
-          "name": "Old Style",
+          "name": "North High Christmas Clark Ale",
           "variation": "Regular",
-          "category": "Canned Beer",
+          "category": null,
           "qty": 4.0,
-          "gross": 16.0
+          "gross": 28.0
+        },
+        {
+          "name": "Orange Creamsicle",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 4.0,
+          "gross": 48.0
         },
         {
           "name": "Maine Beer Company Lunch IPA",
@@ -107,13 +128,6 @@
           "gross": 18.0
         },
         {
-          "name": "Coors Banquet",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 3.0,
-          "gross": 12.0
-        },
-        {
           "name": "Bartons natural Vodka (Well)",
           "variation": "Regular",
           "category": "Vodka",
@@ -128,25 +142,11 @@
           "gross": 24.0
         },
         {
-          "name": "North High Christmas Clark Ale",
-          "variation": "Regular",
-          "category": null,
-          "qty": 3.0,
-          "gross": 21.0
-        },
-        {
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 3.0,
           "gross": 9.0
-        },
-        {
-          "name": "Orange Creamsicle",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 3.0,
-          "gross": 36.0
         },
         {
           "name": "Lemon Shake Up",
@@ -212,6 +212,13 @@
           "gross": 5.0
         },
         {
+          "name": "Montucky Cold Snack",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 1.0,
+          "gross": 4.0
+        },
+        {
           "name": "Jack Daniels",
           "variation": "Regular",
           "category": "Liquor",
@@ -245,24 +252,24 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 211.0,
-      "tax_backout_base": 197.66,
-      "transaction_count": 4,
+      "net_sales": 279.0,
+      "tax_backout_base": 261.36,
+      "transaction_count": 7,
       "completed_count": 2,
-      "open_count": 2,
-      "open_tab_total": 176.0,
+      "open_count": 5,
+      "open_tab_total": 244.0,
       "tips": 0.0,
       "tax_collected": 0.0,
       "cash_total": 35.0,
-      "card_total": 216.6,
+      "card_total": 312.2,
       "discounts": [],
       "line_items": [
         {
           "name": "Weekly Special",
           "variation": "Regular",
           "category": "Specialty",
-          "qty": 4.0,
-          "gross": 48.0
+          "qty": 5.0,
+          "gross": 60.0
         },
         {
           "name": "Rum Old Fashioned",
@@ -305,6 +312,27 @@
           "category": "Cocktail - Modern Signature",
           "qty": 2.0,
           "gross": 28.0
+        },
+        {
+          "name": "Absinthe Drip",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 1.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Jefferson's Ocean",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Chic-A-Cherry Cola",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 1.0,
+          "gross": 14.0
         }
       ],
       "custom_amount_items": []
@@ -312,9 +340,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 711.0,
-    "transaction_count": 29,
+    "net_sales": 825.0,
+    "transaction_count": 35,
     "tips": 0.0,
-    "open_tab_total": 463.0
+    "open_tab_total": 565.0
   }
 }
