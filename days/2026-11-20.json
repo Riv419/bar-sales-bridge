@@ -1,0 +1,112 @@
+{
+  "generated_at_utc": "2026-11-20T13:39:02Z",
+  "generated_at_et": "2026-11-20 08:39:02 EST",
+  "business_day": "2026-11-20",
+  "business_day_start_et": "2026-11-20 04:00 EST",
+  "is_final": false,
+  "window_start_utc": "2026-11-20T09:00:00Z",
+  "window_end_utc": "2026-11-20T13:39:02Z",
+  "bars": {
+    "tiques": {
+      "name": "Tique's",
+      "location_id": "L91FN4CPCADRA",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "paddle": {
+      "name": "Paddle Bar",
+      "location_id": "RMSRRF4GTR3J5",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "volstead": {
+      "name": "Volstead",
+      "location_id": "G9XHMF97SD95W",
+      "net_sales": 112.0,
+      "tax_backout_base": 104.92,
+      "transaction_count": 2,
+      "completed_count": 2,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 20.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 112.0,
+      "discounts": [],
+      "line_items": [
+        {
+          "name": "Old Fashioned",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Waldorf",
+          "variation": "Regular",
+          "category": "Scotch",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Singapore Sling",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 1.0,
+          "gross": 15.0
+        },
+        {
+          "name": "Manhattan",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 1.0,
+          "gross": 13.0
+        },
+        {
+          "name": "Rum Old Fashioned",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Weekly Special",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 1.0,
+          "gross": 12.0
+        }
+      ],
+      "custom_amount_items": []
+    }
+  },
+  "errors": [],
+  "combined": {
+    "net_sales": 112.0,
+    "transaction_count": 2,
+    "tips": 20.0,
+    "open_tab_total": 0.0
+  }
+}
