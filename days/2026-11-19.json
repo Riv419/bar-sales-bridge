@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-21T01:32:59Z",
-  "generated_at_et": "2026-11-20 20:32:59 EST",
+  "generated_at_utc": "2026-11-21T07:22:21Z",
+  "generated_at_et": "2026-11-21 02:22:21 EST",
   "business_day": "2026-11-19",
   "business_day_start_et": "2026-11-19 04:00 EST",
   "is_final": true,
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 634.25,
-      "tax_backout_base": 594.15,
-      "transaction_count": 29,
+      "net_sales": 579.25,
+      "tax_backout_base": 542.62,
+      "transaction_count": 27,
       "completed_count": 27,
-      "open_count": 2,
-      "open_tab_total": 55.0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
       "tips": 70.25,
       "tax_collected": 0.0,
       "cash_total": 225.0,
-      "card_total": 411.85,
+      "card_total": 354.25,
       "discounts": [
         {
           "name": "HH Auto $2 Off",
@@ -86,13 +86,6 @@
           "gross": 30.0
         },
         {
-          "name": "Orange Creamsicle",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 4.0,
-          "gross": 48.0
-        },
-        {
           "name": "Maine Beer Company Lunch IPA",
           "variation": "Regular",
           "category": "Beer",
@@ -119,13 +112,6 @@
           "category": "Draft Beer",
           "qty": 4.0,
           "gross": 24.0
-        },
-        {
-          "name": "Lemon Shake Up",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 3.0,
-          "gross": 27.0
         },
         {
           "name": "Hot Nut",
@@ -156,6 +142,13 @@
           "gross": 18.0
         },
         {
+          "name": "Orange Creamsicle",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
           "name": "Cucumber Smash",
           "variation": "Regular",
           "category": "Specialty Drinks",
@@ -175,13 +168,6 @@
           "category": "Wine",
           "qty": 2.0,
           "gross": 10.0
-        },
-        {
-          "name": "Schnitz Elise Navidad",
-          "variation": "Regular",
-          "category": null,
-          "qty": 2.0,
-          "gross": 14.0
         },
         {
           "name": "Lime - Ade",
@@ -205,6 +191,13 @@
           "gross": 14.0
         },
         {
+          "name": "Lemon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 9.0
+        },
+        {
           "name": "Jack Daniels",
           "variation": "Regular",
           "category": "Liquor",
@@ -224,6 +217,13 @@
           "category": "Canned Beer",
           "qty": 1.0,
           "gross": 5.0
+        },
+        {
+          "name": "Schnitz Elise Navidad",
+          "variation": "Regular",
+          "category": null,
+          "qty": 1.0,
+          "gross": 7.0
         },
         {
           "name": "Presidente",
@@ -252,13 +252,6 @@
           "category": "Canned Beer",
           "qty": 1.0,
           "gross": 5.0
-        },
-        {
-          "name": "Juniper Low Rider",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 1.0,
-          "gross": 6.0
         }
       ],
       "custom_amount_items": []
@@ -354,9 +347,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 913.25,
-    "transaction_count": 36,
+    "net_sales": 858.25,
+    "transaction_count": 34,
     "tips": 70.25,
-    "open_tab_total": 299.0
+    "open_tab_total": 244.0
   }
 }
