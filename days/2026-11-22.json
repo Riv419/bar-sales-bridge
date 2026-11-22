@@ -1,0 +1,105 @@
+{
+  "generated_at_utc": "2026-11-22T12:53:53Z",
+  "generated_at_et": "2026-11-22 07:53:53 EST",
+  "business_day": "2026-11-22",
+  "business_day_start_et": "2026-11-22 04:00 EST",
+  "is_final": false,
+  "window_start_utc": "2026-11-22T09:00:00Z",
+  "window_end_utc": "2026-11-22T12:53:53Z",
+  "bars": {
+    "tiques": {
+      "name": "Tique's",
+      "location_id": "L91FN4CPCADRA",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "paddle": {
+      "name": "Paddle Bar",
+      "location_id": "RMSRRF4GTR3J5",
+      "net_sales": 0.0,
+      "tax_backout_base": 0.0,
+      "transaction_count": 0,
+      "completed_count": 0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 0.0,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 0.0,
+      "discounts": [],
+      "line_items": [],
+      "custom_amount_items": []
+    },
+    "volstead": {
+      "name": "Volstead",
+      "location_id": "G9XHMF97SD95W",
+      "net_sales": 143.6,
+      "tax_backout_base": 134.52,
+      "transaction_count": 4,
+      "completed_count": 4,
+      "open_count": 0,
+      "open_tab_total": 0.0,
+      "tips": 15.6,
+      "tax_collected": 0.0,
+      "cash_total": 0.0,
+      "card_total": 143.6,
+      "discounts": [],
+      "line_items": [
+        {
+          "name": "Old Fashioned",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 5.0,
+          "gross": 60.0
+        },
+        {
+          "name": "Magic Moment",
+          "variation": "Regular",
+          "category": "Modern Cocktails",
+          "qty": 3.0,
+          "gross": 36.0
+        },
+        {
+          "name": "Interstellar Lemonade",
+          "variation": "Regular",
+          "category": "Mocktail / No ABV",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Dark & Stormy",
+          "variation": "Regular",
+          "category": "Rum",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Weekly Special",
+          "variation": "Regular",
+          "category": "Specialty",
+          "qty": 1.0,
+          "gross": 12.0
+        }
+      ],
+      "custom_amount_items": []
+    }
+  },
+  "errors": [],
+  "combined": {
+    "net_sales": 143.6,
+    "transaction_count": 4,
+    "tips": 15.6,
+    "open_tab_total": 0.0
+  }
+}
