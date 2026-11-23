@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-23T07:51:06Z",
-  "generated_at_et": "2026-11-23 02:51:06 EST",
+  "generated_at_utc": "2026-11-23T15:26:13Z",
+  "generated_at_et": "2026-11-23 10:26:13 EST",
   "business_day": "2026-11-22",
   "business_day_start_et": "2026-11-22 04:00 EST",
-  "is_final": false,
+  "is_final": true,
   "window_start_utc": "2026-11-22T09:00:00Z",
-  "window_end_utc": "2026-11-23T07:51:06Z",
+  "window_end_utc": "2026-11-23T09:00:00Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 1361.75,
-      "tax_backout_base": 1275.64,
-      "transaction_count": 67,
-      "completed_count": 21,
-      "open_count": 46,
-      "open_tab_total": 951.2,
-      "tips": 21.15,
+      "net_sales": 1884.75,
+      "tax_backout_base": 1765.57,
+      "transaction_count": 74,
+      "completed_count": 66,
+      "open_count": 8,
+      "open_tab_total": 195.0,
+      "tips": 269.15,
       "tax_collected": 0.0,
       "cash_total": 198.4,
-      "card_total": 1399.7,
+      "card_total": 1740.55,
       "discounts": [
         {
           "name": "Mug Club",
@@ -54,15 +54,22 @@
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 24.0,
-          "gross": 72.0
+          "qty": 38.0,
+          "gross": 114.0
         },
         {
           "name": "Maine Beer Company Lunch IPA",
           "variation": "Regular",
           "category": "Beer",
-          "qty": 15.0,
-          "gross": 135.0
+          "qty": 16.0,
+          "gross": 144.0
+        },
+        {
+          "name": "Breck Christmas Ale",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 11.0,
+          "gross": 77.0
         },
         {
           "name": "Lemon Shake Up",
@@ -72,10 +79,17 @@
           "gross": 99.0
         },
         {
-          "name": "Breck Christmas Ale",
+          "name": "Michelob Ultra Can",
           "variation": "Regular",
-          "category": "Liquor",
-          "qty": 10.0,
+          "category": "Canned Beer",
+          "qty": 9.0,
+          "gross": 36.0
+        },
+        {
+          "name": "Paddle Margarita",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 7.0,
           "gross": 70.0
         },
         {
@@ -86,11 +100,18 @@
           "gross": 42.0
         },
         {
-          "name": "Michelob Ultra Can",
+          "name": "Busch Light",
           "variation": "Regular",
           "category": "Canned Beer",
-          "qty": 7.0,
-          "gross": 28.0
+          "qty": 6.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Cucumber Smash",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 6.0,
+          "gross": 60.0
         },
         {
           "name": "Bartons natural Vodka (Well)",
@@ -100,7 +121,7 @@
           "gross": 36.0
         },
         {
-          "name": "Cucumber Smash",
+          "name": "Grapefruit Squeeze",
           "variation": "Regular",
           "category": "Specialty Drinks",
           "qty": 5.0,
@@ -114,25 +135,11 @@
           "gross": 45.0
         },
         {
-          "name": "Busch Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 5.0,
-          "gross": 15.0
-        },
-        {
           "name": "Jameson",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 5.0,
           "gross": 40.0
-        },
-        {
-          "name": "Bulleit Bourbon",
-          "variation": "Regular",
-          "category": "Bourbon",
-          "qty": 5.0,
-          "gross": 45.0
         },
         {
           "name": "Kona Big Wave",
@@ -142,18 +149,25 @@
           "gross": 30.0
         },
         {
+          "name": "Bulleit Bourbon",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 5.0,
+          "gross": 45.0
+        },
+        {
+          "name": "Titos",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 4.0,
+          "gross": 28.0
+        },
+        {
           "name": "Surfside Lemonade & Vodka",
           "variation": "Regular",
           "category": "Canned Drinks",
           "qty": 4.0,
           "gross": 24.0
-        },
-        {
-          "name": "Grapefruit Squeeze",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 4.0,
-          "gross": 40.0
         },
         {
           "name": "Montucky Cold Snack",
@@ -163,16 +177,23 @@
           "gross": 16.0
         },
         {
-          "name": "Fatheads Headhunter",
+          "name": "Captain Morgan",
           "variation": "Regular",
-          "category": "Draft Beer",
+          "category": "Liquor",
           "qty": 3.0,
-          "gross": 21.0
+          "gross": 18.0
         },
         {
-          "name": "Bota Box Pinot Grigio",
+          "name": "Paddle Paloma",
           "variation": "Regular",
-          "category": "Wine",
+          "category": "Specialty Drinks",
+          "qty": 3.0,
+          "gross": 36.0
+        },
+        {
+          "name": "Coors Light Aluminum Bottle",
+          "variation": "Regular",
+          "category": "Canned Beer",
           "qty": 3.0,
           "gross": 15.0
         },
@@ -184,6 +205,13 @@
           "gross": 15.0
         },
         {
+          "name": "Surfside Iced Tea + Lemonade",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 3.0,
+          "gross": 18.0
+        },
+        {
           "name": "Espolon Reposado",
           "variation": "Regular",
           "category": "Liquor",
@@ -191,11 +219,18 @@
           "gross": 30.0
         },
         {
-          "name": "Surfside Iced Tea + Lemonade",
+          "name": "Bota Box Pinot Grigio",
           "variation": "Regular",
-          "category": "Canned Drinks",
+          "category": "Wine",
           "qty": 3.0,
-          "gross": 18.0
+          "gross": 15.0
+        },
+        {
+          "name": "Fatheads Headhunter",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 3.0,
+          "gross": 21.0
         },
         {
           "name": "White Claw - Mango",
@@ -205,11 +240,74 @@
           "gross": 18.0
         },
         {
-          "name": "Paddle Margarita",
-          "variation": "strawberry Margarita",
+          "name": "Bud Light Bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Juiced Mimosa",
+          "variation": "Regular",
           "category": "Specialty Drinks",
           "qty": 2.0,
-          "gross": 22.0
+          "gross": 16.0
+        },
+        {
+          "name": "Old Style",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 2.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Crown Royal Apple",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 18.0
+        },
+        {
+          "name": "Lemon Shake Up",
+          "variation": "Raspberry",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 20.0
+        },
+        {
+          "name": "Ghost Tree",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Chips",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 2.0,
+          "gross": 4.0
+        },
+        {
+          "name": "Long Drink Cranberry",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Agave L\u00edmon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Buffalo Trace",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 24.0
         },
         {
           "name": "Miller Lite Can",
@@ -217,6 +315,27 @@
           "category": "Canned Beer",
           "qty": 2.0,
           "gross": 8.0
+        },
+        {
+          "name": "Weller 12",
+          "variation": "Regular",
+          "category": null,
+          "qty": 2.0,
+          "gross": 32.0
+        },
+        {
+          "name": "Seagrams 7",
+          "variation": "Regular",
+          "category": "Whiskey",
+          "qty": 2.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Paddle Margarita",
+          "variation": "strawberry Margarita",
+          "category": "Specialty Drinks",
+          "qty": 2.0,
+          "gross": 22.0
         },
         {
           "name": "Soda",
@@ -233,81 +352,81 @@
           "gross": 10.0
         },
         {
-          "name": "Agave L\u00edmon Shake Up",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 24.0
-        },
-        {
-          "name": "Titos",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 14.0
-        },
-        {
-          "name": "Chips",
-          "variation": "Regular",
-          "category": "Snacks",
-          "qty": 2.0,
-          "gross": 4.0
-        },
-        {
-          "name": "Captain Morgan",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Buffalo Trace",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 24.0
-        },
-        {
-          "name": "Long Drink Cranberry",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 2.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Seagrams 7",
-          "variation": "Regular",
-          "category": "Whiskey",
-          "qty": 2.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Ghost Tree",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 2.0,
-          "gross": 14.0
-        },
-        {
-          "name": "Weller 12",
-          "variation": "Regular",
-          "category": null,
-          "qty": 2.0,
-          "gross": 32.0
-        },
-        {
-          "name": "Lemon Shake Up",
-          "variation": "Raspberry",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 20.0
-        },
-        {
           "name": "Surfside Ice Tea & Vodka",
           "variation": "Regular",
           "category": "Canned Drinks",
           "qty": 2.0,
           "gross": 12.0
+        },
+        {
+          "name": "Surfside Strawberry",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Lime - Ade",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Bourbonade",
+          "variation": "Regular",
+          "category": "Bourbon",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Estrella Damm",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Long Drink Pineapple",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Red Bull",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
+          "name": "Paddle Palmer",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Corona Extra Bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Shot And Snack",
+          "variation": "Regular",
+          "category": "Specials",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "Lamarca Prosecco",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 11.0
         },
         {
           "name": "Aperol Spritz",
@@ -331,30 +450,9 @@
           "gross": 12.0
         },
         {
-          "name": "Juiced Mimosa",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Coors Light Aluminum Bottle",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
           "name": "Narragansett Fresh Catch",
           "variation": "Regular",
           "category": "Canned Beer",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Corona Extra Bottle",
-          "variation": "Regular",
-          "category": "Bottled Beer",
           "qty": 1.0,
           "gross": 5.0
         },
@@ -364,62 +462,6 @@
           "category": "Liquor",
           "qty": 1.0,
           "gross": 8.0
-        },
-        {
-          "name": "Red Bull",
-          "variation": "Regular",
-          "category": "Canned Drinks",
-          "qty": 1.0,
-          "gross": 3.0
-        },
-        {
-          "name": "Shot And Snack",
-          "variation": "Regular",
-          "category": "Specials",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Long Drink Pineapple",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Estrella Damm",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Paddle Palmer",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Paddle Paloma",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Paddle Margarita",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 1.0,
-          "gross": 10.0
-        },
-        {
-          "name": "Lamarca Prosecco",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 1.0,
-          "gross": 11.0
         }
       ],
       "custom_amount_items": [
@@ -561,9 +603,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1816.35,
-    "transaction_count": 78,
-    "tips": 36.75,
-    "open_tab_total": 1210.2
+    "net_sales": 2339.35,
+    "transaction_count": 85,
+    "tips": 284.75,
+    "open_tab_total": 454.0
   }
 }
