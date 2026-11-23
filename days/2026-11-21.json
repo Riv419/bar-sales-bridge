@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-23T00:55:27Z",
-  "generated_at_et": "2026-11-22 19:55:27 EST",
+  "generated_at_utc": "2026-11-23T07:51:06Z",
+  "generated_at_et": "2026-11-23 02:51:06 EST",
   "business_day": "2026-11-21",
   "business_day_start_et": "2026-11-21 04:00 EST",
   "is_final": true,
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 2522.14,
-      "tax_backout_base": 2362.66,
-      "transaction_count": 126,
+      "net_sales": 2431.14,
+      "tax_backout_base": 2277.41,
+      "transaction_count": 123,
       "completed_count": 108,
-      "open_count": 18,
-      "open_tab_total": 569.69,
+      "open_count": 15,
+      "open_tab_total": 478.69,
       "tips": 275.25,
       "tax_collected": 1.69,
       "cash_total": 663.6,
-      "card_total": 1985.58,
+      "card_total": 1873.43,
       "discounts": [
         {
           "name": "Mug Club",
@@ -54,8 +54,8 @@
           "name": "Hot Nut",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 71.0,
-          "gross": 213.0
+          "qty": 67.0,
+          "gross": 201.0
         },
         {
           "name": "Nog Nut",
@@ -89,15 +89,15 @@
           "name": "Cucumber Smash",
           "variation": "Regular",
           "category": "Specialty Drinks",
-          "qty": 16.0,
-          "gross": 160.0
+          "qty": 14.0,
+          "gross": 140.0
         },
         {
           "name": "Maine Beer Company Lunch IPA",
           "variation": "Regular",
           "category": "Beer",
-          "qty": 14.0,
-          "gross": 126.0
+          "qty": 13.0,
+          "gross": 117.0
         },
         {
           "name": "Paddle Margarita",
@@ -112,13 +112,6 @@
           "category": "Snacks",
           "qty": 7.0,
           "gross": 7.0
-        },
-        {
-          "name": "Lemon Shake Up",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 7.0,
-          "gross": 63.0
         },
         {
           "name": "Corona Extra Bottle",
@@ -163,6 +156,13 @@
           "gross": 50.0
         },
         {
+          "name": "Lemon Shake Up",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 5.0,
+          "gross": 45.0
+        },
+        {
           "name": "Kona Big Wave",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -175,13 +175,6 @@
           "category": "Bourbon",
           "qty": 4.0,
           "gross": 56.0
-        },
-        {
-          "name": "Breck Christmas Ale",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 4.0,
-          "gross": 28.0
         },
         {
           "name": "Surfside Blueberry + Lemonade",
@@ -303,13 +296,6 @@
           "gross": 12.0
         },
         {
-          "name": "Fatheads Headhunter",
-          "variation": "Regular",
-          "category": "Draft Beer",
-          "qty": 3.0,
-          "gross": 21.0
-        },
-        {
           "name": "Coors Light Aluminum Bottle",
           "variation": "Regular",
           "category": "Canned Beer",
@@ -373,6 +359,13 @@
           "gross": 8.0
         },
         {
+          "name": "Breck Christmas Ale",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 14.0
+        },
+        {
           "name": "Great Lakes Midwest IPA",
           "variation": "Regular",
           "category": "Draft Beer",
@@ -394,13 +387,6 @@
           "gross": 16.0
         },
         {
-          "name": "Paddle Margarita",
-          "variation": "strawberry Margarita",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 22.0
-        },
-        {
           "name": "Big Nut",
           "variation": "Regular",
           "category": "Specialty Drinks",
@@ -420,6 +406,13 @@
           "category": "Liquor",
           "qty": 2.0,
           "gross": 20.0
+        },
+        {
+          "name": "Fatheads Headhunter",
+          "variation": "Regular",
+          "category": "Draft Beer",
+          "qty": 2.0,
+          "gross": 14.0
         },
         {
           "name": "Budweiser Bottle",
@@ -539,6 +532,13 @@
           "category": "Tequila",
           "qty": 1.0,
           "gross": 9.0
+        },
+        {
+          "name": "Paddle Margarita",
+          "variation": "strawberry Margarita",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 11.0
         },
         {
           "name": "Long Drink Peach",
@@ -969,9 +969,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 3628.74,
-    "transaction_count": 152,
+    "net_sales": 3537.74,
+    "transaction_count": 149,
     "tips": 343.45,
-    "open_tab_total": 1310.09
+    "open_tab_total": 1219.09
   }
 }
