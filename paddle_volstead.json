@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-27T02:52:00Z",
-  "generated_at_et": "2026-11-26 21:52:00 EST",
+  "generated_at_utc": "2026-11-27T08:45:36Z",
+  "generated_at_et": "2026-11-27 03:45:36 EST",
   "business_day": "2026-11-26",
   "business_day_start_et": "2026-11-26 04:00 EST",
   "is_final": false,
   "window_start_utc": "2026-11-26T09:00:00Z",
-  "window_end_utc": "2026-11-27T02:52:00Z",
+  "window_end_utc": "2026-11-27T08:45:36Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 420.4,
-      "tax_backout_base": 393.82,
-      "transaction_count": 12,
-      "completed_count": 4,
-      "open_count": 8,
-      "open_tab_total": 285.0,
-      "tips": 0.0,
+      "net_sales": 540.15,
+      "tax_backout_base": 506.0,
+      "transaction_count": 15,
+      "completed_count": 14,
+      "open_count": 1,
+      "open_tab_total": 30.0,
+      "tips": 64.75,
       "tax_collected": 0.0,
-      "cash_total": 83.4,
-      "card_total": 317.25,
+      "cash_total": 160.4,
+      "card_total": 385.75,
       "discounts": [
         {
           "name": "Mug Club",
@@ -72,6 +72,20 @@
           "gross": 45.0
         },
         {
+          "name": "Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 4.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Echo Bay  Sauvignon Blanc",
+          "variation": "Regular",
+          "category": "Wine",
+          "qty": 4.0,
+          "gross": 32.0
+        },
+        {
           "name": "Shot And Snack",
           "variation": "Regular",
           "category": "Specials",
@@ -79,11 +93,18 @@
           "gross": 40.0
         },
         {
-          "name": "Hot Nut",
+          "name": "Busch Light",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 3.0,
+          "gross": 9.0
+        },
+        {
+          "name": "Breck Christmas Ale",
           "variation": "Regular",
           "category": "Liquor",
-          "qty": 4.0,
-          "gross": 12.0
+          "qty": 3.0,
+          "gross": 21.0
         },
         {
           "name": "Jameson",
@@ -100,34 +121,6 @@
           "gross": 12.0
         },
         {
-          "name": "Busch Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 3.0,
-          "gross": 9.0
-        },
-        {
-          "name": "Jack Daniels",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 14.0
-        },
-        {
-          "name": "Titos",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 2.0,
-          "gross": 14.0
-        },
-        {
-          "name": "Lemon Shake Up",
-          "variation": "Regular",
-          "category": "Specialty Drinks",
-          "qty": 2.0,
-          "gross": 18.0
-        },
-        {
           "name": "Premium Liquor",
           "variation": "Regular",
           "category": "Liquor",
@@ -135,11 +128,25 @@
           "gross": 8.0
         },
         {
-          "name": "Echo Bay  Sauvignon Blanc",
+          "name": "Surfside Strawberry",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 2.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Bota Box Pinot Grigio",
           "variation": "Regular",
           "category": "Wine",
           "qty": 2.0,
-          "gross": 16.0
+          "gross": 10.0
+        },
+        {
+          "name": "Titos",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 2.0,
+          "gross": 14.0
         },
         {
           "name": "Ace Guava Craft Cider",
@@ -156,25 +163,67 @@
           "gross": 8.0
         },
         {
-          "name": "Breck Christmas Ale",
+          "name": "Jack Daniels",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 2.0,
           "gross": 14.0
         },
         {
-          "name": "Surfside Strawberry",
+          "name": "Lemon Shake Up",
           "variation": "Regular",
-          "category": "Canned Drinks",
+          "category": "Specialty Drinks",
           "qty": 2.0,
-          "gross": 12.0
+          "gross": 18.0
         },
         {
-          "name": "Bota Box Pinot Grigio",
+          "name": "Espolon Reposado",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "The Federalist Honest Red Blend",
+          "variation": "Bottle",
+          "category": "Wine",
+          "qty": 1.0,
+          "gross": 32.0
+        },
+        {
+          "name": "The Federalist Honest Red Blend",
           "variation": "Regular",
           "category": "Wine",
-          "qty": 2.0,
-          "gross": 10.0
+          "qty": 1.0,
+          "gross": 8.0
+        },
+        {
+          "name": "Soda",
+          "variation": "Regular",
+          "category": "Beverages",
+          "qty": 1.0,
+          "gross": 3.0
+        },
+        {
+          "name": "Fresh Fruit",
+          "variation": "Regular",
+          "category": "Snacks",
+          "qty": 1.0,
+          "gross": 1.0
+        },
+        {
+          "name": "Long Drink Pineapple",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Modelo ESP bottle",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
         },
         {
           "name": "Bacardi Light",
@@ -203,48 +252,6 @@
           "category": "Canned Drinks",
           "qty": 1.0,
           "gross": 6.0
-        },
-        {
-          "name": "The Federalist Honest Red Blend",
-          "variation": "Regular",
-          "category": "Wine",
-          "qty": 1.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Long Drink Pineapple",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 1.0,
-          "gross": 6.0
-        },
-        {
-          "name": "Modelo ESP bottle",
-          "variation": "Regular",
-          "category": "Bottled Beer",
-          "qty": 1.0,
-          "gross": 5.0
-        },
-        {
-          "name": "Soda",
-          "variation": "Regular",
-          "category": "Beverages",
-          "qty": 1.0,
-          "gross": 3.0
-        },
-        {
-          "name": "Fresh Fruit",
-          "variation": "Regular",
-          "category": "Snacks",
-          "qty": 1.0,
-          "gross": 1.0
-        },
-        {
-          "name": "Espolon Reposado",
-          "variation": "Regular",
-          "category": "Liquor",
-          "qty": 1.0,
-          "gross": 10.0
         }
       ],
       "custom_amount_items": []
@@ -389,9 +396,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 962.4,
-    "transaction_count": 13,
-    "tips": 225.0,
-    "open_tab_total": 285.0
+    "net_sales": 1082.15,
+    "transaction_count": 16,
+    "tips": 289.75,
+    "open_tab_total": 30.0
   }
 }
