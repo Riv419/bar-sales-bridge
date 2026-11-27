@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-27T14:27:10Z",
-  "generated_at_et": "2026-11-27 09:27:10 EST",
+  "generated_at_utc": "2026-11-27T15:14:47Z",
+  "generated_at_et": "2026-11-27 10:14:47 EST",
   "business_day": "2026-11-27",
   "business_day_start_et": "2026-11-27 04:00 EST",
   "is_final": false,
   "window_start_utc": "2026-11-27T09:00:00Z",
-  "window_end_utc": "2026-11-27T14:27:10Z",
+  "window_end_utc": "2026-11-27T15:14:47Z",
   "bars": {
     "tiques": {
       "name": "Tique's",
@@ -27,23 +27,50 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 292.05,
-      "tax_backout_base": 273.58,
-      "transaction_count": 9,
-      "completed_count": 9,
+      "net_sales": 404.05,
+      "tax_backout_base": 378.5,
+      "transaction_count": 12,
+      "completed_count": 12,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 54.05,
+      "tips": 70.05,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 292.05,
-      "discounts": [],
+      "card_total": 404.05,
+      "discounts": [
+        {
+          "name": "Mug Club",
+          "amount": 1.0,
+          "count": 1
+        }
+      ],
       "line_items": [
         {
           "name": "Cinna Nut",
           "variation": "Regular",
           "category": "Liquor",
           "qty": 6.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Coors Light Aluminum Bottle",
+          "variation": "Regular",
+          "category": "Canned Beer",
+          "qty": 4.0,
+          "gross": 20.0
+        },
+        {
+          "name": "Hot Nut",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 4.0,
+          "gross": 12.0
+        },
+        {
+          "name": "Bartons natural Vodka (Well)",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 4.0,
           "gross": 24.0
         },
         {
@@ -54,18 +81,25 @@
           "gross": 12.0
         },
         {
-          "name": "Hot Nut",
+          "name": "Busch Light",
           "variation": "Regular",
-          "category": "Liquor",
+          "category": "Canned Beer",
           "qty": 3.0,
           "gross": 9.0
         },
         {
-          "name": "Coors Light Aluminum Bottle",
+          "name": "Paddle Palmer",
+          "variation": "Regular",
+          "category": "Specialty Drinks",
+          "qty": 3.0,
+          "gross": 30.0
+        },
+        {
+          "name": "Michelob Ultra Can",
           "variation": "Regular",
           "category": "Canned Beer",
           "qty": 3.0,
-          "gross": 15.0
+          "gross": 12.0
         },
         {
           "name": "Titos",
@@ -75,11 +109,11 @@
           "gross": 21.0
         },
         {
-          "name": "Bartons natural Vodka (Well)",
+          "name": "Red Bull",
           "variation": "Regular",
-          "category": "Vodka",
+          "category": "Canned Drinks",
           "qty": 2.0,
-          "gross": 12.0
+          "gross": 6.0
         },
         {
           "name": "Lemon Shake Up",
@@ -110,25 +144,46 @@
           "gross": 8.0
         },
         {
-          "name": "Michelob Ultra Can",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 8.0
-        },
-        {
-          "name": "Busch Light",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 2.0,
-          "gross": 6.0
-        },
-        {
           "name": "Surfside Iced Tea + Lemonade",
           "variation": "Regular",
           "category": "Canned Drinks",
           "qty": 2.0,
           "gross": 12.0
+        },
+        {
+          "name": "Moosehead",
+          "variation": "Regular",
+          "category": "Bottled Beer",
+          "qty": 1.0,
+          "gross": 5.0
+        },
+        {
+          "name": "Surfside Blueberry + Lemonade",
+          "variation": "Regular",
+          "category": "Canned Drinks",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Lemon Shake Up",
+          "variation": "Raspberry",
+          "category": "Specialty Drinks",
+          "qty": 1.0,
+          "gross": 10.0
+        },
+        {
+          "name": "White Claw - Natural Lime",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 1.0,
+          "gross": 6.0
+        },
+        {
+          "name": "Breck Christmas Ale",
+          "variation": "Regular",
+          "category": "Liquor",
+          "qty": 1.0,
+          "gross": 7.0
         },
         {
           "name": "Paddle Margarita",
@@ -185,21 +240,21 @@
     "volstead": {
       "name": "Volstead",
       "location_id": "G9XHMF97SD95W",
-      "net_sales": 128.6,
-      "tax_backout_base": 120.47,
-      "transaction_count": 5,
-      "completed_count": 5,
+      "net_sales": 231.5,
+      "tax_backout_base": 216.86,
+      "transaction_count": 7,
+      "completed_count": 7,
       "open_count": 0,
       "open_tab_total": 0.0,
-      "tips": 17.0,
+      "tips": 33.9,
       "tax_collected": 0.0,
       "cash_total": 0.0,
-      "card_total": 128.6,
+      "card_total": 231.5,
       "discounts": [
         {
           "name": "Summer Wednesday ",
           "amount": 0.0,
-          "count": 1
+          "count": 2
         },
         {
           "name": "Murray",
@@ -208,6 +263,48 @@
         }
       ],
       "line_items": [
+        {
+          "name": "Old Fashioned",
+          "variation": "Regular",
+          "category": "Bourbon - Whiskey",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Pain Killer",
+          "variation": "Regular",
+          "category": null,
+          "qty": 2.0,
+          "gross": 28.0
+        },
+        {
+          "name": "French 76",
+          "variation": "Regular",
+          "category": "Vodka",
+          "qty": 2.0,
+          "gross": 24.0
+        },
+        {
+          "name": "Aviation",
+          "variation": "Regular",
+          "category": "Gin",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "The Old San Juan",
+          "variation": "Regular",
+          "category": "Weekly Special",
+          "qty": 1.0,
+          "gross": 14.0
+        },
+        {
+          "name": "Margarita",
+          "variation": "Regular",
+          "category": "Tequila",
+          "qty": 1.0,
+          "gross": 12.0
+        },
         {
           "name": "Kim Crawford Sauvignon Blanc",
           "variation": "Regular",
@@ -237,13 +334,6 @@
           "gross": 12.0
         },
         {
-          "name": "French 76",
-          "variation": "Regular",
-          "category": "Vodka",
-          "qty": 1.0,
-          "gross": 12.0
-        },
-        {
           "name": "Whiskey Sour",
           "variation": "Regular",
           "category": "Bourbon - Whiskey",
@@ -254,13 +344,6 @@
           "name": "Caipirinha",
           "variation": "Regular",
           "category": "Rum",
-          "qty": 1.0,
-          "gross": 12.0
-        },
-        {
-          "name": "Old Fashioned",
-          "variation": "Regular",
-          "category": "Bourbon - Whiskey",
           "qty": 1.0,
           "gross": 12.0
         },
@@ -284,9 +367,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 420.65,
-    "transaction_count": 14,
-    "tips": 71.05,
+    "net_sales": 635.55,
+    "transaction_count": 19,
+    "tips": 103.95,
     "open_tab_total": 0.0
   }
 }
