@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-28T02:43:22Z",
-  "generated_at_et": "2026-11-27 21:43:22 EST",
+  "generated_at_utc": "2026-11-28T07:59:44Z",
+  "generated_at_et": "2026-11-28 02:59:44 EST",
   "business_day": "2026-11-26",
   "business_day_start_et": "2026-11-26 04:00 EST",
   "is_final": true,
@@ -27,16 +27,16 @@
     "paddle": {
       "name": "Paddle Bar",
       "location_id": "RMSRRF4GTR3J5",
-      "net_sales": 540.15,
-      "tax_backout_base": 506.0,
-      "transaction_count": 15,
+      "net_sales": 510.15,
+      "tax_backout_base": 477.89,
+      "transaction_count": 14,
       "completed_count": 14,
-      "open_count": 1,
-      "open_tab_total": 30.0,
+      "open_count": 0,
+      "open_tab_total": 0.0,
       "tips": 64.75,
       "tax_collected": 0.0,
       "cash_total": 160.4,
-      "card_total": 385.75,
+      "card_total": 349.75,
       "discounts": [
         {
           "name": "Mug Club",
@@ -51,13 +51,6 @@
       ],
       "line_items": [
         {
-          "name": "White Claw - Mango",
-          "variation": "Regular",
-          "category": "Seltzers",
-          "qty": 7.0,
-          "gross": 42.0
-        },
-        {
           "name": "Cucumber Smash",
           "variation": "Regular",
           "category": "Specialty Drinks",
@@ -70,6 +63,13 @@
           "category": "Beer",
           "qty": 5.0,
           "gross": 45.0
+        },
+        {
+          "name": "White Claw - Mango",
+          "variation": "Regular",
+          "category": "Seltzers",
+          "qty": 4.0,
+          "gross": 24.0
         },
         {
           "name": "Hot Nut",
@@ -112,13 +112,6 @@
           "category": "Liquor",
           "qty": 3.0,
           "gross": 24.0
-        },
-        {
-          "name": "Michelob Ultra Can",
-          "variation": "Regular",
-          "category": "Canned Beer",
-          "qty": 3.0,
-          "gross": 12.0
         },
         {
           "name": "Premium Liquor",
@@ -396,9 +389,9 @@
   },
   "errors": [],
   "combined": {
-    "net_sales": 1082.15,
-    "transaction_count": 16,
+    "net_sales": 1052.15,
+    "transaction_count": 15,
     "tips": 289.75,
-    "open_tab_total": 30.0
+    "open_tab_total": 0.0
   }
 }
